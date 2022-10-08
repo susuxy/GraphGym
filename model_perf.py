@@ -92,7 +92,7 @@ def runner(model_path):
     logging.info('Num parameters: %s', cfg.params)
     # Start training
     if cfg.train.mode == 'standard':
-        val_perf = train_nas(loggers, loaders, model, optimizer, scheduler)
+        val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc')
     else:
         raise ValueError('train mode is not standard')
     return val_perf
