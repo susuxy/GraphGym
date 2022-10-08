@@ -211,6 +211,7 @@ class Logger(object):
         if cfg.tensorboard_each_run:
             dict_to_tb(stats, self.tb_writer, cur_epoch)
         self.reset()
+        return stats
 
     def close(self):
         if cfg.tensorboard_each_run:

@@ -27,9 +27,11 @@ class GNNNodeHead(nn.Module):
         return batch.x[batch[mask]], batch.y[batch[mask]]
 
     def forward(self, batch):
-        batch = self.layer_post_mp(batch)
+        train_mask = batch.train_mask
+        last_hidden, batch = self.layer_post_mp(batch)
+        last_hidden_train = last_hidden[train_mask]
         pred, label = self._apply_index(batch)
-        return pred, label
+        return pred, label, last_hidden_train
 
 
 class GNNEdgeHead(nn.Module):
@@ -107,10 +109,11 @@ class GNNGraphHead(nn.Module):
 
     def forward(self, batch):
         graph_emb = self.pooling_fun(batch.x, batch.batch)
-        graph_emb = self.layer_post_mp(graph_emb)
+        # graph_emb = self.layer_post_mp(graph_emb)
+        last_hidden, graph_emb = self.layer_post_mp(graph_emb)
         batch.graph_feature = graph_emb
         pred, label = self._apply_index(batch)
-        return pred, label
+        return pred, label, last_hidden
 
 
 # Head models for external interface

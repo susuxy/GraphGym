@@ -143,10 +143,14 @@ class MLP(nn.Module):
 
     def forward(self, batch):
         if isinstance(batch, torch.Tensor):
-            batch = self.model(batch)
+            last_hidden_batch = self.model[:-1](batch)
+            batch = self.model[-1](last_hidden_batch)
+            # batch = self.model(batch)
         else:
-            batch.x = self.model(batch.x)
-        return batch
+            last_hidden_batch = self.model[:-1](batch.x)
+            batch.x = self.model[-1](last_hidden_batch)
+            # batch.x = self.model(batch.x)
+        return last_hidden_batch, batch
 
 
 class GCNConv(nn.Module):

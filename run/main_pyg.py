@@ -1,9 +1,11 @@
 import logging
+from multiprocessing.sharedctypes import Value
 import os
 
 import torch
 from torch_geometric import seed_everything
-
+import sys
+sys.path.append('..')
 from graphgym.cmd_args import parse_args
 from graphgym.config import cfg, dump_cfg, load_cfg, set_run_dir, set_out_dir
 from graphgym.loader_pyg import create_loader

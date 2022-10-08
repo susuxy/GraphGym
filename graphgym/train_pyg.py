@@ -7,6 +7,7 @@ from graphgym.checkpoint import clean_ckpt, load_ckpt, save_ckpt
 from graphgym.config import cfg
 from graphgym.loss import compute_loss
 from graphgym.utils.epoch import is_ckpt_epoch, is_eval_epoch
+from tqdm import tqdm
 
 
 def train_epoch(logger, loader, model, optimizer, scheduler):
@@ -16,7 +17,8 @@ def train_epoch(logger, loader, model, optimizer, scheduler):
         batch.split = 'train'
         optimizer.zero_grad()
         batch.to(torch.device(cfg.device))
-        pred, true = model(batch)
+        pred, true, last_hidden = model(batch)
+        # print(f"pred shape: {pred.shape}. last hidden shape: {last_hidden.shape}")
         loss, pred_score = compute_loss(pred, true)
         loss.backward()
         optimizer.step()
@@ -37,7 +39,7 @@ def eval_epoch(logger, loader, model, split='val'):
     for batch in loader:
         batch.split = split
         batch.to(torch.device(cfg.device))
-        pred, true = model(batch)
+        pred, true, _ = model(batch)
         loss, pred_score = compute_loss(pred, true)
         logger.update_stats(true=true.detach().cpu(),
                             pred=pred_score.detach().cpu(),
@@ -77,7 +79,9 @@ def train(loggers, loaders, model, optimizer, scheduler):
             for i in range(1, num_splits):
                 eval_epoch(loggers[i], loaders[i], model,
                            split=split_names[i - 1])
-                loggers[i].write_epoch(cur_epoch)
+                stats = loggers[i].write_epoch(cur_epoch)
+                stats['accuracy']
+                print('????')
         if is_ckpt_epoch(cur_epoch):
             save_ckpt(model, optimizer, scheduler, cur_epoch)
     for logger in loggers:
@@ -86,3 +90,46 @@ def train(loggers, loaders, model, optimizer, scheduler):
         clean_ckpt()
 
     logging.info('Task done, results saved in {}'.format(cfg.out_dir))
+
+
+def train_nas(loggers, loaders, model, optimizer, scheduler, patience = 10):
+    start_epoch = 0
+    if cfg.train.auto_resume:
+        start_epoch = load_ckpt(model, optimizer, scheduler)
+    if start_epoch == cfg.optim.max_epoch:
+        logging.info('Checkpoint found, Task already done')
+    else:
+        logging.info('Start from epoch {}'.format(start_epoch))
+
+    num_splits = len(loggers)
+    split_names = ['val', 'test']
+    counter, best_val_result = 0, -1
+    for cur_epoch in tqdm(range(start_epoch, cfg.optim.max_epoch), desc='training the model'):
+        train_epoch(loggers[0], loaders[0], model, optimizer, scheduler)
+        loggers[0].write_epoch(cur_epoch)
+        # for i in range(1, num_splits):
+        i=1  # only for validation set
+        eval_epoch(loggers[i], loaders[i], model,
+                    split=split_names[i - 1])
+        stats = loggers[i].write_epoch(cur_epoch)
+        if split_names[i - 1] == 'val':
+            val_accuracy = stats['auc']
+
+            # early stopping
+            if val_accuracy > best_val_result:
+                best_val_result = val_accuracy
+                counter = 0 
+            else:
+                counter += 1
+                if counter >= patience:  # perform early stop
+                    break
+    
+
+        if is_ckpt_epoch(cur_epoch):
+            save_ckpt(model, optimizer, scheduler, cur_epoch)
+    for logger in loggers:
+        logger.close()
+    if cfg.train.ckpt_clean:
+        clean_ckpt()
+
+    return best_val_result
