@@ -99,7 +99,7 @@ def runner(model_path):
 
 choices = {
     'batchnorm': [True, False],
-    'dropout': [False, 0.3, 0.6],
+    'dropout': [0.0, 0.3, 0.6],
     'act': ['relu', 'prelu', 'swish'],
     'agg': ['mean', 'max', 'sum'],
     'stagetype': ['stack', 'skipsum', 'skipconcat'],
@@ -135,24 +135,25 @@ for _ in tqdm(range(1000), desc='generating models'):
         select_value = random.choice(choices[key])
         assert key in copy_base_config['gnn']
         copy_base_config['gnn'][key] = select_value
-        copy_model_key = seri_dict(copy_base_config)
-        if copy_model_key in model_key_dict:
-            continue
-
-        # save yaml file
-        copy_base_config_dict = unorder_dict(copy_base_config)
-        model_file_path = os.path.join('denas_model', 'model_config', str(len(model_key_dict)) + '.yaml')
-        with open(model_file_path, 'w') as outfile:
-            yaml.safe_dump(copy_base_config_dict, outfile)
         
-        
+    copy_model_key = seri_dict(copy_base_config)
+    if copy_model_key in model_key_dict:
+        continue
 
-        # run the model and get accuracy
-        val_perf = runner(model_file_path)
-        print(f"validation accuracy is {val_perf}")
+    # save yaml file
+    copy_base_config_dict = unorder_dict(copy_base_config)
+    model_file_path = os.path.join('denas_model', 'model_config', str(len(model_key_dict)) + '.yaml')
+    with open(model_file_path, 'w') as outfile:
+        yaml.safe_dump(copy_base_config_dict, outfile)
+    
+    
 
-        # save to dict
-        model_key_dict[copy_model_key] = val_perf
+    # run the model and get accuracy
+    val_perf = runner(model_file_path)
+    print(f"validation accuracy is {val_perf}")
+
+    # save to dict
+    model_key_dict[copy_model_key] = val_perf
 
     with open(model_dict_path, 'wb') as f:
         pickle.dump(model_key_dict, f)
