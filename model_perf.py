@@ -102,7 +102,7 @@ choices = {
     'dropout': [0.0, 0.3, 0.6],
     'act': ['relu', 'prelu', 'swish'],
     'agg': ['mean', 'max', 'sum'],
-    'stagetype': ['stack', 'skipsum', 'skipconcat'],
+    'stage_type': ['stack', 'skipsum', 'skipconcat'],
     'layers_pre_mp': [1,2,3],
     'layers_mp': [2,4,6,8],
     'layers_post_mp': [1,2,3]
@@ -135,7 +135,7 @@ for _ in tqdm(range(1000), desc='generating models'):
         select_value = random.choice(choices[key])
         assert key in copy_base_config['gnn']
         copy_base_config['gnn'][key] = select_value
-        
+
     copy_model_key = seri_dict(copy_base_config)
     if copy_model_key in model_key_dict:
         continue
