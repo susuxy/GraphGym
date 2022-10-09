@@ -79,9 +79,7 @@ def train(loggers, loaders, model, optimizer, scheduler):
             for i in range(1, num_splits):
                 eval_epoch(loggers[i], loaders[i], model,
                            split=split_names[i - 1])
-                stats = loggers[i].write_epoch(cur_epoch)
-                stats['accuracy']
-                print('????')
+                loggers[i].write_epoch(cur_epoch)
         if is_ckpt_epoch(cur_epoch):
             save_ckpt(model, optimizer, scheduler, cur_epoch)
     for logger in loggers:

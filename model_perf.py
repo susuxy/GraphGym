@@ -10,16 +10,18 @@ from tqdm import tqdm
 import argparse
 
 # graph
-# evaluate_metric = 'auc'
-# sample_yaml = 'example_graph.yaml'
-# model_dict_file_name = 'model_perf.pkl'
-# model_save_folder = 'model_config'
+evaluate_metric = 'auc'
+sample_yaml = 'example_graph.yaml'
+model_dict_file_name = 'perf_molhiv.pkl'
+model_save_folder = 'config_molhiv'
+patience = 100
 
 # node
-evaluate_metric = 'accuracy'
-sample_yaml = 'example_node.yaml'
-model_dict_file_name = 'perf_arxiv.pkl'
-model_save_folder = 'config_arxiv'
+# evaluate_metric = 'accuracy'
+# sample_yaml = 'example_node.yaml'
+# model_dict_file_name = 'perf_arxiv.pkl'
+# model_save_folder = 'config_arxiv'
+# patience = 200
 
 
 def unorder_dict(ordered_dict):
@@ -105,7 +107,7 @@ def runner(model_path):
    logging.info('Num parameters: %s', cfg.params)
    # Start training
    if cfg.train.mode == 'standard':
-       val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, metric=evaluate_metric)
+       val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, metric=evaluate_metric, patience=patience)
    else:
        raise ValueError('train mode is not standard')
    return val_perf
@@ -117,7 +119,7 @@ choices = {
    'agg': ['mean', 'max', 'sum'],
    'stage_type': ['stack', 'skipsum', 'skipconcat'],
    'layers_pre_mp': [1,2,3],
-   'layers_mp': [2,4,6,8],
+   'layers_mp': [1,2,3],
    'layers_post_mp': [1,2,3]
 }
 
