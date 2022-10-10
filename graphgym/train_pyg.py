@@ -2,6 +2,9 @@ import logging
 import time
 
 import torch
+import torch.nn as nn
+import torch_geometric
+import numpy as np
 
 from graphgym.checkpoint import clean_ckpt, load_ckpt, save_ckpt
 from graphgym.config import cfg
@@ -131,3 +134,88 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, patience = 10, metr
         clean_ckpt()
 
     return best_val_result
+
+def model_last_hidden(loader, model, input_list):
+    all_hidden = []
+    with torch.no_grad():
+        for idx, batch in enumerate(loader):
+            batch.split = 'train'
+            batch.to(torch.device(cfg.device))
+            batch.x = input_list[idx]
+            pred, true, last_hidden = model(batch)
+            last_hidden = last_hidden.detach().cpu()
+            all_hidden.append(last_hidden)
+    all_hidden = torch.cat(all_hidden, dim=0)
+    return all_hidden
+
+
+def network_weight_gaussian_init(net):
+    # child_list = []
+    # for m in net.children():
+    #     child_list.append(m)
+    # if len(child_list) == 0:
+    #     print(type(net))
+    with torch.no_grad():
+        for m in net.children():
+            if isinstance(m, nn.Conv2d):
+                # print(f"conv: {m}")
+                nn.init.normal_(m.weight)
+                if hasattr(m, 'bias') and m.bias is not None:
+                    nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d)):
+                # print(f"bn: {m}")
+                nn.init.ones_(m.weight)
+                nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear)):
+                # print(f"linear: {m}")
+                nn.init.normal_(m.weight)
+                if hasattr(m, 'bias') and m.bias is not None:
+                    nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.PReLU)):
+                # print(f"prelu {m}")
+                m.weight.data.fill_(0.25)
+            else:
+                network_weight_gaussian_init(m)
+
+
+def gen_params(model):
+        params = []
+        for name, param in model.named_parameters():
+            if param.requires_grad:
+                # if name.split('.')[-1] not in ['bias', 'weight']:
+                params.append([name, param])
+        return params
+
+
+
+def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2):
+    def gen_random_input(loader):
+        all_random_input = []
+        for batch in loader:
+            each_random = torch.randn(size=batch.x.shape, device=cfg.device, dtype=torch.float32)
+            all_random_input.append(each_random)
+        return all_random_input
+    
+    loader = loaders[0]  # means training dataset
+    nas_score_list = []
+    for _ in tqdm(range(repeat), desc='repeat calculate zen-nas score'):
+        network_weight_gaussian_init(model)
+
+        input1 = gen_random_input(loader)
+        input2 = gen_random_input(loader)
+        input2 = [input1[idx] + mixup_gamma * input2[idx] for idx in range(len(input2))]
+
+        embed1 = model_last_hidden(loader, model, input1)
+        embed2 = model_last_hidden(loader, model, input2)
+
+        nas_score = torch.sum(torch.abs(embed1 - embed2), dim=list(range(len(embed1.shape))))
+        nas_score = torch.mean(nas_score)
+
+        nas_score_list.append(float(nas_score))
+
+    std_nas_score = np.std(nas_score_list)
+    avg_precision = 1.96 * std_nas_score / np.sqrt(len(nas_score_list))
+    avg_nas_score = np.mean(nas_score_list)
+
+    return avg_nas_score
+
