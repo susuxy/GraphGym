@@ -30,6 +30,7 @@ def parse(filename, args):
 
     x = np.array([v['trained_score'] for v in simplified_arch_list])
     y = np.array([v['denas_score'] for v in simplified_arch_list])
+    y = np.log(y)
 
     rank_x = stats.rankdata(x)
     rank_y = stats.rankdata(y)
@@ -39,6 +40,7 @@ def parse(filename, args):
     plt.scatter(x, y)
     plt.xlabel("trained_acc")
     plt.ylabel("nas_score")
+    plt.title(f"Spearman corr is {spearman_corr}, num_samples is {len(rank_x)}")
     plt.show()
     plt.savefig(os.path.join('denas_fig', args.log_name + '_score.png'))
 
@@ -46,6 +48,7 @@ def parse(filename, args):
     plt.scatter(rank_x, rank_y)
     plt.xlabel("rank_trained_acc")
     plt.ylabel("rank_nas_score")
+    plt.title(f"Spearman corr is {spearman_corr}, num_samples is {len(rank_x)}")
     plt.show()
     plt.savefig(os.path.join('denas_fig', args.log_name + '_rank.png'))
     print(f"Spearman corr is {spearman_corr}, num_samples is {len(rank_x)}")
