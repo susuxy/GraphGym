@@ -16,6 +16,7 @@ def parse_args():
     parser.add_argument('--eval_metric', type=str, default='auc')
     parser.add_argument('--log_name', default='arxiv_node', type=str, help='file name of log')
     parser.add_argument('--repeat_time', default=32, type=int, help='repeat time for calculating scores')
+    parser.add_argument('--input_dtype', default=torch.int64, type=torch.dtype)
     parser.add_argument('--cfg',
                        dest='cfg_file',
                        type=str,
@@ -47,7 +48,7 @@ def runner(args):
 
     cfg.params = params_count(model)
 
-    score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2)
+    score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype)
 
     return score
 
@@ -86,7 +87,10 @@ for idx, model_yaml_name in enumerate(tqdm(model_config_list, desc='read all mod
     denas_score = runner(args=args)
 
     # train score
-    train_score = model_key_dict[seri_dict(order_dict(model_config))]
+    if seri_dict(order_dict(model_config)) in model_key_dict:
+        train_score = model_key_dict[seri_dict(order_dict(model_config))]
+    else:
+        continue
 
     train_score_list.append(train_score)
     denas_score_list.append(denas_score)
