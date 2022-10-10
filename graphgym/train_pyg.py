@@ -5,6 +5,7 @@ import torch
 import torch.nn as nn
 import torch_geometric
 import numpy as np
+import copy
 
 from graphgym.checkpoint import clean_ckpt, load_ckpt, save_ckpt
 from graphgym.config import cfg
@@ -197,18 +198,26 @@ def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2, dtype=torch.float32):
             for idx, batch in enumerate(loader):
                 batch.split = 'train'
                 batch.to(torch.device(cfg.device))
+                batch1 = copy.deepcopy(batch)
 
                 if dtype == torch.float32:
                     random1 = torch.randn(size=batch.x.shape, device=cfg.device, dtype=dtype)
                     random2 = torch.randn(size=batch.x.shape, device=cfg.device, dtype=dtype)
                     random2 = mixup_gamma * random2 + random1
                 elif dtype == torch.int64:
-                    min_int, max_int = torch.min(batch.x), torch.max(batch.x)
-                    random1 = torch.randint(min_int, max_int + 1, batch.x.shape, device=cfg.device)
+                    random1 = torch.randint(0,1, batch.x.shape, device=cfg.device)
+                    for i in range(batch.x.shape[1]):
+                        min_int, max_int = torch.min(batch.x[:,i]), torch.max(batch.x[:,i])
+                        random1[:,i] = torch.randint(min_int, max_int+1, (1, batch.x.shape[0]), device=cfg.device)
                     noise = torch.randint(-1, 2, batch.x.shape, device=cfg.device)
                     random2 = random1 + noise
-                    random2[random2 < min_int] = min_int
-                    random2[random2 > max_int] = max_int
+                    for i in range(batch.x.shape[1]):
+                        min_int, max_int = torch.min(batch.x[:, i]), torch.max(batch.x[:, i])
+                        random2[:,i][random2[:,i] < min_int] = min_int
+                        random2[:,i][random2[:,i] > max_int] = max_int
+                    # random1 = batch.x
+                    # random2 = batch.x
+
                 else:
                     raise ValueError('dtype setting error')
 
@@ -217,8 +226,8 @@ def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2, dtype=torch.float32):
                 last_hidden1 = last_hidden1.detach().cpu()
                 all_hidden1.append(last_hidden1)
 
-                batch.x = random2
-                pred, true, last_hidden2 = model(batch)
+                batch1.x = random2
+                pred, true, last_hidden2 = model(batch1)
                 last_hidden2 = last_hidden2.detach().cpu()
                 all_hidden2.append(last_hidden2)
         all_hidden1 = torch.cat(all_hidden1, dim=0)
