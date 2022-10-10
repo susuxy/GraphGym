@@ -6,12 +6,14 @@ import torch.nn as nn
 import torch_geometric
 import numpy as np
 import copy
+import torch.nn.functional as F
+from tqdm import tqdm
+
 
 from graphgym.checkpoint import clean_ckpt, load_ckpt, save_ckpt
 from graphgym.config import cfg
 from graphgym.loss import compute_loss
 from graphgym.utils.epoch import is_ckpt_epoch, is_eval_epoch
-from tqdm import tqdm
 
 
 def train_epoch(logger, loader, model, optimizer, scheduler):
@@ -276,3 +278,66 @@ def zen_nas1(loaders, model, repeat=32, mixup_gamma=1e-2):
 
     return avg_nas_score
 
+
+
+
+def cross_entropy(logit, target):
+    # target must be one-hot format!!
+    prob_logit = F.log_softmax(logit, dim=1)
+    loss = -(target * prob_logit).sum(dim=1).mean()
+    return loss
+
+def grad_norm_score(model, loaders, dtype, loader_size=64):
+
+    loader = loaders[0]  # training dataset
+
+    model.train()
+    model.requires_grad_(True)
+    model.zero_grad()
+
+    network_weight_gaussian_init(model)
+
+    output_list = []
+    with torch.no_grad():
+        for idx, batch in enumerate(loader):
+            if idx > loader_size:
+                break
+            batch.split = 'train'
+            batch.to(torch.device(cfg.device))
+
+            if dtype == torch.float32:
+                random1 = torch.randn(size=batch.x.shape, device=cfg.device, dtype=dtype)
+            elif dtype == torch.int64:
+                random1 = torch.randint(0,1, batch.x.shape, device=cfg.device)
+                for i in range(batch.x.shape[1]):
+                    min_int, max_int = torch.min(batch.x[:,i]), torch.max(batch.x[:,i])
+                    random1[:,i] = torch.randint(min_int, max_int+1, (1, batch.x.shape[0]), device=cfg.device)
+            else:
+                raise ValueError('dtype setting error')
+            
+            batch.x = random1
+            pred, true, last_hidden1 = model(batch)
+            output_list.append(pred)
+
+    output = torch.cat(output_list, dim=0)
+
+
+    # y_true = torch.rand(size=[batch_size, output.shape[1]], device=torch.device('cuda:{}'.format(gpu))) + 1e-10
+    # y_true = y_true / torch.sum(y_true, dim=1, keepdim=True)
+
+    num_classes = output.shape[1]
+    y = torch.randint(low=0, high=num_classes, size=output.shape[0], device=cfg.device)
+
+    one_hot_y = F.one_hot(y, num_classes).float()
+
+    loss = cross_entropy(output, one_hot_y)
+    loss.backward()
+    norm2_sum = 0
+    with torch.no_grad():
+        for p in model.parameters():
+            if hasattr(p, 'grad') and p.grad is not None:
+                norm2_sum += torch.norm(p.grad) ** 2
+
+    grad_norm = float(torch.sqrt(norm2_sum))
+
+    return grad_norm

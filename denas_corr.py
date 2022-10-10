@@ -17,6 +17,12 @@ def parse_args():
     parser.add_argument('--log_name', default='arxiv_node', type=str, help='file name of log')
     parser.add_argument('--repeat_time', default=32, type=int, help='repeat time for calculating scores')
     parser.add_argument('--input_dtype', default=torch.int64, type=torch.dtype)
+
+    # denas score type
+    parser.add_argument('--denas', default='grad_norm', choices=['grad_norm', 'zen_nas'], type=str)
+    # grad norm score
+    parser.add_argument('--loader_size', default=16, type=int)
+    
     parser.add_argument('--cfg',
                        dest='cfg_file',
                        type=str,
@@ -48,7 +54,10 @@ def runner(args):
 
     cfg.params = params_count(model)
 
-    score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype)
+    if args.denas == 'zen_nas':
+        score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype)
+    elif args.denas == 'grad_norm':
+        score = grad_norm_score(model, loaders, dtype=args.input_dtype, loader_size=args.loader_size)
 
     return score
 
