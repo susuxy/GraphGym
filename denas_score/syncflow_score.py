@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch_geometric
 
-from utils import *
+from denas_score.utils import *
 import sys
 sys.path.append('..')
 from graphgym.config import cfg

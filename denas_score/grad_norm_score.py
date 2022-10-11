@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from utils import *
+from denas_score.utils import *
 import sys
 sys.path.append('..')
 from graphgym.config import cfg

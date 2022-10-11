@@ -3,7 +3,7 @@ import numpy as np
 import copy
 from tqdm import tqdm
 
-from utils import *
+from denas_score.utils import *
 import sys
 sys.path.append('..')
 from graphgym.config import cfg
