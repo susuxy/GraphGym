@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch_geometric
+from graphgym.config import cfg
 
 def model_last_hidden(loader, model, input_list):
     all_hidden = []
@@ -33,7 +34,7 @@ def network_weight_gaussian_init(net):
                 # print(f"bn: {m}")
                 nn.init.ones_(m.weight)
                 nn.init.zeros_(m.bias)
-            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear)):
+            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
                 # print(f"linear: {m}")
                 nn.init.normal_(m.weight)
                 if hasattr(m, 'bias') and m.bias is not None:

@@ -11,6 +11,7 @@ from run.main_pyg import *
 from nas_utils import *
 from denas_score.grad_norm_score import grad_norm_score
 from denas_score.zen_score import zen_nas
+from denas_score.syncflow_score import syncflow_score
 
 
 
@@ -24,7 +25,7 @@ def parse_args():
     parser.add_argument('--input_dtype', default=torch.int64, type=torch.dtype)
 
     # denas score type
-    parser.add_argument('--denas', default='grad_norm', choices=['grad_norm', 'zen_nas'], type=str)
+    parser.add_argument('--denas', default='grad_norm', choices=['grad_norm', 'zen_nas', 'syncflow'], type=str)
     # grad norm score
     parser.add_argument('--loader_size', default=1, type=int)
     
@@ -51,6 +52,8 @@ def runner(args):
         score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype, loader_size=args.loader_size)
     elif args.denas == 'grad_norm':
         score = grad_norm_score(model, loaders, dtype=args.input_dtype, loader_size=args.loader_size)
+    elif args.denas == 'syncflow':
+        score = syncflow_score(loaders, model, loader_size=args.loader_size, dtype=args.input_dtype)
 
     return score
 
