@@ -21,24 +21,12 @@ def parse_args():
     # denas score type
     parser.add_argument('--denas', default='grad_norm', choices=['grad_norm', 'zen_nas'], type=str)
     # grad norm score
-    parser.add_argument('--loader_size', default=16, type=int)
+    parser.add_argument('--loader_size', default=1, type=int)
     
-    parser.add_argument('--cfg',
-                       dest='cfg_file',
-                       type=str,
-                       default='ss',
-                       help='The configuration file path.')
-    parser.add_argument('--repeat',
-                       type=int,
-                       default=1,
-                       help='The number of repeated jobs.')
-    parser.add_argument('--mark_done',
-                       action='store_true',
-                       help='Mark yaml as done after a job has finished.')
-    parser.add_argument('opts',
-                       default=None,
-                       nargs=argparse.REMAINDER,
-                       help='See graphgym/config.py for remaining options.')
+    parser.add_argument('--cfg', dest='cfg_file', type=str, default='ss', help='The configuration file path.')
+    parser.add_argument('--repeat', type=int, default=1, help='The number of repeated jobs.')
+    parser.add_argument('--mark_done', action='store_true', help='Mark yaml as done after a job has finished.')
+    parser.add_argument('opts', default=None, nargs=argparse.REMAINDER, help='See graphgym/config.py for remaining options.')
     return parser.parse_known_args()[0]
 
 def runner(args):
@@ -55,7 +43,7 @@ def runner(args):
     cfg.params = params_count(model)
 
     if args.denas == 'zen_nas':
-        score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype)
+        score = zen_nas(loaders, model, repeat=args.repeat_time, mixup_gamma=1e-2, dtype=args.input_dtype, loader_size=args.loader_size)
     elif args.denas == 'grad_norm':
         score = grad_norm_score(model, loaders, dtype=args.input_dtype, loader_size=args.loader_size)
 

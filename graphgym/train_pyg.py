@@ -190,7 +190,7 @@ def gen_params(model):
         return params
 
 
-def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2, dtype=torch.float32):
+def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2, dtype=torch.float32, loader_size=16):
     loader = loaders[0]  # means training dataset
     nas_score_list = []
     for _ in tqdm(range(repeat), desc='repeat calculate zen-nas score'):
@@ -198,6 +198,8 @@ def zen_nas(loaders, model, repeat=32, mixup_gamma=1e-2, dtype=torch.float32):
         all_hidden1, all_hidden2 = [], []
         with torch.no_grad():
             for idx, batch in enumerate(loader):
+                if idx >= loader_size:  # why more loader size is bad??
+                    break
                 batch.split = 'train'
                 batch.to(torch.device(cfg.device))
                 batch1 = copy.deepcopy(batch)
@@ -296,7 +298,7 @@ def cross_entropy(pred, true):
         return bce_loss(pred, true)
 
 
-def grad_norm_score(model, loaders, dtype, loader_size=64):
+def grad_norm_score(model, loaders, dtype, loader_size=16):
     loader = loaders[0]  # training dataset
 
     model.train()
@@ -333,7 +335,7 @@ def grad_norm_score(model, loaders, dtype, loader_size=64):
     # y_true = y_true / torch.sum(y_true, dim=1, keepdim=True)
 
     num_classes = output.shape[1]
-    y = torch.randint(low=0, high=num_classes, size=[output.shape[0]], device=cfg.device).float()
+    y = torch.randint(low=0, high=num_classes, size=[output.shape[0]], device=cfg.device)
     loss = cross_entropy(output, y)
     loss.backward()
 
