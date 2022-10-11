@@ -101,13 +101,10 @@ def syncflow_score(loaders, model, loader_size=1, dtype=torch.int64):
         # input_list.append(random1)
     # input = torch.cat(input_list, dim=0)
     
-    batch.x = random1
-
-    # input = torch.randn(size=[batch_size, 3, resolution, resolution])
-    # if gpu is not None:
-    #     input = input.cuda(gpu)
-
-    grads_abs_list = compute_synflow_per_weight(net=model, inputs=batch, mode='')
+        batch.x = random1  # must use batch inside loop, if outside, batch becomes in cpu device
+        grads_abs_list = compute_synflow_per_weight(net=model, batch=batch, mode='')
+    
+    
     score = 0
     for grad_abs in grads_abs_list:
         score += float(torch.mean(torch.sum(grad_abs, dim=list(range(len(grad_abs.shape))))))
