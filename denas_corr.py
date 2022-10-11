@@ -2,11 +2,16 @@ import os
 import argparse
 import pickle
 import yaml
-from run.main_pyg import *
-from graphgym.train_pyg import *
-from nas_utils import *
+from tqdm import tqdm
 from random import shuffle
 from scipy import stats
+
+from run.main_pyg import *
+# from graphgym.train_pyg import *
+from nas_utils import *
+from denas_score.grad_norm_score import grad_norm_score
+from denas_score.zen_score import zen_nas
+
 
 
 def parse_args():
