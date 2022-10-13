@@ -24,7 +24,7 @@ def get_layer_metric_array(net, metric, mode):
 
 
 
-def compute_synflow_per_weight(net, batch, mode):
+def compute_synflow_per_weight(net, batch, mode, dtype):
     device = cfg.device
 
     # convert params to their abs. Keep sign for converting it back.
@@ -52,7 +52,7 @@ def compute_synflow_per_weight(net, batch, mode):
     # net.double()
     # input_dim = list(batch[0, :].shape)
     # batch = torch.ones([1] + input_dim).double().to(device)  # batch size = 1
-    batch.x = torch.ones(batch.x.shape, dtype=torch.int64).to(device)
+    batch.x = torch.ones(batch.x.shape, dtype=dtype).to(device)
 
     output, true, last_hidden = net(batch)
     torch.sum(output).backward()
@@ -102,7 +102,7 @@ def syncflow_score(loaders, model, loader_size=1, dtype=torch.int64):
     # input = torch.cat(input_list, dim=0)
     
         batch.x = random1  # must use batch inside loop, if outside, batch becomes in cpu device
-        grads_abs_list = compute_synflow_per_weight(net=model, batch=batch, mode='')
+        grads_abs_list = compute_synflow_per_weight(net=model, batch=batch, mode='', dtype=dtype)
     
     
     score = 0
