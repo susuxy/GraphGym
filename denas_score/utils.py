@@ -16,8 +16,39 @@ def model_last_hidden(loader, model, input_list):
     all_hidden = torch.cat(all_hidden, dim=0)
     return all_hidden
 
-
 def network_weight_gaussian_init(net):
+    with torch.no_grad():
+        for name, m in net.named_modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.normal_(m.weight)
+                if hasattr(m, 'bias') and m.bias is not None:
+                    nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d)):
+                nn.init.ones_(m.weight)
+                nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
+                nn.init.normal_(m.weight)
+                if hasattr(m, 'bias') and m.bias is not None:
+                    nn.init.zeros_(m.bias)
+            elif isinstance(m, (nn.PReLU)):
+                m.weight.data.fill_(0.25)
+            else:
+                if hasattr(m, 'weight') and m.weight is not None:
+                    nn.init.normal_(m.weight)
+                if hasattr(m, 'bias') and m.bias is not None:
+                    nn.init.zeros_(m.bias)
+                if hasattr(m, 'weight_self') and m.weight_self is not None:
+                    # generalconv
+                    nn.init.normal_(m.weight_self)
+                if hasattr(m, 'att_src') and m.att_src is not None:
+                    # gatconv
+                    nn.init.normal_(m.att_src)
+                if hasattr(m, 'att_dst') and m.att_src is not None:
+                    # gatconv
+                    nn.init.normal_(m.att_dst)
+
+
+def network_weight_gaussian_init1(net):
     # child_list = []
     # for m in net.children():
     #     child_list.append(m)
