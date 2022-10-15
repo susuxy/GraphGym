@@ -7,7 +7,7 @@ import sys
 sys.path.append('..')
 from graphgym.config import cfg
 
-def get_layer_metric_array(net, metric, mode):
+def get_layer_metric_array1(net, metric, mode):
     metric_array = []
 
     for m in net.children():
@@ -18,10 +18,31 @@ def get_layer_metric_array(net, metric, mode):
         if isinstance(m, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
             metric_array.append(metric(m))
         else:
-            metric_array.extend(get_layer_metric_array(m, metric, mode))
+            metric_array.extend(get_layer_metric_array1(m, metric, mode))
 
     return metric_array
 
+def get_layer_metric_array(net, metric, mode):
+    metric_array = []
+
+    for layer in net.modules():
+        if mode == 'channel' and hasattr(layer, 'dont_ch_prune'):
+            continue
+        # if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
+        if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.linear)):
+            metric_array.append(metric(layer))
+        elif isinstance(layer, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d, nn.PReLU)):
+            continue
+        elif hasattr(layer, 'weight') and layer.weight is not None:
+            metric_array.append(metric(layer))
+        elif hasattr(layer, 'weight_self') and layer.weight_self is not None:
+            metric_array.append(metric(layer))
+        elif hasattr(layer, 'att_src') and layer.att_src is not None:
+            metric_array.append(metric(layer))
+        elif hasattr(layer, 'att_dst') and layer.att_dst is not None:
+            metric_array.append(metric(layer))
+
+    return metric_array
 
 
 def compute_synflow_per_weight(net, batch, mode, dtype):
@@ -59,10 +80,28 @@ def compute_synflow_per_weight(net, batch, mode, dtype):
 
     # select the gradients that we want to use for search/prune
     def synflow(layer):
-        if layer.weight.grad is not None:
-            return torch.abs(layer.weight * layer.weight.grad)
+        if hasattr(layer, 'weight') and layer.weight is not None:
+          if layer.weight.grad is not None:
+              return torch.abs(layer.weight * layer.weight.grad)
+          else:
+              return torch.zeros_like(layer.weight)
+        elif hasattr(layer, 'weight_self') and layer.weight_self is not None:
+          if layer.weight_self.grad is not None:
+              return torch.abs(layer.weight_self * layer.weight_self.grad)
+          else:
+              return torch.zeros_like(layer.weight_self)
+        elif hasattr(layer, 'att_src') and layer.att_src is not None:
+          if layer.att_src.grad is not None:
+              return torch.abs(layer.att_src * layer.att_src.grad)
+          else:
+              return torch.zeros_like(layer.att_src)
+        elif hasattr(layer, 'att_dst') and layer.att_dst is not None:
+          if layer.att_dst.grad is not None:
+              return torch.abs(layer.att_dst * layer.att_dst.grad)
+          else:
+              return torch.zeros_like(layer.att_dst)
         else:
-            return torch.zeros_like(layer.weight)
+            raise ValueError
 
     grads_abs = get_layer_metric_array(net, synflow, mode)
 
