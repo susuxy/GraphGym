@@ -26,7 +26,8 @@ def network_weight_gaussian_init(net):
             elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d)):
                 nn.init.ones_(m.weight)
                 nn.init.zeros_(m.bias)
-            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
+            # elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
+            elif isinstance(m, (nn.Linear, torch_geometric.nn.dense.linear.Linear)):
                 nn.init.normal_(m.weight)
                 if hasattr(m, 'bias') and m.bias is not None:
                     nn.init.zeros_(m.bias)
@@ -43,7 +44,7 @@ def network_weight_gaussian_init(net):
                 if hasattr(m, 'att_src') and m.att_src is not None:
                     # gatconv
                     nn.init.normal_(m.att_src)
-                if hasattr(m, 'att_dst') and m.att_src is not None:
+                if hasattr(m, 'att_dst') and m.att_dst is not None:
                     # gatconv
                     nn.init.normal_(m.att_dst)
 
