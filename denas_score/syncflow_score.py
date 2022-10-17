@@ -29,7 +29,7 @@ def get_layer_metric_array(net, metric, mode):
         if mode == 'channel' and hasattr(layer, 'dont_ch_prune'):
             continue
         # if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
-        if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.linear)):
+        if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear)):
             metric_array.append(metric(layer))
         elif isinstance(layer, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d, nn.PReLU)):
             continue
