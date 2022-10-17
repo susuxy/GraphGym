@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--eval_metric', type=str, default='auc')
     parser.add_argument('--log_name', default='arxiv_node', type=str, help='file name of log')
     parser.add_argument('--repeat_time', default=32, type=int, help='repeat time for calculating scores')
-    parser.add_argument('--input_dtype', default=torch.int64, type=torch.dtype)
+    # parser.add_argument('--input_dtype', default=torch.int64, type=torch.dtype)
 
     # denas score type
     parser.add_argument('--denas', default='grad_norm', choices=['grad_norm', 'zen_nas', 'syncflow'], type=str)
@@ -58,6 +58,11 @@ def runner(args):
     return score
 
 args = parse_args()
+if 'molhiv' in args.model_dict:
+    args.input_dtype = torch.int64
+elif 'arxiv' in args.model_dict:
+    args.input_dtype = torch.float32
+
 
 # logger
 log_file_path = os.path.join('denas_output', 'log_file', args.log_name + '.log')
