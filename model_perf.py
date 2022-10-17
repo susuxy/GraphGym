@@ -90,9 +90,10 @@ choices = {
    'act': ['relu', 'prelu', 'swish'],
    'agg': ['mean', 'max', 'sum'],
    'stage_type': ['stack', 'skipsum', 'skipconcat'],
-   'layers_pre_mp': [1,2,3],
-   'layers_mp': [1,2,3],
-   'layers_post_mp': [1,2,3]
+   'layers_pre_mp': [1,2],
+   'layers_mp': [1,2],
+   'layers_post_mp': [1,2],
+   'layer_type': ['gcnconv', 'sageconv', 'gatconv', 'ginconv', 'generalconv']
 }
 
 
