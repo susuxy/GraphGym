@@ -30,17 +30,18 @@ def get_layer_metric_array(net, metric, mode):
             continue
         # if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear, nn.modules.sparse.Embedding)):
         if isinstance(layer, (nn.Conv2d, nn.Linear, torch_geometric.nn.dense.linear.Linear)):
-            metric_array.append(metric(layer))
+            metric_array.append(metric(layer, 'weight', layer.weight))
         elif isinstance(layer, (nn.BatchNorm2d, nn.GroupNorm, nn.BatchNorm1d, nn.PReLU)):
             continue
-        elif hasattr(layer, 'weight') and layer.weight is not None:
-            metric_array.append(metric(layer))
-        elif hasattr(layer, 'weight_self') and layer.weight_self is not None:
-            metric_array.append(metric(layer))
-        elif hasattr(layer, 'att_src') and layer.att_src is not None:
-            metric_array.append(metric(layer))
-        elif hasattr(layer, 'att_dst') and layer.att_dst is not None:
-            metric_array.append(metric(layer))
+        else:
+            if hasattr(layer, 'weight') and layer.weight is not None:
+                metric_array.append(metric(layer, 'weight', layer.weight))
+            if hasattr(layer, 'weight_self') and layer.weight_self is not None:
+                metric_array.append(metric(layer, 'weight_self', layer.weight_self))
+            if hasattr(layer, 'att_src') and layer.att_src is not None:
+                metric_array.append(metric(layer, 'att_src', layer.att_src))
+            if hasattr(layer, 'att_dst') and layer.att_dst is not None:
+                metric_array.append(metric(layer, 'att_dst', layer.att_dst))
 
     return metric_array
 
@@ -79,27 +80,32 @@ def compute_synflow_per_weight(net, batch, mode, dtype):
     torch.sum(output).backward()
 
     # select the gradients that we want to use for search/prune
-    def synflow(layer):
-        if hasattr(layer, 'weight') and layer.weight is not None:
-          if layer.weight.grad is not None:
-              return torch.abs(layer.weight * layer.weight.grad)
-          else:
-              return torch.zeros_like(layer.weight)
-        elif hasattr(layer, 'weight_self') and layer.weight_self is not None:
-          if layer.weight_self.grad is not None:
-              return torch.abs(layer.weight_self * layer.weight_self.grad)
-          else:
-              return torch.zeros_like(layer.weight_self)
-        elif hasattr(layer, 'att_src') and layer.att_src is not None:
-          if layer.att_src.grad is not None:
-              return torch.abs(layer.att_src * layer.att_src.grad)
-          else:
-              return torch.zeros_like(layer.att_src)
-        elif hasattr(layer, 'att_dst') and layer.att_dst is not None:
-          if layer.att_dst.grad is not None:
-              return torch.abs(layer.att_dst * layer.att_dst.grad)
-          else:
-              return torch.zeros_like(layer.att_dst)
+    def synflow(layer, para_name, para):
+        if hasattr(layer, para_name) and para is not None:
+            if para.grad is not None:
+                return torch.abs(para * para.grad)
+            else:
+                return torch.zeros_like(para)
+        # if hasattr(layer, 'weight') and layer.weight is not None:
+        #   if layer.weight.grad is not None:
+        #       return torch.abs(layer.weight * layer.weight.grad)
+        #   else:
+        #       return torch.zeros_like(layer.weight)
+        # elif hasattr(layer, 'weight_self') and layer.weight_self is not None:
+        #   if layer.weight_self.grad is not None:
+        #       return torch.abs(layer.weight_self * layer.weight_self.grad)
+        #   else:
+        #       return torch.zeros_like(layer.weight_self)
+        # elif hasattr(layer, 'att_src') and layer.att_src is not None:
+        #   if layer.att_src.grad is not None:
+        #       return torch.abs(layer.att_src * layer.att_src.grad)
+        #   else:
+        #       return torch.zeros_like(layer.att_src)
+        # elif hasattr(layer, 'att_dst') and layer.att_dst is not None:
+        #   if layer.att_dst.grad is not None:
+        #       return torch.abs(layer.att_dst * layer.att_dst.grad)
+        #   else:
+        #       return torch.zeros_like(layer.att_dst)
         else:
             raise ValueError
 
