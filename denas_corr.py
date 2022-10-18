@@ -5,6 +5,7 @@ import yaml
 from tqdm import tqdm
 from random import shuffle
 from scipy import stats
+import math
 
 from run.main_pyg import *
 # from graphgym.train_pyg import *
@@ -87,6 +88,7 @@ with open(model_dict_path, 'rb') as f:
 train_score_list, denas_score_list = [], []
 model_config_list = os.listdir(model_saving_folder)
 shuffle(model_config_list)
+model_number_nan = 0
 for idx, model_yaml_name in enumerate(tqdm(model_config_list, desc='read all models')):
     model_yaml_file = os.path.join(model_saving_folder, model_yaml_name)
     with open(model_yaml_file, "r") as f:
@@ -95,6 +97,9 @@ for idx, model_yaml_name in enumerate(tqdm(model_config_list, desc='read all mod
     # run model 
     args.cfg_file = model_yaml_file
     denas_score = runner(args=args)
+    if math.isnan(denas_score):
+        model_number_nan += 1
+        continue
 
     # train score
     if seri_dict(order_dict(model_config)) in model_key_dict:
@@ -109,7 +114,7 @@ for idx, model_yaml_name in enumerate(tqdm(model_config_list, desc='read all mod
     logger.info(f"epoch is {idx}")
     logger.info(f"train_score is {train_score:.4f}, denas_score is {denas_score:.4f}")
     logger.info(f"spearman_correlation {spearman_corr:.4f}")
-    
+logger.info(f"number of model with nan denas score {model_number_nan}")
 
 
 
