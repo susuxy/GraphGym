@@ -91,7 +91,7 @@ def train(loggers, loaders, model, optimizer, scheduler):
     logging.info('Task done, results saved in {}'.format(cfg.out_dir))
 
 
-def train_nas(loggers, loaders, model, optimizer, scheduler, patience = 10, metric='auc'):
+def train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc'):
     start_epoch = 0
     if cfg.train.auto_resume:
         start_epoch = load_ckpt(model, optimizer, scheduler)
@@ -117,11 +117,11 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, patience = 10, metr
             # early stopping
             if val_accuracy > best_val_result:
                 best_val_result = val_accuracy
-                counter = 0 
-            else:
-                counter += 1
-                if counter >= patience:  # perform early stop
-                    break
+            #     counter = 0 
+            # else:
+            #     counter += 1
+            #     if counter >= patience:  # perform early stop
+            #         break
     
 
         if is_ckpt_epoch(cur_epoch):
