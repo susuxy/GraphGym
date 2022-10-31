@@ -81,10 +81,11 @@ def runner(model_path, model_dict_len):
     logging.info('Num parameters: %s', cfg.params)
     # Start training
     if cfg.train.mode == 'standard':
-        val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, args, model_dict_len, metric=args.evaluate_metric)
+        val_perf, test_perf, train_time, num_params = train_nas(loggers, loaders, model, optimizer, 
+        scheduler, args, model_dict_len, metric=args.evaluate_metric)
     else:
         raise ValueError('train mode is not standard')
-    return val_perf
+    return val_perf, test_perf, train_time, num_params, cfg.optim.max_epoch
 
 choices = {
     'batchnorm': [True, False],
@@ -138,8 +139,11 @@ for _ in tqdm(range(1000), desc='generating models'):
 
 
     # run the model and get accuracy
-    val_perf, test_perf = runner(model_file_path, len(model_key_dict))
+    val_perf, test_perf, train_time, num_params, epoch_num = runner(model_file_path, len(model_key_dict))
     print(f"validation accuracy is {val_perf}")
+    print(f"testing accuracy is {test_perf}")
+    print(f"training time is {train_time} ms for {epoch_num} epoch")
+    print(f"number of parameters is {num_params}")
 
     # save to dict
     model_key_dict[copy_model_key] = val_perf

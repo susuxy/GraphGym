@@ -103,12 +103,17 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, args, model_dict_le
     else:
         logging.info('Start from epoch {}'.format(start_epoch))
 
+    num_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+
     num_splits = len(loggers)
     split_names = ['val', 'test']
     counter, best_val_result = 0, -1
     model_path = os.path.join('denas_trained_model', args.model_save_folder, str(model_dict_len) + '.yaml')
+    training_time = 0
     for cur_epoch in tqdm(range(start_epoch, cfg.optim.max_epoch), desc='training the model'):
+        start_time_train = time.time()
         train_epoch(loggers[0], loaders[0], model, optimizer, scheduler)
+        training_time += (time.time() - start_time_train)
         loggers[0].write_epoch(cur_epoch)
         # for i in range(1, num_splits):
         i=1  # only for validation set
@@ -148,5 +153,5 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, args, model_dict_le
     if cfg.train.ckpt_clean:
         clean_ckpt()
 
-    return best_val_result, test_accuracy
+    return best_val_result, test_accuracy, training_time*1000, num_params
 
