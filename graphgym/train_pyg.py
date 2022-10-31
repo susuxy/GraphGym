@@ -1,5 +1,6 @@
 import logging
 import time
+import os
 
 import torch
 from tqdm import tqdm
@@ -91,7 +92,9 @@ def train(loggers, loaders, model, optimizer, scheduler):
     logging.info('Task done, results saved in {}'.format(cfg.out_dir))
 
 
-def train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc'):
+
+
+def train_nas(loggers, loaders, model, optimizer, scheduler, args, model_dict_len, metric='auc'):
     start_epoch = 0
     if cfg.train.auto_resume:
         start_epoch = load_ckpt(model, optimizer, scheduler)
@@ -103,6 +106,7 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc'):
     num_splits = len(loggers)
     split_names = ['val', 'test']
     counter, best_val_result = 0, -1
+    model_path = os.path.join('denas_trained_model', args.model_save_folder, str(model_dict_len) + '.yaml')
     for cur_epoch in tqdm(range(start_epoch, cfg.optim.max_epoch), desc='training the model'):
         train_epoch(loggers[0], loaders[0], model, optimizer, scheduler)
         loggers[0].write_epoch(cur_epoch)
@@ -117,6 +121,8 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc'):
             # early stopping
             if val_accuracy > best_val_result:
                 best_val_result = val_accuracy
+                torch.save(model, model_path)
+
             #     counter = 0 
             # else:
             #     counter += 1
@@ -126,10 +132,21 @@ def train_nas(loggers, loaders, model, optimizer, scheduler, metric='auc'):
 
         if is_ckpt_epoch(cur_epoch):
             save_ckpt(model, optimizer, scheduler, cur_epoch)
+    
+    # performance on test set
+    model = torch.load(model_path, map_location=torch.device(cfg.device))
+    i=2  # for testing set
+    eval_epoch(loggers[i], loaders[i], model,
+                split=split_names[i - 1])
+    stats = loggers[i].write_epoch(cur_epoch)
+    if split_names[i - 1] == 'test':
+        test_accuracy = stats[metric]
+
+
     for logger in loggers:
         logger.close()
     if cfg.train.ckpt_clean:
         clean_ckpt()
 
-    return best_val_result
+    return best_val_result, test_accuracy
 

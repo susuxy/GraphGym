@@ -50,7 +50,7 @@ def parse_args_nas():
     return args
 
 
-def runner(model_path):
+def runner(model_path, model_dict_len):
     args = parse_args_nas()
 
     args.cfg_file = model_path
@@ -81,7 +81,7 @@ def runner(model_path):
     logging.info('Num parameters: %s', cfg.params)
     # Start training
     if cfg.train.mode == 'standard':
-        val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, metric=args.evaluate_metric)
+        val_perf = train_nas(loggers, loaders, model, optimizer, scheduler, args, model_dict_len, metric=args.evaluate_metric)
     else:
         raise ValueError('train mode is not standard')
     return val_perf
@@ -138,11 +138,11 @@ for _ in tqdm(range(1000), desc='generating models'):
 
 
     # run the model and get accuracy
-    val_perf = runner(model_file_path)
+    val_perf, test_perf = runner(model_file_path, len(model_key_dict))
     print(f"validation accuracy is {val_perf}")
 
-    # # save to dict
-    # model_key_dict[copy_model_key] = val_perf
+    # save to dict
+    model_key_dict[copy_model_key] = val_perf
 
-    # with open(model_dict_path, 'wb') as f:
-    #     pickle.dump(model_key_dict, f)
+    with open(model_dict_path, 'wb') as f:
+        pickle.dump(model_key_dict, f)
