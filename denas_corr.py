@@ -94,6 +94,16 @@ for idx, model_yaml_name in enumerate(tqdm(model_config_list, desc='read all mod
     with open(model_yaml_file, "r") as f:
         model_config = yaml.safe_load(f)
 
+    # add conditions for calculating denas score
+    # if model_config['gnn']['layers_pre_mp'] not in [1,2]:
+    #     continue
+    # if model_config['gnn']['layers_mp'] not in [1,2]:
+    #     continue
+    # if model_config['gnn']['layers_post_mp'] not in [1,2]:
+    #     continue
+    # if model_config['gnn']['layer_type'] not in ['sageconv']:
+    #     continue
+
     # run model 
     args.cfg_file = model_yaml_file
     denas_score = runner(args=args)
