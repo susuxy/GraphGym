@@ -30,7 +30,12 @@ def parse(filename, args):
 
     x = np.array([v['trained_score'] for v in simplified_arch_list])
     y = np.array([v['denas_score'] for v in simplified_arch_list])
-    y = np.log(y)
+    if 'syncflow' in args.log_name:
+        y = np.log(y*(-1))
+    elif 'grad_norm' in args.log_name or 'zen' in args.log_name:
+        y = np.log(y)
+    else:
+        raise ValueError
 
     rank_x = stats.rankdata(x)
     rank_y = stats.rankdata(y)
