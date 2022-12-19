@@ -1,0 +1,5125 @@
+epoch is 0
+train_score is 0.6753, denas_score is -13031978557.5921
+spearman_correlation nan
+epoch is 2
+train_score is 0.6830, denas_score is -18772304.5546
+spearman_correlation 1.0000
+epoch is 3
+train_score is 0.5926, denas_score is -36636122.6839
+spearman_correlation 0.5000
+epoch is 4
+train_score is 0.6397, denas_score is -36855237.3125
+spearman_correlation 0.2000
+epoch is 5
+train_score is 0.6818, denas_score is -2735213524106404864.0000
+spearman_correlation 0.0000
+epoch is 6
+train_score is 0.6356, denas_score is -22983992.3662
+spearman_correlation -0.0857
+epoch is 10
+train_score is 0.6816, denas_score is -14006519288492.1953
+spearman_correlation -0.2143
+epoch is 12
+train_score is 0.7153, denas_score is -5922802520008471552.0000
+spearman_correlation -0.4762
+epoch is 13
+train_score is 0.4008, denas_score is -30213108.8944
+spearman_correlation -0.4833
+epoch is 14
+train_score is 0.6705, denas_score is -1208860129.0608
+spearman_correlation -0.5273
+epoch is 20
+train_score is 0.6805, denas_score is -35356487653.2500
+spearman_correlation -0.5636
+epoch is 21
+train_score is 0.6486, denas_score is -30738596.2809
+spearman_correlation -0.5664
+epoch is 24
+train_score is 0.6373, denas_score is -1305761975.1562
+spearman_correlation -0.5604
+epoch is 25
+train_score is 0.6798, denas_score is -22350259674137.7695
+spearman_correlation -0.5824
+epoch is 30
+train_score is 0.6399, denas_score is -37068408.5625
+spearman_correlation -0.5893
+epoch is 32
+train_score is 0.6403, denas_score is -30334339.5547
+spearman_correlation -0.5735
+epoch is 33
+train_score is 0.6602, denas_score is -31031037.5186
+spearman_correlation -0.5588
+epoch is 35
+train_score is 0.6682, denas_score is -26905949.2049
+spearman_correlation -0.5150
+epoch is 37
+train_score is 0.6486, denas_score is -2763453632.3438
+spearman_correlation -0.5204
+epoch is 38
+train_score is 0.6697, denas_score is -2867955486.2500
+spearman_correlation -0.5574
+epoch is 39
+train_score is 0.6411, denas_score is -30781395.7920
+spearman_correlation -0.5469
+epoch is 40
+train_score is 0.6991, denas_score is -10263330377.1643
+spearman_correlation -0.5835
+epoch is 43
+train_score is 0.6311, denas_score is -30476339.8096
+spearman_correlation -0.5911
+epoch is 45
+train_score is 0.6564, denas_score is -30151173.9248
+spearman_correlation -0.5549
+epoch is 49
+train_score is 0.5827, denas_score is -30583577.2196
+spearman_correlation -0.5593
+epoch is 52
+train_score is 0.7170, denas_score is -1038801171.8594
+spearman_correlation -0.5492
+epoch is 59
+train_score is 0.6450, denas_score is -2010591288.7500
+spearman_correlation -0.5434
+epoch is 60
+train_score is 0.5995, denas_score is -37072803.8649
+spearman_correlation -0.5302
+epoch is 61
+train_score is 0.5769, denas_score is -23150407.1768
+spearman_correlation -0.5604
+epoch is 63
+train_score is 0.6542, denas_score is -1073118914.9268
+spearman_correlation -0.5596
+epoch is 66
+train_score is 0.6537, denas_score is -31312985.1245
+spearman_correlation -0.5499
+epoch is 70
+train_score is 0.6310, denas_score is -22635102.3887
+spearman_correlation -0.5644
+epoch is 77
+train_score is 0.7133, denas_score is -1226350320.9219
+spearman_correlation -0.5682
+epoch is 78
+train_score is 0.6687, denas_score is -9372619380.3080
+spearman_correlation -0.5857
+epoch is 79
+train_score is 0.6374, denas_score is -29976398.8160
+spearman_correlation -0.5894
+epoch is 82
+train_score is 0.7044, denas_score is -23491547718502.6250
+spearman_correlation -0.6147
+epoch is 85
+train_score is 0.6447, denas_score is -23199312.1650
+spearman_correlation -0.6100
+epoch is 89
+train_score is 0.6572, denas_score is -36512169.9834
+spearman_correlation -0.6067
+epoch is 90
+train_score is 0.5684, denas_score is -149686469.0272
+spearman_correlation -0.5840
+epoch is 93
+train_score is 0.6721, denas_score is -2185075677.1261
+spearman_correlation -0.5992
+epoch is 95
+train_score is 0.5041, denas_score is -22913149.6215
+spearman_correlation -0.6193
+epoch is 96
+train_score is 0.6699, denas_score is -563816058054963072.0000
+spearman_correlation -0.6266
+epoch is 97
+train_score is 0.7085, denas_score is -2899596340.0000
+spearman_correlation -0.6383
+epoch is 98
+train_score is 0.6094, denas_score is -23201034.3701
+spearman_correlation -0.6442
+epoch is 100
+train_score is 0.6231, denas_score is -36181675.6250
+spearman_correlation -0.6372
+epoch is 101
+train_score is 0.6550, denas_score is -30122265.1426
+spearman_correlation -0.6230
+epoch is 103
+train_score is 0.6113, denas_score is -30635670.0232
+spearman_correlation -0.6219
+epoch is 104
+train_score is 0.5414, denas_score is -23225766.2697
+spearman_correlation -0.6343
+epoch is 105
+train_score is 0.5662, denas_score is -30927142.0567
+spearman_correlation -0.6290
+epoch is 110
+train_score is 0.6522, denas_score is -22559782.3804
+spearman_correlation -0.6068
+epoch is 111
+train_score is 0.6589, denas_score is -1598078081.6562
+spearman_correlation -0.6158
+epoch is 118
+train_score is 0.5983, denas_score is -36082913.7489
+spearman_correlation -0.6075
+epoch is 121
+train_score is 0.6426, denas_score is -660080394.6250
+spearman_correlation -0.6098
+epoch is 122
+train_score is 0.6399, denas_score is -30900680.6025
+spearman_correlation -0.6067
+epoch is 124
+train_score is 0.7055, denas_score is -2827627711.2188
+spearman_correlation -0.6194
+epoch is 125
+train_score is 0.6105, denas_score is -37328108.8760
+spearman_correlation -0.6100
+epoch is 128
+train_score is 0.6636, denas_score is -31122131.1006
+spearman_correlation -0.6063
+epoch is 129
+train_score is 0.6453, denas_score is -23121118.6094
+spearman_correlation -0.5936
+epoch is 130
+train_score is 0.6453, denas_score is -36514671.7743
+spearman_correlation -0.5911
+epoch is 132
+train_score is 0.6513, denas_score is -488829594.0625
+spearman_correlation -0.5952
+epoch is 134
+train_score is 0.6399, denas_score is -22980857.0215
+spearman_correlation -0.5909
+epoch is 138
+train_score is 0.6001, denas_score is -36801799.5525
+spearman_correlation -0.5800
+epoch is 141
+train_score is 0.6829, denas_score is -3388550461.8281
+spearman_correlation -0.5919
+epoch is 142
+train_score is 0.6682, denas_score is -259578860.9102
+spearman_correlation -0.6025
+epoch is 143
+train_score is 0.6810, denas_score is -242366755.8750
+spearman_correlation -0.6071
+epoch is 148
+train_score is 0.6777, denas_score is -35816656.5967
+spearman_correlation -0.5968
+epoch is 149
+train_score is 0.6167, denas_score is -30614736.5000
+spearman_correlation -0.5957
+epoch is 150
+train_score is 0.5347, denas_score is -31083911.4367
+spearman_correlation -0.5918
+epoch is 151
+train_score is 0.5582, denas_score is -35939796.3391
+spearman_correlation -0.5839
+epoch is 153
+train_score is 0.5890, denas_score is -23366185.2031
+spearman_correlation -0.5896
+epoch is 154
+train_score is 0.7181, denas_score is -3090515768.6250
+spearman_correlation -0.6024
+epoch is 155
+train_score is 0.6680, denas_score is -1808246293.2500
+spearman_correlation -0.6108
+epoch is 157
+train_score is 0.6492, denas_score is -30171597.9429
+spearman_correlation nan
+epoch is 164
+train_score is 0.6659, denas_score is -30583757.1621
+spearman_correlation -1.0000
+epoch is 165
+train_score is 0.6778, denas_score is -4967066423.0000
+spearman_correlation -1.0000
+epoch is 167
+train_score is 0.6411, denas_score is -36441126.3008
+spearman_correlation -0.4000
+epoch is 168
+train_score is 0.6041, denas_score is -26366125.4767
+spearman_correlation -0.7000
+epoch is 170
+train_score is 0.6571, denas_score is -3242626.2350
+spearman_correlation -0.4286
+epoch is 171
+train_score is 0.7101, denas_score is -656674059.1875
+spearman_correlation -0.6071
+epoch is 172
+train_score is 0.6855, denas_score is -19607216858.6592
+spearman_correlation -0.6905
+epoch is 173
+train_score is 0.6240, denas_score is -22702530.6777
+spearman_correlation -0.7000
+epoch is 174
+train_score is 0.6419, denas_score is -1180592600.1250
+spearman_correlation -0.5758
+epoch is 178
+train_score is 0.6691, denas_score is -1489818157.9375
+spearman_correlation -0.6455
+epoch is 180
+train_score is 0.5923, denas_score is -22944107.2225
+spearman_correlation -0.6713
+epoch is 183
+train_score is 0.7094, denas_score is -8775283610.5642
+spearman_correlation -0.7088
+epoch is 184
+train_score is 0.6360, denas_score is -23213739.2993
+spearman_correlation -0.7275
+epoch is 187
+train_score is 0.6404, denas_score is -36668756.7344
+spearman_correlation -0.7179
+epoch is 188
+train_score is 0.6188, denas_score is -36568624.6655
+spearman_correlation -0.6706
+epoch is 191
+train_score is 0.6572, denas_score is -393623035.9380
+spearman_correlation -0.7034
+epoch is 192
+train_score is 0.6406, denas_score is -731338524.1250
+spearman_correlation -0.6636
+epoch is 193
+train_score is 0.6707, denas_score is -1875540793.9375
+spearman_correlation -0.7018
+epoch is 194
+train_score is 0.6599, denas_score is -30015454.3936
+spearman_correlation -0.6782
+epoch is 196
+train_score is 0.6410, denas_score is -36316208.9688
+spearman_correlation -0.6584
+epoch is 198
+train_score is 0.6495, denas_score is -428829038.5625
+spearman_correlation -0.6522
+epoch is 200
+train_score is 0.6808, denas_score is -2147752661.1562
+spearman_correlation -0.6868
+epoch is 205
+train_score is 0.6572, denas_score is -52027855018151.6172
+spearman_correlation -0.6641
+epoch is 206
+train_score is 0.6693, denas_score is -36381874.2158
+spearman_correlation -0.6367
+epoch is 213
+train_score is 0.6493, denas_score is -22775234.0400
+spearman_correlation -0.6121
+epoch is 222
+train_score is 0.5182, denas_score is -126701411.8351
+spearman_correlation -0.5743
+epoch is 225
+train_score is 0.5507, denas_score is -30607792.9790
+spearman_correlation -0.5641
+epoch is 228
+train_score is 0.6497, denas_score is -36815331.5879
+spearman_correlation -0.5634
+epoch is 229
+train_score is 0.7056, denas_score is -892980290852594384896.0000
+spearman_correlation -0.5998
+epoch is 232
+train_score is 0.6777, denas_score is -7056958.2509
+spearman_correlation -0.5160
+epoch is 233
+train_score is 0.6026, denas_score is -23065842.9160
+spearman_correlation -0.5296
+epoch is 236
+train_score is 0.7082, denas_score is -1444318697115.9688
+spearman_correlation -0.5619
+epoch is 238
+train_score is 0.6728, denas_score is -195490397577.1953
+spearman_correlation -0.5794
+epoch is 241
+train_score is 0.6737, denas_score is -1117382719.8438
+spearman_correlation -0.5928
+epoch is 243
+train_score is 0.6769, denas_score is -828027358931293204440332369920.0000
+spearman_correlation -0.6057
+epoch is 244
+train_score is 0.6473, denas_score is -36152888.6035
+spearman_correlation -0.6001
+epoch is 245
+train_score is 0.6852, denas_score is -15449090390.3122
+spearman_correlation -0.6198
+epoch is 246
+train_score is 0.6358, denas_score is -1885612849.5000
+spearman_correlation -0.5887
+epoch is 247
+train_score is 0.6635, denas_score is -36043202.3232
+spearman_correlation -0.5783
+epoch is 251
+train_score is 0.6586, denas_score is -36354523.0293
+spearman_correlation -0.5704
+epoch is 252
+train_score is 0.6928, denas_score is -1066924834.6885
+spearman_correlation -0.5766
+epoch is 253
+train_score is 0.6812, denas_score is -2210109943.8438
+spearman_correlation -0.5950
+epoch is 254
+train_score is 0.5125, denas_score is -23300277.2920
+spearman_correlation -0.6089
+epoch is 260
+train_score is 0.6636, denas_score is -29908236.5163
+spearman_correlation -0.5962
+epoch is 262
+train_score is 0.7133, denas_score is -33459930723.4815
+spearman_correlation -0.6150
+epoch is 265
+train_score is 0.6752, denas_score is -2390739004.2188
+spearman_correlation -0.6268
+epoch is 266
+train_score is 0.6657, denas_score is -36806049.8259
+spearman_correlation -0.6288
+epoch is 269
+train_score is 0.6321, denas_score is -30206752.4912
+spearman_correlation -0.6338
+epoch is 270
+train_score is 0.5941, denas_score is -22773859.3435
+spearman_correlation -0.6448
+epoch is 271
+train_score is 0.5551, denas_score is -23159633.0199
+spearman_correlation -0.6529
+epoch is 274
+train_score is 0.6776, denas_score is -1888201400653410816.0000
+spearman_correlation -0.6594
+epoch is 277
+train_score is 0.6435, denas_score is -171206933.1360
+spearman_correlation -0.6556
+epoch is 279
+train_score is 0.5702, denas_score is -30426438.7264
+spearman_correlation -0.6564
+epoch is 280
+train_score is 0.6962, denas_score is -540701945858.0234
+spearman_correlation -0.6689
+epoch is 281
+train_score is 0.5776, denas_score is -23005394.5162
+spearman_correlation -0.6749
+epoch is 284
+train_score is 0.6376, denas_score is -30315855.0469
+spearman_correlation -0.6764
+epoch is 288
+train_score is 0.2914, denas_score is -22443632.9395
+spearman_correlation -0.6884
+epoch is 289
+train_score is 0.6411, denas_score is -4388573270.0686
+spearman_correlation -0.6732
+epoch is 290
+train_score is 0.6438, denas_score is -36310272.2100
+spearman_correlation -0.6697
+epoch is 292
+train_score is 0.6362, denas_score is -23217216.2695
+spearman_correlation -0.6732
+epoch is 293
+train_score is 0.6550, denas_score is -36079793.8377
+spearman_correlation -0.6697
+epoch is 294
+train_score is 0.5861, denas_score is -23088682.3828
+spearman_correlation -0.6753
+epoch is 297
+train_score is 0.6519, denas_score is -426397458.2656
+spearman_correlation -0.6753
+epoch is 298
+train_score is 0.6446, denas_score is -36006575.5273
+spearman_correlation -0.6728
+epoch is 301
+train_score is 0.6745, denas_score is -2800944436.8438
+spearman_correlation -0.6803
+epoch is 302
+train_score is 0.6354, denas_score is -1244134787.2500
+spearman_correlation -0.6665
+epoch is 303
+train_score is 0.6310, denas_score is -29948880.1484
+spearman_correlation -0.6715
+epoch is 307
+train_score is 0.7139, denas_score is -803122361.6406
+spearman_correlation -0.6697
+epoch is 308
+train_score is 0.6199, denas_score is -473164266.9866
+spearman_correlation -0.6600
+epoch is 315
+train_score is 0.6608, denas_score is -2262631041.0000
+spearman_correlation -0.6619
+epoch is 318
+train_score is 0.6780, denas_score is -2054762213.5625
+spearman_correlation -0.6691
+epoch is 319
+train_score is 0.7067, denas_score is -5982750248.6936
+spearman_correlation -0.6778
+epoch is 322
+train_score is 0.6409, denas_score is -35973780.7979
+spearman_correlation -0.6786
+epoch is 324
+train_score is 0.6693, denas_score is -1076606477034296570806272.0000
+spearman_correlation -0.6801
+epoch is 326
+train_score is 0.6749, denas_score is -75889127.2690
+spearman_correlation -0.6778
+epoch is 330
+train_score is 0.6463, denas_score is -1586209175.3438
+spearman_correlation -0.6722
+epoch is 331
+train_score is 0.4814, denas_score is -6416084.3157
+spearman_correlation -0.6836
+epoch is 333
+train_score is 0.6260, denas_score is -22959116.3556
+spearman_correlation -0.6877
+epoch is 334
+train_score is 0.3988, denas_score is -23327102.1956
+spearman_correlation -0.6929
+epoch is 335
+train_score is 0.6750, denas_score is -130559142.5273
+spearman_correlation -0.6918
+epoch is 339
+train_score is 0.7163, denas_score is -329004205901980480.0000
+spearman_correlation -0.7015
+epoch is 341
+train_score is 0.6589, denas_score is -29642341.1826
+spearman_correlation -0.6944
+epoch is 342
+train_score is 0.6391, denas_score is -394064638.0000
+spearman_correlation -0.6909
+epoch is 343
+train_score is 0.6469, denas_score is -36432637.1248
+spearman_correlation -0.6880
+epoch is 348
+train_score is 0.6488, denas_score is -22683492.8625
+spearman_correlation -0.6776
+epoch is 351
+train_score is 0.7122, denas_score is -2939302421.3124
+spearman_correlation -0.6839
+epoch is 352
+train_score is 0.6314, denas_score is -23690056.7090
+spearman_correlation -0.6882
+epoch is 353
+train_score is 0.6429, denas_score is -36773543.9062
+spearman_correlation -0.6861
+epoch is 356
+train_score is 0.5756, denas_score is -30022680.4299
+spearman_correlation -0.6875
+epoch is 358
+train_score is 0.6406, denas_score is -29921870.9685
+spearman_correlation -0.6878
+epoch is 361
+train_score is 0.6518, denas_score is -30299492.6208
+spearman_correlation -0.6842
+epoch is 363
+train_score is 0.6568, denas_score is -30262892.3794
+spearman_correlation -0.6801
+epoch is 364
+train_score is 0.6675, denas_score is -344175131.0625
+spearman_correlation -0.6824
+epoch is 366
+train_score is 0.6292, denas_score is -22931702.4375
+spearman_correlation -0.6855
+epoch is 367
+train_score is 0.7121, denas_score is -1209882409.1641
+spearman_correlation -0.6869
+epoch is 368
+train_score is 0.6799, denas_score is -2188662274.3750
+spearman_correlation -0.6922
+epoch is 370
+train_score is 0.6594, denas_score is -91623990.5156
+spearman_correlation -0.6925
+epoch is 371
+train_score is 0.6252, denas_score is -36977092.0097
+spearman_correlation -0.6876
+epoch is 375
+train_score is 0.6981, denas_score is -350842678.7693
+spearman_correlation -0.6854
+epoch is 381
+train_score is 0.7160, denas_score is -61846329.7542
+spearman_correlation -0.6773
+epoch is 384
+train_score is 0.6734, denas_score is -35795769.8877
+spearman_correlation -0.6718
+epoch is 394
+train_score is 0.6492, denas_score is -30257086.3950
+spearman_correlation -0.6698
+epoch is 401
+train_score is 0.6594, denas_score is -30422715.4822
+spearman_correlation -0.6665
+epoch is 403
+train_score is 0.6044, denas_score is -36567383.5901
+spearman_correlation -0.6629
+epoch is 405
+train_score is 0.6425, denas_score is -30371050.6201
+spearman_correlation -0.6619
+epoch is 409
+train_score is 0.5393, denas_score is -22878164.4654
+spearman_correlation -0.6680
+epoch is 411
+train_score is 0.6707, denas_score is -13025298815231.0000
+spearman_correlation -0.6701
+epoch is 412
+train_score is 0.6941, denas_score is -557077726.5938
+spearman_correlation -0.6714
+epoch is 413
+train_score is 0.6965, denas_score is -1396537895.0000
+spearman_correlation -0.6740
+epoch is 416
+train_score is 0.5814, denas_score is -42252108.8395
+spearman_correlation -0.6676
+epoch is 418
+train_score is 0.6603, denas_score is -36128012.7695
+spearman_correlation -0.6659
+epoch is 419
+train_score is 0.6676, denas_score is -1630943228.2500
+spearman_correlation -0.6691
+epoch is 420
+train_score is 0.5794, denas_score is -23234556.8102
+spearman_correlation -0.6736
+epoch is 423
+train_score is 0.6714, denas_score is -1731105691.1250
+spearman_correlation -0.6764
+epoch is 424
+train_score is 0.6452, denas_score is -2990599626.5625
+spearman_correlation -0.6674
+epoch is 427
+train_score is 0.7018, denas_score is -2070314621.5938
+spearman_correlation -0.6714
+epoch is 429
+train_score is 0.6536, denas_score is -30778362.6182
+spearman_correlation -0.6699
+epoch is 430
+train_score is 0.6350, denas_score is -30479298.6152
+spearman_correlation -0.6716
+epoch is 434
+train_score is 0.4959, denas_score is -31878589.6125
+spearman_correlation -0.6705
+epoch is 437
+train_score is 0.6602, denas_score is -3445432119180.1016
+spearman_correlation -0.6685
+epoch is 439
+train_score is 0.6759, denas_score is -335966605.9375
+spearman_correlation -0.6689
+epoch is 440
+train_score is 0.6419, denas_score is -22686591.2886
+spearman_correlation -0.6662
+epoch is 445
+train_score is 0.6232, denas_score is -30183809.5437
+spearman_correlation -0.6682
+epoch is 446
+train_score is 0.6824, denas_score is -488660108050.2762
+spearman_correlation -0.6726
+epoch is 448
+train_score is 0.7189, denas_score is -6364222939675745280.0000
+spearman_correlation -0.6799
+epoch is 449
+train_score is 0.5971, denas_score is -23001019.8522
+spearman_correlation -0.6835
+epoch is 450
+train_score is 0.7108, denas_score is -132660828.8594
+spearman_correlation -0.6801
+epoch is 454
+train_score is 0.6437, denas_score is -2960159618.4688
+spearman_correlation -0.6719
+epoch is 457
+train_score is 0.6805, denas_score is -2237029174.2500
+spearman_correlation -0.6748
+epoch is 466
+train_score is 0.6611, denas_score is -4159167981.4219
+spearman_correlation -0.6746
+epoch is 469
+train_score is 0.5793, denas_score is -22720196.9776
+spearman_correlation -0.6791
+epoch is 470
+train_score is 0.6478, denas_score is -1408027278.0000
+spearman_correlation -0.6754
+epoch is 474
+train_score is 0.6744, denas_score is -95917120481851008008323072.0000
+spearman_correlation -0.6767
+epoch is 480
+train_score is 0.7172, denas_score is -135528409847882000.0000
+spearman_correlation -0.6831
+epoch is 483
+train_score is 0.5782, denas_score is -35306907.9149
+spearman_correlation -0.6830
+epoch is 484
+train_score is 0.6339, denas_score is -35284941.7305
+spearman_correlation -0.6843
+epoch is 489
+train_score is 0.6632, denas_score is -94472816.1172
+spearman_correlation -0.6849
+epoch is 491
+train_score is 0.6356, denas_score is -36881916.6347
+spearman_correlation -0.6839
+epoch is 495
+train_score is 0.6890, denas_score is -689183357.5547
+spearman_correlation -0.6837
+epoch is 497
+train_score is 0.7054, denas_score is -385935994.0000
+spearman_correlation -0.6818
+epoch is 498
+train_score is 0.6606, denas_score is -208623608.6211
+spearman_correlation -0.6829
+epoch is 501
+train_score is 0.5006, denas_score is -17522255487990.3789
+spearman_correlation -0.6540
+epoch is 503
+train_score is 0.6749, denas_score is -325859235.4917
+spearman_correlation -0.6542
+epoch is 504
+train_score is 0.6699, denas_score is -2009526268.7070
+spearman_correlation -0.6560
+epoch is 506
+train_score is 0.6507, denas_score is -23476384.9082
+spearman_correlation -0.6537
+epoch is 509
+train_score is 0.7007, denas_score is -22730143875436441600.0000
+spearman_correlation -0.6585
+epoch is 511
+train_score is 0.7150, denas_score is -2084901590.1875
+spearman_correlation -0.6606
+epoch is 516
+train_score is 0.5422, denas_score is -36965598.2119
+spearman_correlation -0.6565
+epoch is 517
+train_score is 0.5398, denas_score is -36379892.1098
+spearman_correlation -0.6541
+epoch is 522
+train_score is 0.6442, denas_score is -1763365293.0000
+spearman_correlation -0.6500
+epoch is 524
+train_score is 0.6778, denas_score is -1743157880859919161573244928.0000
+spearman_correlation -0.6531
+epoch is 527
+train_score is 0.6681, denas_score is -2892898107.2656
+spearman_correlation -0.6541
+epoch is 528
+train_score is 0.5530, denas_score is -22859696.6072
+spearman_correlation -0.6580
+epoch is 531
+train_score is 0.7093, denas_score is -596513477.9688
+spearman_correlation -0.6569
+epoch is 533
+train_score is 0.6750, denas_score is -2613199716.8438
+spearman_correlation -0.6585
+epoch is 534
+train_score is 0.6837, denas_score is -423323479.8750
+spearman_correlation -0.6577
+epoch is 537
+train_score is 0.6864, denas_score is -1738823896.3554
+spearman_correlation -0.6586
+epoch is 545
+train_score is 0.7162, denas_score is -6297144474973079552.0000
+spearman_correlation -0.6643
+epoch is 548
+train_score is 0.6499, denas_score is -30892418.0985
+spearman_correlation -0.6636
+epoch is 555
+train_score is 0.6659, denas_score is -30458666.1313
+spearman_correlation -0.6611
+epoch is 556
+train_score is 0.6473, denas_score is -29833208.0781
+spearman_correlation -0.6599
+epoch is 557
+train_score is 0.6893, denas_score is -553993469.6875
+spearman_correlation -0.6596
+epoch is 558
+train_score is 0.5789, denas_score is -23109748.4048
+spearman_correlation -0.6629
+epoch is 562
+train_score is 0.6324, denas_score is -36368574.2022
+spearman_correlation -0.6631
+epoch is 570
+train_score is 0.5994, denas_score is -23181036.0547
+spearman_correlation -0.6662
+epoch is 572
+train_score is 0.6457, denas_score is -22979399.1406
+spearman_correlation -0.6640
+epoch is 575
+train_score is 0.6390, denas_score is -30210674.2363
+spearman_correlation -0.6653
+epoch is 577
+train_score is 0.7067, denas_score is -12972659995680747326275584.0000
+spearman_correlation -0.6695
+epoch is 579
+train_score is 0.6866, denas_score is -371320841140.2891
+spearman_correlation -0.6720
+epoch is 582
+train_score is 0.6037, denas_score is -23005090.0410
+spearman_correlation -0.6747
+epoch is 589
+train_score is 0.6769, denas_score is -7560457264.8056
+spearman_correlation -0.6766
+epoch is 592
+train_score is 0.6859, denas_score is -157934603304096.7500
+spearman_correlation -0.6794
+epoch is 593
+train_score is 0.6489, denas_score is -35816238.9375
+spearman_correlation -0.6791
+epoch is 594
+train_score is 0.7151, denas_score is -21676302294949616.0000
+spearman_correlation -0.6837
+epoch is 597
+train_score is 0.6316, denas_score is -23247971.1073
+spearman_correlation -0.6858
+epoch is 598
+train_score is 0.6394, denas_score is -30066367.5938
+spearman_correlation -0.6867
+epoch is 599
+train_score is 0.6362, denas_score is -35760488.4375
+spearman_correlation -0.6874
+epoch is 604
+train_score is 0.5834, denas_score is -36435538.8457
+spearman_correlation -0.6853
+epoch is 609
+train_score is 0.6117, denas_score is -23374531.9775
+spearman_correlation -0.6876
+epoch is 611
+train_score is 0.6274, denas_score is -29881977.6416
+spearman_correlation -0.6892
+epoch is 613
+train_score is 0.6348, denas_score is -59447888.6250
+spearman_correlation -0.6888
+epoch is 615
+train_score is 0.5270, denas_score is -30222533.7316
+spearman_correlation -0.6896
+epoch is 617
+train_score is 0.5863, denas_score is -36290537.1382
+spearman_correlation -0.6880
+epoch is 627
+train_score is 0.7072, denas_score is -32007427.7341
+spearman_correlation -0.6790
+epoch is 633
+train_score is 0.6571, denas_score is -30406540.2167
+spearman_correlation -0.6779
+epoch is 634
+train_score is 0.6444, denas_score is -30714504.8555
+spearman_correlation -0.6774
+epoch is 636
+train_score is 0.6491, denas_score is -36956730.3262
+spearman_correlation -0.6774
+epoch is 637
+train_score is 0.7078, denas_score is -16638318609005416448.0000
+spearman_correlation -0.6811
+epoch is 638
+train_score is 0.6755, denas_score is -2559645551.0000
+spearman_correlation -0.6826
+epoch is 639
+train_score is 0.6108, denas_score is -22869250.4331
+spearman_correlation -0.6846
+epoch is 641
+train_score is 0.3671, denas_score is -31315982.3644
+spearman_correlation -0.6837
+epoch is 642
+train_score is 0.6814, denas_score is -317339519.4062
+spearman_correlation -0.6835
+epoch is 644
+train_score is 0.7157, denas_score is -1847223720.1250
+spearman_correlation -0.6844
+epoch is 648
+train_score is 0.6538, denas_score is -1736037482.8750
+spearman_correlation -0.6838
+epoch is 650
+train_score is 0.6661, denas_score is -30748299.8452
+spearman_correlation -0.6820
+epoch is 651
+train_score is 0.6924, denas_score is -2345204060.5515
+spearman_correlation -0.6835
+epoch is 652
+train_score is 0.6795, denas_score is -8127733663.2779
+spearman_correlation -0.6853
+epoch is 657
+train_score is 0.7037, denas_score is -1551882545.9180
+spearman_correlation -0.6857
+epoch is 661
+train_score is 0.6879, denas_score is -1821071190.5625
+spearman_correlation -0.6866
+epoch is 662
+train_score is 0.7044, denas_score is -5246966162.3757
+spearman_correlation -0.6889
+epoch is 665
+train_score is 0.6185, denas_score is -23294326.9264
+spearman_correlation -0.6909
+epoch is 666
+train_score is 0.6117, denas_score is -23111605.9500
+spearman_correlation -0.6928
+epoch is 670
+train_score is 0.6842, denas_score is -199234746.2666
+spearman_correlation -0.6923
+epoch is 672
+train_score is 0.6346, denas_score is -37174375.2754
+spearman_correlation -0.6920
+epoch is 673
+train_score is 0.6747, denas_score is -223403032046240.0000
+spearman_correlation -0.6926
+epoch is 674
+train_score is 0.6801, denas_score is -787907537.0786
+spearman_correlation -0.6930
+epoch is 675
+train_score is 0.6721, denas_score is -8047168857728.0000
+spearman_correlation -0.6931
+epoch is 678
+train_score is 0.6770, denas_score is -29455524081416372224.0000
+spearman_correlation -0.6937
+epoch is 683
+train_score is 0.6941, denas_score is -1051618611.2812
+spearman_correlation -0.6933
+epoch is 684
+train_score is 0.6706, denas_score is -29386160.7047
+spearman_correlation -0.6892
+epoch is 686
+train_score is 0.6265, denas_score is -36525971.9404
+spearman_correlation -0.6887
+epoch is 691
+train_score is 0.6512, denas_score is -744507352.6953
+spearman_correlation -0.6884
+epoch is 692
+train_score is 0.7179, denas_score is -7251045314571147264.0000
+spearman_correlation -0.6922
+epoch is 697
+train_score is 0.6629, denas_score is -4087626010.0312
+spearman_correlation -0.6915
+epoch is 699
+train_score is 0.6722, denas_score is -35774664.1553
+spearman_correlation -0.6896
+epoch is 703
+train_score is 0.6499, denas_score is -201886302.4961
+spearman_correlation -0.6900
+epoch is 704
+train_score is 0.6235, denas_score is -22836658.3179
+spearman_correlation -0.6916
+epoch is 706
+train_score is 0.5320, denas_score is -22572791.8373
+spearman_correlation -0.6949
+epoch is 708
+train_score is 0.6961, denas_score is -119343542394299.2500
+spearman_correlation -0.6973
+epoch is 709
+train_score is 0.7045, denas_score is -68252491598921913823370674176.0000
+spearman_correlation -0.7000
+epoch is 713
+train_score is 0.6836, denas_score is -38154740.5998
+spearman_correlation -0.6987
+epoch is 714
+train_score is 0.6473, denas_score is -1389870914.3756
+spearman_correlation -0.6967
+epoch is 715
+train_score is 0.5968, denas_score is -30873269.4472
+spearman_correlation -0.6969
+epoch is 716
+train_score is 0.6666, denas_score is -81812111.0000
+spearman_correlation -0.6978
+epoch is 717
+train_score is 0.7270, denas_score is -921047347.8438
+spearman_correlation -0.6965
+epoch is 718
+train_score is 0.6372, denas_score is -36146694.6309
+spearman_correlation -0.6966
+epoch is 719
+train_score is 0.6716, denas_score is -17683318057826.0000
+spearman_correlation -0.6967
+epoch is 722
+train_score is 0.6610, denas_score is -30076710.1619
+spearman_correlation -0.6947
+epoch is 723
+train_score is 0.7097, denas_score is -42692186.3213
+spearman_correlation -0.6916
+epoch is 724
+train_score is 0.6748, denas_score is -36955294.4961
+spearman_correlation -0.6912
+epoch is 725
+train_score is 0.6103, denas_score is -368372650.1239
+spearman_correlation -0.6878
+epoch is 727
+train_score is 0.7055, denas_score is -2531040937434.6562
+spearman_correlation -0.6898
+epoch is 729
+train_score is 0.6207, denas_score is -23138039.9219
+spearman_correlation -0.6914
+epoch is 730
+train_score is 0.6439, denas_score is -33557490.5614
+spearman_correlation -0.6915
+epoch is 732
+train_score is 0.6285, denas_score is -328278665.0625
+spearman_correlation -0.6895
+epoch is 733
+train_score is 0.6190, denas_score is -23488686.0332
+spearman_correlation -0.6913
+epoch is 734
+train_score is 0.6433, denas_score is -36773388.0451
+spearman_correlation -0.6915
+epoch is 735
+train_score is 0.5220, denas_score is -22491353.7756
+spearman_correlation -0.6946
+epoch is 736
+train_score is 0.6491, denas_score is -35566851.3125
+spearman_correlation -0.6944
+epoch is 737
+train_score is 0.6699, denas_score is -5302714205733.0000
+spearman_correlation -0.6942
+epoch is 738
+train_score is 0.6927, denas_score is -1469837289.2188
+spearman_correlation -0.6945
+epoch is 740
+train_score is 0.5960, denas_score is -23407343.5703
+spearman_correlation -0.6965
+epoch is 741
+train_score is 0.6645, denas_score is -36521491.7598
+spearman_correlation -0.6965
+epoch is 746
+train_score is 0.6827, denas_score is -1624751666.4609
+spearman_correlation -0.6969
+epoch is 747
+train_score is 0.6525, denas_score is -22967399.9453
+spearman_correlation -0.6942
+epoch is 748
+train_score is 0.4038, denas_score is -23332065.8860
+spearman_correlation -0.6965
+epoch is 750
+train_score is 0.6639, denas_score is -30193256.2681
+spearman_correlation -0.6945
+epoch is 752
+train_score is 0.5244, denas_score is -30134867.0192
+spearman_correlation -0.6956
+epoch is 753
+train_score is 0.6494, denas_score is -40425163.6992
+spearman_correlation -0.6959
+epoch is 754
+train_score is 0.4588, denas_score is -22779661.9225
+spearman_correlation -0.6989
+epoch is 757
+train_score is 0.6725, denas_score is -70472311.9973
+spearman_correlation -0.6992
+epoch is 763
+train_score is 0.6171, denas_score is -23125884.2100
+spearman_correlation -0.7008
+epoch is 765
+train_score is 0.6613, denas_score is -36738790.3848
+spearman_correlation -0.7010
+epoch is 766
+train_score is 0.6300, denas_score is -30697760.8154
+spearman_correlation -0.7017
+epoch is 768
+train_score is 0.6795, denas_score is -254709442.0234
+spearman_correlation -0.7015
+epoch is 771
+train_score is 0.6786, denas_score is -234270905755436056576.0000
+spearman_correlation -0.7023
+epoch is 772
+train_score is 0.7169, denas_score is -903431130.6328
+spearman_correlation -0.7016
+epoch is 774
+train_score is 0.7195, denas_score is -25916070016.1953
+spearman_correlation -0.7036
+epoch is 775
+train_score is 0.6586, denas_score is -1060818077.7295
+spearman_correlation -0.7033
+epoch is 777
+train_score is 0.7095, denas_score is -3230039174.2085
+spearman_correlation -0.7046
+epoch is 780
+train_score is 0.6823, denas_score is -851474886.2188
+spearman_correlation -0.7047
+epoch is 781
+train_score is 0.6247, denas_score is -35753554.3418
+spearman_correlation -0.7051
+epoch is 782
+train_score is 0.7115, denas_score is -314437570.6562
+spearman_correlation -0.7033
+epoch is 786
+train_score is 0.6662, denas_score is -36358479.9287
+spearman_correlation -0.7032
+epoch is 787
+train_score is 0.6224, denas_score is -22984893.6251
+spearman_correlation -0.7045
+epoch is 788
+train_score is 0.6356, denas_score is -30767348.6219
+spearman_correlation -0.7050
+epoch is 792
+train_score is 0.6548, denas_score is -36328527.7500
+spearman_correlation -0.7050
+epoch is 793
+train_score is 0.6369, denas_score is -22946522.2671
+spearman_correlation -0.7053
+epoch is 794
+train_score is 0.6441, denas_score is -34353900.5625
+spearman_correlation -0.7054
+epoch is 797
+train_score is 0.5917, denas_score is -23068157.6445
+spearman_correlation -0.7070
+epoch is 798
+train_score is 0.6886, denas_score is -692126489186368384.0000
+spearman_correlation -0.7085
+epoch is 799
+train_score is 0.6601, denas_score is -1212615777.2500
+spearman_correlation -0.7083
+epoch is 800
+train_score is 0.6657, denas_score is -1022900731.5000
+spearman_correlation -0.7085
+epoch is 802
+train_score is 0.6533, denas_score is -29972623.7262
+spearman_correlation -0.7076
+epoch is 807
+train_score is 0.6630, denas_score is -30878991.9416
+spearman_correlation -0.7066
+epoch is 808
+train_score is 0.6534, denas_score is -36003378.1025
+spearman_correlation -0.7065
+epoch is 811
+train_score is 0.6528, denas_score is -30664283.9116
+spearman_correlation -0.7061
+epoch is 813
+train_score is 0.6536, denas_score is -516839562.5000
+spearman_correlation -0.7061
+epoch is 815
+train_score is 0.6645, denas_score is -1279217814.6875
+spearman_correlation -0.7063
+epoch is 818
+train_score is 0.6743, denas_score is -1977701981.5938
+spearman_correlation -0.7070
+epoch is 820
+train_score is 0.7097, denas_score is -128364429583825759838928896.0000
+spearman_correlation -0.7093
+epoch is 821
+train_score is 0.7161, denas_score is -191852626.6562
+spearman_correlation -0.7072
+epoch is 822
+train_score is 0.6423, denas_score is -30437872.3438
+spearman_correlation -0.7075
+epoch is 824
+train_score is 0.6596, denas_score is -36828293.3460
+spearman_correlation -0.7080
+epoch is 828
+train_score is 0.7124, denas_score is -7224487823.8166
+spearman_correlation -0.7096
+epoch is 829
+train_score is 0.5856, denas_score is -22952010.4336
+spearman_correlation -0.7113
+epoch is 831
+train_score is 0.6659, denas_score is -30167144.5209
+spearman_correlation -0.7093
+epoch is 832
+train_score is 0.6607, denas_score is -736300014.2500
+spearman_correlation -0.7095
+epoch is 833
+train_score is 0.5872, denas_score is -30136597.5239
+spearman_correlation -0.7104
+epoch is 835
+train_score is 0.6517, denas_score is -36421317.6387
+spearman_correlation -0.7104
+epoch is 837
+train_score is 0.6383, denas_score is -35922369.2012
+spearman_correlation -0.7107
+epoch is 839
+train_score is 0.6633, denas_score is -36907623.6406
+spearman_correlation -0.7109
+epoch is 842
+train_score is 0.6626, denas_score is -30598371.1111
+spearman_correlation -0.7097
+epoch is 844
+train_score is 0.6815, denas_score is -206741685.1250
+spearman_correlation -0.7093
+epoch is 846
+train_score is 0.6081, denas_score is -22731418.9590
+spearman_correlation -0.7109
+epoch is 847
+train_score is 0.6636, denas_score is -36237421.9883
+spearman_correlation -0.7105
+epoch is 849
+train_score is 0.6484, denas_score is -36812970.1562
+spearman_correlation -0.7104
+epoch is 850
+train_score is 0.7102, denas_score is -12109721297092263936.0000
+spearman_correlation -0.7125
+epoch is 851
+train_score is 0.6874, denas_score is -116561457042.3594
+spearman_correlation -0.7136
+epoch is 852
+train_score is 0.6399, denas_score is -6489778951.5625
+spearman_correlation -0.7086
+epoch is 853
+train_score is 0.6346, denas_score is -30379441.9219
+spearman_correlation -0.7094
+epoch is 855
+train_score is 0.6613, denas_score is -35099848.1094
+spearman_correlation -0.7086
+epoch is 858
+train_score is 0.4812, denas_score is -22660896.8945
+spearman_correlation -0.7112
+epoch is 860
+train_score is 0.6470, denas_score is -30814337.0156
+spearman_correlation -0.7111
+epoch is 861
+train_score is 0.6062, denas_score is -23187752.7441
+spearman_correlation -0.7125
+epoch is 866
+train_score is 0.6543, denas_score is -30403776.7676
+spearman_correlation -0.7119
+epoch is 867
+train_score is 0.7086, denas_score is -1258966276.7500
+spearman_correlation -0.7119
+epoch is 868
+train_score is 0.6411, denas_score is -22576518.6255
+spearman_correlation -0.7114
+epoch is 869
+train_score is 0.5135, denas_score is -139718180.0222
+spearman_correlation -0.7075
+epoch is 871
+train_score is 0.5518, denas_score is -22924534.0591
+spearman_correlation -0.7093
+epoch is 872
+train_score is 0.6747, denas_score is -2202203264.7500
+spearman_correlation -0.7099
+epoch is 874
+train_score is 0.5715, denas_score is -23176135.0156
+spearman_correlation -0.7115
+epoch is 882
+train_score is 0.6665, denas_score is -2042539148.6250
+spearman_correlation -0.7120
+epoch is 887
+train_score is 0.6747, denas_score is -655771703.2188
+spearman_correlation -0.7124
+epoch is 890
+train_score is 0.5416, denas_score is -23183149.5257
+spearman_correlation -0.7140
+epoch is 895
+train_score is 0.6421, denas_score is -35856042.1758
+spearman_correlation -0.7141
+epoch is 898
+train_score is 0.6722, denas_score is -30491412.4664
+spearman_correlation -0.7118
+epoch is 902
+train_score is 0.6360, denas_score is -23405586.2468
+spearman_correlation -0.7126
+epoch is 905
+train_score is 0.6825, denas_score is -1613794444.3750
+spearman_correlation -0.7132
+epoch is 906
+train_score is 0.7026, denas_score is -2117780772.1875
+spearman_correlation -0.7139
+epoch is 911
+train_score is 0.6793, denas_score is -661191911.8828
+spearman_correlation -0.7142
+epoch is 914
+train_score is 0.4926, denas_score is -30289754.5815
+spearman_correlation -0.7148
+epoch is 916
+train_score is 0.6877, denas_score is -1960508148.4375
+spearman_correlation -0.7154
+epoch is 923
+train_score is 0.6755, denas_score is -36346243.6233
+spearman_correlation -0.7142
+epoch is 924
+train_score is 0.6470, denas_score is -36596303.4356
+spearman_correlation -0.7141
+epoch is 925
+train_score is 0.6053, denas_score is -22874233.8848
+spearman_correlation -0.7154
+epoch is 927
+train_score is 0.7151, denas_score is -4001114336.9375
+spearman_correlation -0.7167
+epoch is 929
+train_score is 0.6397, denas_score is -943658356.0625
+spearman_correlation -0.7145
+epoch is 930
+train_score is 0.6354, denas_score is -23181728.0120
+spearman_correlation -0.7152
+epoch is 931
+train_score is 0.6505, denas_score is -417415534.5000
+spearman_correlation -0.7148
+epoch is 932
+train_score is 0.6617, denas_score is -331291749.0312
+spearman_correlation -0.7151
+epoch is 935
+train_score is 0.6723, denas_score is -2937808957.7188
+spearman_correlation -0.7154
+epoch is 936
+train_score is 0.6752, denas_score is -531910284.3750
+spearman_correlation -0.7159
+epoch is 937
+train_score is 0.7145, denas_score is -1767822316.6250
+spearman_correlation -0.7164
+epoch is 938
+train_score is 0.5622, denas_score is -22897662.4880
+spearman_correlation -0.7180
+epoch is 940
+train_score is 0.7089, denas_score is -1369923951439.8125
+spearman_correlation -0.7194
+epoch is 943
+train_score is 0.6769, denas_score is -1310648107675761.2500
+spearman_correlation -0.7200
+epoch is 945
+train_score is 0.6252, denas_score is -23362271.1965
+spearman_correlation -0.7212
+epoch is 949
+train_score is 0.6698, denas_score is -36275346.6680
+spearman_correlation -0.7206
+epoch is 952
+train_score is 0.6262, denas_score is -30646983.3750
+spearman_correlation -0.7211
+epoch is 956
+train_score is 0.6391, denas_score is -30465686.3145
+spearman_correlation -0.7216
+epoch is 959
+train_score is 0.6848, denas_score is -5723804134983132160.0000
+spearman_correlation -0.7227
+epoch is 960
+train_score is 0.6843, denas_score is -2431388829557092864.0000
+spearman_correlation -0.7238
+epoch is 961
+train_score is 0.6699, denas_score is -20436197564106.0000
+spearman_correlation -0.7236
+epoch is 963
+train_score is 0.5788, denas_score is -30714440.8092
+spearman_correlation -0.7236
+epoch is 965
+train_score is 0.6177, denas_score is -36561375.7182
+spearman_correlation -0.7229
+epoch is 968
+train_score is 0.3274, denas_score is -30632318.8343
+spearman_correlation -0.7227
+epoch is 971
+train_score is 0.6670, denas_score is -36730186.2002
+spearman_correlation -0.7229
+epoch is 973
+train_score is 0.6247, denas_score is -23156529.6810
+spearman_correlation -0.7239
+epoch is 976
+train_score is 0.6441, denas_score is -36340544.0566
+spearman_correlation -0.7239
+epoch is 978
+train_score is 0.5383, denas_score is -22983481.0331
+spearman_correlation -0.7254
+epoch is 981
+train_score is 0.6654, denas_score is -26122570.2184
+spearman_correlation -0.7234
+epoch is 983
+train_score is 0.6598, denas_score is -30801705.2695
+spearman_correlation -0.7229
+epoch is 985
+train_score is 0.6875, denas_score is -2539677524852898304.0000
+spearman_correlation -0.7240
+epoch is 988
+train_score is 0.6590, denas_score is -3006181334.2500
+spearman_correlation -0.7229
+epoch is 989
+train_score is 0.4305, denas_score is -36513449.9671
+spearman_correlation -0.7208
+epoch is 991
+train_score is 0.6586, denas_score is -3480684272.9688
+spearman_correlation -0.7196
+epoch is 992
+train_score is 0.5739, denas_score is -23188510.0708
+spearman_correlation -0.7208
+epoch is 993
+train_score is 0.5446, denas_score is -31061869.6663
+spearman_correlation -0.7203
+epoch is 996
+train_score is 0.5619, denas_score is -23080483.6177
+spearman_correlation -0.7216
+epoch is 997
+train_score is 0.5571, denas_score is -35890422.4352
+spearman_correlation -0.7208
+epoch is 998
+train_score is 0.6260, denas_score is -27575923.2201
+spearman_correlation -0.7217
+epoch is 999
+train_score is 0.6787, denas_score is -36107988.1375
+spearman_correlation -0.7199
+epoch is 1002
+train_score is 0.6566, denas_score is -30927650.5851
+spearman_correlation -0.7196
+epoch is 1003
+train_score is 0.7091, denas_score is -2214995978.8125
+spearman_correlation -0.7202
+epoch is 1004
+train_score is 0.6356, denas_score is -30442665.7051
+spearman_correlation -0.7207
+epoch is 1006
+train_score is 0.6773, denas_score is -800429525480645.6250
+spearman_correlation -0.7213
+epoch is 1008
+train_score is 0.6621, denas_score is -30701148.5254
+spearman_correlation -0.7204
+epoch is 1019
+train_score is 0.5005, denas_score is -30308767.2728
+spearman_correlation -0.7208
+epoch is 1023
+train_score is 0.5528, denas_score is -22850854.8961
+spearman_correlation -0.7222
+epoch is 1024
+train_score is 0.6735, denas_score is -2497728031.0469
+spearman_correlation -0.7226
+epoch is 1027
+train_score is 0.6433, denas_score is -30458297.5469
+spearman_correlation -0.7228
+epoch is 1031
+train_score is 0.6731, denas_score is -18422166623049.8047
+spearman_correlation -0.7230
+epoch is 1032
+train_score is 0.6821, denas_score is -13690624051252985856.0000
+spearman_correlation -0.7239
+epoch is 1034
+train_score is 0.5586, denas_score is -23463296.3100
+spearman_correlation -0.7249
+epoch is 1037
+train_score is 0.6602, denas_score is -36811207.7822
+spearman_correlation -0.7252
+epoch is 1039
+train_score is 0.5770, denas_score is -36527069.6446
+spearman_correlation -0.7237
+epoch is 1041
+train_score is 0.6590, denas_score is -265019309324471498191142912.0000
+spearman_correlation -0.7213
+epoch is 1044
+train_score is 0.6656, denas_score is -31099416.3887
+spearman_correlation -0.7205
+epoch is 1045
+train_score is 0.5638, denas_score is -22978566.2922
+spearman_correlation -0.7218
+epoch is 1047
+train_score is 0.6369, denas_score is -22719585.3456
+spearman_correlation -0.7218
+epoch is 1054
+train_score is 0.6809, denas_score is -632451964.7778
+spearman_correlation -0.7220
+epoch is 1056
+train_score is 0.6424, denas_score is -22597869.1543
+spearman_correlation -0.7212
+epoch is 1058
+train_score is 0.6678, denas_score is -30734602.2184
+spearman_correlation -0.7202
+epoch is 1060
+train_score is 0.7055, denas_score is -428909563.5984
+spearman_correlation -0.7198
+epoch is 1062
+train_score is 0.6769, denas_score is -2492864844.8125
+spearman_correlation -0.7203
+epoch is 1063
+train_score is 0.6803, denas_score is -150831841.6550
+spearman_correlation -0.7202
+epoch is 1065
+train_score is 0.6561, denas_score is -36620133.4414
+spearman_correlation -0.7205
+epoch is 1068
+train_score is 0.6075, denas_score is -36708464.6010
+spearman_correlation -0.7195
+epoch is 1070
+train_score is 0.6617, denas_score is -23236477.2305
+spearman_correlation -0.7175
+epoch is 1071
+train_score is 0.6545, denas_score is -23245016.4717
+spearman_correlation -0.7164
+epoch is 1074
+train_score is 0.6533, denas_score is -30498468.1707
+spearman_correlation -0.7160
+epoch is 1077
+train_score is 0.6448, denas_score is -4187951.1461
+spearman_correlation -0.7148
+epoch is 1082
+train_score is 0.6686, denas_score is -2971434044.5156
+spearman_correlation -0.7150
+epoch is 1083
+train_score is 0.6131, denas_score is -35882549.7778
+spearman_correlation -0.7147
+epoch is 1084
+train_score is 0.6478, denas_score is -23441213.0195
+spearman_correlation -0.7143
+epoch is 1086
+train_score is 0.6760, denas_score is -880181870.6562
+spearman_correlation -0.7148
+epoch is 1090
+train_score is 0.6313, denas_score is -36136790.1071
+spearman_correlation -0.7146
+epoch is 1091
+train_score is 0.6373, denas_score is -36262803.0156
+spearman_correlation -0.7145
+epoch is 1097
+train_score is 0.6734, denas_score is -48138178604897.9141
+spearman_correlation -0.7149
+epoch is 1098
+train_score is 0.6841, denas_score is -1814426177.3750
+spearman_correlation -0.7155
+epoch is 1100
+train_score is 0.6367, denas_score is -30658109.5625
+spearman_correlation -0.7157
+epoch is 1101
+train_score is 0.6911, denas_score is -2519848076.9688
+spearman_correlation -0.7164
+epoch is 1103
+train_score is 0.6513, denas_score is -30660783.1357
+spearman_correlation -0.7161
+epoch is 1106
+train_score is 0.6870, denas_score is -131828102.5156
+spearman_correlation -0.7157
+epoch is 1107
+train_score is 0.6718, denas_score is -108574508.3872
+spearman_correlation -0.7161
+epoch is 1108
+train_score is 0.6792, denas_score is -1738870931.9375
+spearman_correlation -0.7166
+epoch is 1110
+train_score is 0.6466, denas_score is -890962267.8125
+spearman_correlation -0.7155
+epoch is 1112
+train_score is 0.6748, denas_score is -3021081502.8438
+spearman_correlation -0.7160
+epoch is 1114
+train_score is 0.6710, denas_score is -2711714921.2500
+spearman_correlation -0.7162
+epoch is 1117
+train_score is 0.6669, denas_score is -106961232.5312
+spearman_correlation -0.7168
+epoch is 1120
+train_score is 0.6347, denas_score is -30925102.0840
+spearman_correlation -0.7169
+epoch is 1121
+train_score is 0.6227, denas_score is -23107175.8594
+spearman_correlation -0.7177
+epoch is 1122
+train_score is 0.6648, denas_score is -32840719679888105472.0000
+spearman_correlation -0.7167
+epoch is 1127
+train_score is 0.6514, denas_score is -137499037.1082
+spearman_correlation -0.7168
+epoch is 1128
+train_score is 0.6668, denas_score is -36552098.4209
+spearman_correlation -0.7169
+epoch is 1129
+train_score is 0.6624, denas_score is -31037941.0361
+spearman_correlation -0.7163
+epoch is 1132
+train_score is 0.6778, denas_score is -3431016430.1094
+spearman_correlation -0.7169
+epoch is 1133
+train_score is 0.6710, denas_score is -1556302850.8750
+spearman_correlation -0.7173
+epoch is 1137
+train_score is 0.6686, denas_score is -29957062.6895
+spearman_correlation -0.7154
+epoch is 1138
+train_score is 0.7035, denas_score is -4695396889.3125
+spearman_correlation -0.7163
+epoch is 1139
+train_score is 0.6399, denas_score is -30517033.8906
+spearman_correlation -0.7166
+epoch is 1141
+train_score is 0.7014, denas_score is -30557108.8330
+spearman_correlation -0.7121
+epoch is 1144
+train_score is 0.6482, denas_score is -36356587.0938
+spearman_correlation -0.7120
+epoch is 1146
+train_score is 0.6887, denas_score is -159851000311.3574
+spearman_correlation -0.7129
+epoch is 1147
+train_score is 0.6865, denas_score is -5585232978.6250
+spearman_correlation -0.7137
+epoch is 1148
+train_score is 0.7043, denas_score is -1279621281.1925
+spearman_correlation -0.7139
+epoch is 1149
+train_score is 0.6523, denas_score is -36004738.8228
+spearman_correlation -0.7139
+epoch is 1150
+train_score is 0.5817, denas_score is -22283203.5820
+spearman_correlation -0.7151
+epoch is 1151
+train_score is 0.6109, denas_score is -30242266.8496
+spearman_correlation -0.7157
+epoch is 1156
+train_score is 0.6731, denas_score is -1129058280.9375
+spearman_correlation -0.7161
+epoch is 1159
+train_score is 0.6426, denas_score is -1142857625.9248
+spearman_correlation -0.7146
+epoch is 1163
+train_score is 0.7069, denas_score is -31325461366477496320.0000
+spearman_correlation -0.7160
+epoch is 1164
+train_score is 0.6990, denas_score is -359778061.0312
+spearman_correlation -0.7155
+epoch is 1165
+train_score is 0.7077, denas_score is -14771689778485.5625
+spearman_correlation -0.7167
+epoch is 1166
+train_score is 0.5818, denas_score is -23351139.8388
+spearman_correlation -0.7177
+epoch is 1167
+train_score is 0.6929, denas_score is -3578899332.2188
+spearman_correlation -0.7184
+epoch is 1168
+train_score is 0.5517, denas_score is -30374973.1215
+spearman_correlation -0.7187
+epoch is 1169
+train_score is 0.6322, denas_score is -26907210.9759
+spearman_correlation -0.7194
+epoch is 1172
+train_score is 0.5977, denas_score is -35939808.2769
+spearman_correlation -0.7190
+epoch is 1180
+train_score is 0.6508, denas_score is -435619742.1875
+spearman_correlation -0.7187
+epoch is 1182
+train_score is 0.6464, denas_score is -2286533588.0000
+spearman_correlation -0.7167
+epoch is 1185
+train_score is 0.6788, denas_score is -306948253959692516048905437184.0000
+spearman_correlation -0.7171
+epoch is 1186
+train_score is 0.5555, denas_score is -30289490.7841
+spearman_correlation -0.7175
+epoch is 1196
+train_score is 0.6404, denas_score is -1384763601.1250
+spearman_correlation -0.7158
+epoch is 1200
+train_score is 0.6606, denas_score is -36340437.5986
+spearman_correlation -0.7157
+epoch is 1209
+train_score is 0.6502, denas_score is -432633952.5625
+spearman_correlation -0.7153
+epoch is 1210
+train_score is 0.6862, denas_score is -614266380.5684
+spearman_correlation -0.7153
+epoch is 1212
+train_score is 0.7167, denas_score is -2474366239.3793
+spearman_correlation -0.7160
+epoch is 1216
+train_score is 0.5939, denas_score is -36416051.4694
+spearman_correlation -0.7151
+epoch is 1217
+train_score is 0.6457, denas_score is -55421918.8157
+spearman_correlation -0.7151
+epoch is 1219
+train_score is 0.6462, denas_score is -23267817.9004
+spearman_correlation -0.7148
+epoch is 1225
+train_score is 0.6284, denas_score is -23164030.2388
+spearman_correlation -0.7155
+epoch is 1230
+train_score is 0.6223, denas_score is -3928962044.0000
+spearman_correlation -0.7106
+epoch is 1231
+train_score is 0.6802, denas_score is -2185127306.0625
+spearman_correlation -0.7110
+epoch is 1233
+train_score is 0.5201, denas_score is -30932649.7995
+spearman_correlation -0.7106
+epoch is 1235
+train_score is 0.6840, denas_score is -665821421562358016.0000
+spearman_correlation -0.7114
+epoch is 1240
+train_score is 0.6424, denas_score is -198453373.1562
+spearman_correlation -0.7110
+epoch is 1242
+train_score is 0.7085, denas_score is -1605940110.9375
+spearman_correlation -0.7113
+epoch is 1243
+train_score is 0.6893, denas_score is -450347212138.6211
+spearman_correlation -0.7121
+epoch is 1244
+train_score is 0.6503, denas_score is -23199175.0967
+spearman_correlation -0.7113
+epoch is 1245
+train_score is 0.6235, denas_score is -104152751.6816
+spearman_correlation -0.7103
+epoch is 1251
+train_score is 0.5464, denas_score is -23353462.6689
+spearman_correlation -0.7113
+epoch is 1254
+train_score is 0.6832, denas_score is -3211457168244660736.0000
+spearman_correlation -0.7121
+epoch is 1262
+train_score is 0.6627, denas_score is -1654014514.8594
+spearman_correlation -0.7120
+epoch is 1263
+train_score is 0.5671, denas_score is -4636649766592.5654
+spearman_correlation -0.7045
+epoch is 1266
+train_score is 0.5310, denas_score is -23229796.8995
+spearman_correlation -0.7056
+epoch is 1267
+train_score is 0.6619, denas_score is -37268727.3051
+spearman_correlation -0.7059
+epoch is 1270
+train_score is 0.7173, denas_score is -510517605.3438
+spearman_correlation -0.7053
+epoch is 1271
+train_score is 0.6595, denas_score is -31130816.5483
+spearman_correlation -0.7050
+epoch is 1273
+train_score is 0.5271, denas_score is -4769365.9791
+spearman_correlation -0.7065
+epoch is 1274
+train_score is 0.6759, denas_score is -834344983.1128
+spearman_correlation -0.7069
+epoch is 1275
+train_score is 0.6884, denas_score is -958182027.8122
+spearman_correlation -0.7069
+epoch is 1276
+train_score is 0.6414, denas_score is -1336704035.0625
+spearman_correlation -0.7053
+epoch is 1277
+train_score is 0.6360, denas_score is -1311522730.2500
+spearman_correlation -0.7033
+epoch is 1278
+train_score is 0.6851, denas_score is -685246828.3125
+spearman_correlation -0.7033
+epoch is 1279
+train_score is 0.6457, denas_score is -526278245.1250
+spearman_correlation -0.7027
+epoch is 1280
+train_score is 0.6475, denas_score is -2513395923.5000
+spearman_correlation -0.7009
+epoch is 1286
+train_score is 0.6878, denas_score is -875705287.8750
+spearman_correlation -0.7008
+epoch is 1290
+train_score is 0.6665, denas_score is -1880966384.0000
+spearman_correlation -0.7010
+epoch is 1291
+train_score is 0.6819, denas_score is -4098028276.7539
+spearman_correlation -0.7017
+epoch is 1296
+train_score is 0.6661, denas_score is -1365436068.2500
+spearman_correlation -0.7019
+epoch is 1302
+train_score is 0.6432, denas_score is -9427874781.0400
+spearman_correlation -0.6990
+epoch is 1304
+train_score is 0.6875, denas_score is -73861410195.9266
+spearman_correlation -0.6998
+epoch is 1308
+train_score is 0.6555, denas_score is -37391478.1331
+spearman_correlation -0.7001
+epoch is 1310
+train_score is 0.6756, denas_score is -44639525.2185
+spearman_correlation -0.7000
+epoch is 1312
+train_score is 0.6744, denas_score is -1599739283.3774
+spearman_correlation -0.7004
+epoch is 1315
+train_score is 0.5185, denas_score is -128271612.8390
+spearman_correlation -0.6982
+epoch is 1317
+train_score is 0.6000, denas_score is -35835802.3783
+spearman_correlation -0.6981
+epoch is 1319
+train_score is 0.6606, denas_score is -23231659.5394
+spearman_correlation -0.6966
+epoch is 1322
+train_score is 0.6816, denas_score is -140832546.1905
+spearman_correlation -0.6964
+epoch is 1324
+train_score is 0.6732, denas_score is -2354436038.3750
+spearman_correlation -0.6967
+epoch is 1329
+train_score is 0.6467, denas_score is -36699588.5020
+spearman_correlation -0.6968
+epoch is 1333
+train_score is 0.6329, denas_score is -23644154.9648
+spearman_correlation -0.6974
+epoch is 1334
+train_score is 0.6734, denas_score is -36458282.7194
+spearman_correlation -0.6970
+epoch is 1340
+train_score is 0.6506, denas_score is -36215942.7298
+spearman_correlation -0.6970
+epoch is 1341
+train_score is 0.5542, denas_score is -22834036.4003
+spearman_correlation -0.6983
+epoch is 1342
+train_score is 0.6474, denas_score is -30734787.5000
+spearman_correlation -0.6982
+epoch is 1349
+train_score is 0.6584, denas_score is -2713702997.3125
+spearman_correlation -0.6973
+epoch is 1353
+train_score is 0.6645, denas_score is -30533207.5689
+spearman_correlation -0.6965
+epoch is 1356
+train_score is 0.6546, denas_score is -35739306.9910
+spearman_correlation -0.6964
+epoch is 1360
+train_score is 0.6452, denas_score is -36474105.3271
+spearman_correlation -0.6964
+epoch is 1364
+train_score is 0.6239, denas_score is -23201607.1406
+spearman_correlation -0.6972
+epoch is 1365
+train_score is 0.6019, denas_score is -23095393.8286
+spearman_correlation -0.6981
+epoch is 1366
+train_score is 0.6826, denas_score is -13321159048547.8125
+spearman_correlation -0.6988
+epoch is 1370
+train_score is 0.6826, denas_score is -76526703073078560.0000
+spearman_correlation -0.6997
+epoch is 1372
+train_score is 0.6311, denas_score is -22643855.0000
+spearman_correlation -0.7002
+epoch is 1373
+train_score is 0.7101, denas_score is -19915225526742078717952.0000
+spearman_correlation -0.7016
+epoch is 1374
+train_score is 0.6625, denas_score is -1492227238.5000
+spearman_correlation -0.7016
+epoch is 1375
+train_score is 0.6566, denas_score is -30727364.1416
+spearman_correlation -0.7013
+epoch is 1379
+train_score is 0.6474, denas_score is -5032313790.9613
+spearman_correlation -0.6992
+epoch is 1382
+train_score is 0.7065, denas_score is -23734993974112.0000
+spearman_correlation -0.7004
+epoch is 1383
+train_score is 0.6531, denas_score is -35436957.3438
+spearman_correlation -0.7003
+epoch is 1384
+train_score is 0.6778, denas_score is -2950892282.8906
+spearman_correlation -0.7007
+epoch is 1385
+train_score is 0.6747, denas_score is -703602029.4062
+spearman_correlation -0.7009
+epoch is 1389
+train_score is 0.7119, denas_score is -2020962194.0938
+spearman_correlation -0.7013
+epoch is 1391
+train_score is 0.6821, denas_score is -3268367388516727808.0000
+spearman_correlation -0.7020
+epoch is 1392
+train_score is 0.7136, denas_score is -186162004.2617
+spearman_correlation -0.7009
+epoch is 1394
+train_score is 0.6436, denas_score is -36044500.3750
+spearman_correlation -0.7010
+epoch is 1397
+train_score is 0.7154, denas_score is -4778229816.4375
+spearman_correlation -0.7019
+epoch is 1399
+train_score is 0.6012, denas_score is -23462554.8047
+spearman_correlation -0.7027
+epoch is 1404
+train_score is 0.6436, denas_score is -779625669.3125
+spearman_correlation -0.7018
+epoch is 1405
+train_score is 0.6114, denas_score is -22767054.5254
+spearman_correlation -0.7027
+epoch is 1409
+train_score is 0.7093, denas_score is -61619495565063.2891
+spearman_correlation -0.7038
+epoch is 1410
+train_score is 0.6477, denas_score is -36548820.6544
+spearman_correlation -0.7038
+epoch is 1411
+train_score is 0.6228, denas_score is -22635002.0469
+spearman_correlation -0.7045
+epoch is 1412
+train_score is 0.6645, denas_score is -30145209.1353
+spearman_correlation -0.7034
+epoch is 1414
+train_score is 0.6750, denas_score is -808174547.8125
+spearman_correlation -0.7036
+epoch is 1415
+train_score is 0.6487, denas_score is -36809364.2656
+spearman_correlation -0.7036
+epoch is 1416
+train_score is 0.7098, denas_score is -568824622.1250
+spearman_correlation -0.7031
+epoch is 1419
+train_score is 0.6225, denas_score is -23119581.0576
+spearman_correlation -0.7039
+epoch is 1420
+train_score is 0.6266, denas_score is -31302529.0988
+spearman_correlation -0.7040
+epoch is 1423
+train_score is 0.6428, denas_score is -2294093771.6182
+spearman_correlation -0.7020
+epoch is 1424
+train_score is 0.6614, denas_score is -30572122.8159
+spearman_correlation -0.7013
+epoch is 1425
+train_score is 0.6675, denas_score is -433115576.0000
+spearman_correlation -0.7017
+epoch is 1427
+train_score is 0.6443, denas_score is -30603870.5122
+spearman_correlation -0.7017
+epoch is 1429
+train_score is 0.5941, denas_score is -29931652.2457
+spearman_correlation -0.7024
+epoch is 1433
+train_score is 0.7131, denas_score is -1862695024.5625
+spearman_correlation -0.7027
+epoch is 1435
+train_score is 0.6515, denas_score is -22356644.3730
+spearman_correlation -0.7012
+epoch is 1437
+train_score is 0.6722, denas_score is -1877026731.5000
+spearman_correlation -0.7014
+epoch is 1440
+train_score is 0.6839, denas_score is -36380791.8429
+spearman_correlation -0.7002
+epoch is 1442
+train_score is 0.6180, denas_score is -31433937.2623
+spearman_correlation -0.7003
+epoch is 1443
+train_score is 0.6154, denas_score is -2733724219.7500
+spearman_correlation -0.6962
+epoch is 1444
+train_score is 0.6303, denas_score is -30002333.8657
+spearman_correlation -0.6968
+epoch is 1446
+train_score is 0.6519, denas_score is -111256367.7500
+spearman_correlation -0.6968
+epoch is 1449
+train_score is 0.6839, denas_score is -901515651.8125
+spearman_correlation -0.6969
+epoch is 1452
+train_score is 0.6629, denas_score is -842881382.1328
+spearman_correlation -0.6970
+epoch is 1454
+train_score is 0.5923, denas_score is -23023286.7100
+spearman_correlation -0.6979
+epoch is 1455
+train_score is 0.6414, denas_score is -863759618.8125
+spearman_correlation -0.6968
+epoch is 1459
+train_score is 0.7079, denas_score is -3483778501.3438
+spearman_correlation -0.6976
+epoch is 1465
+train_score is 0.6536, denas_score is -30464906.7325
+spearman_correlation -0.6973
+epoch is 1470
+train_score is 0.6588, denas_score is -1102796746.6719
+spearman_correlation -0.6970
+epoch is 1473
+train_score is 0.6532, denas_score is -36983905.5654
+spearman_correlation -0.6972
+epoch is 1475
+train_score is 0.6148, denas_score is -23312921.8569
+spearman_correlation -0.6979
+epoch is 1477
+train_score is 0.6842, denas_score is -7141764061783767040.0000
+spearman_correlation -0.6987
+epoch is 1479
+train_score is 0.7157, denas_score is -773558308.1562
+spearman_correlation -0.6982
+epoch is 1480
+train_score is 0.6305, denas_score is -30355116.3438
+spearman_correlation -0.6987
+epoch is 1481
+train_score is 0.6211, denas_score is -134336185.7373
+spearman_correlation -0.6978
+epoch is 1482
+train_score is 0.6693, denas_score is -3754520365.4517
+spearman_correlation -0.6979
+epoch is 1483
+train_score is 0.6707, denas_score is -3239220593.6875
+spearman_correlation -0.6982
+epoch is 1485
+train_score is 0.6484, denas_score is -11353775923.8125
+spearman_correlation -0.6962
+epoch is 1490
+train_score is 0.6377, denas_score is -35355338.7800
+spearman_correlation -0.6964
+epoch is 1491
+train_score is 0.6397, denas_score is -1707220911.1562
+spearman_correlation -0.6947
+epoch is 1495
+train_score is 0.6450, denas_score is -23167341.7307
+spearman_correlation -0.6945
+epoch is 1501
+train_score is 0.6416, denas_score is -2448891771.7402
+spearman_correlation -0.6924
+epoch is 1503
+train_score is 0.6812, denas_score is -19068138.3311
+spearman_correlation -0.6871
+epoch is 1505
+train_score is 0.6346, denas_score is -35425760.7500
+spearman_correlation -0.6873
+epoch is 1506
+train_score is 0.4478, denas_score is -102838054.5348
+spearman_correlation -0.6854
+epoch is 1508
+train_score is 0.3524, denas_score is -22856876.2123
+spearman_correlation -0.6868
+epoch is 1513
+train_score is 0.2304, denas_score is -36972051.1876
+spearman_correlation -0.6852
+epoch is 1516
+train_score is 0.5002, denas_score is -4968978.8852
+spearman_correlation -0.6867
+epoch is 1520
+train_score is 0.6793, denas_score is -4435269090.7734
+spearman_correlation -0.6873
+epoch is 1521
+train_score is 0.6385, denas_score is -35725079.4375
+spearman_correlation -0.6875
+epoch is 1523
+train_score is 0.6656, denas_score is -1370982440.5000
+spearman_correlation -0.6876
+epoch is 1524
+train_score is 0.7186, denas_score is -163831196139699.8438
+spearman_correlation -0.6890
+epoch is 1525
+train_score is 0.6416, denas_score is -30779195.5098
+spearman_correlation -0.6891
+epoch is 1527
+train_score is 0.6598, denas_score is -36933468.0312
+spearman_correlation -0.6893
+epoch is 1528
+train_score is 0.7084, denas_score is -25907538998.5167
+spearman_correlation -0.6902
+epoch is 1530
+train_score is 0.6341, denas_score is -31335738.1699
+spearman_correlation -0.6904
+epoch is 1531
+train_score is 0.7057, denas_score is -3665371836.9062
+spearman_correlation -0.6912
+epoch is 1532
+train_score is 0.6472, denas_score is -36315939.7993
+spearman_correlation -0.6912
+epoch is 1534
+train_score is 0.6187, denas_score is -36172823.5237
+spearman_correlation -0.6910
+epoch is 1535
+train_score is 0.6794, denas_score is -4030287312.9297
+spearman_correlation -0.6915
+epoch is 1536
+train_score is 0.6101, denas_score is -23037593.8906
+spearman_correlation -0.6923
+epoch is 1537
+train_score is 0.7036, denas_score is -26281778087881129472638844928.0000
+spearman_correlation -0.6934
+epoch is 1538
+train_score is 0.7030, denas_score is -2257091948.7500
+spearman_correlation -0.6939
+epoch is 1546
+train_score is 0.5997, denas_score is -35575899.7428
+spearman_correlation -0.6938
+epoch is 1550
+train_score is 0.7075, denas_score is -4667277224.3125
+spearman_correlation -0.6946
+epoch is 1551
+train_score is 0.6414, denas_score is -744558881.5000
+spearman_correlation -0.6937
+epoch is 1553
+train_score is 0.6721, denas_score is -37138484.9366
+spearman_correlation -0.6938
+epoch is 1554
+train_score is 0.6363, denas_score is -35883895.6562
+spearman_correlation -0.6940
+epoch is 1556
+train_score is 0.6715, denas_score is -3645170512.0938
+spearman_correlation -0.6942
+epoch is 1557
+train_score is 0.6414, denas_score is -1448123847.1250
+spearman_correlation -0.6929
+epoch is 1563
+train_score is 0.6903, denas_score is -8516329646.0513
+spearman_correlation -0.6937
+epoch is 1564
+train_score is 0.6154, denas_score is -23515873.4958
+spearman_correlation -0.6944
+epoch is 1565
+train_score is 0.6799, denas_score is -3311559351.7598
+spearman_correlation -0.6949
+epoch is 1566
+train_score is 0.6295, denas_score is -22748249.1285
+spearman_correlation -0.6953
+epoch is 1567
+train_score is 0.5798, denas_score is -23433712.0040
+spearman_correlation -0.6961
+epoch is 1570
+train_score is 0.6142, denas_score is -23005180.9980
+spearman_correlation -0.6968
+epoch is 1571
+train_score is 0.6142, denas_score is -29756380.0211
+spearman_correlation -0.6975
+epoch is 1575
+train_score is 0.6632, denas_score is -36589903.9927
+spearman_correlation -0.6975
+epoch is 1578
+train_score is 0.6414, denas_score is -36798510.5000
+spearman_correlation -0.6975
+epoch is 1580
+train_score is 0.7150, denas_score is -2047459711.1875
+spearman_correlation -0.6979
+epoch is 1581
+train_score is 0.7025, denas_score is -4386288462421296.0000
+spearman_correlation -0.6988
+epoch is 1582
+train_score is 0.6756, denas_score is -3301781022.8125
+spearman_correlation -0.6992
+epoch is 1585
+train_score is 0.6803, denas_score is -1082313903.9297
+spearman_correlation -0.6993
+epoch is 1587
+train_score is 0.6087, denas_score is -23236327.2021
+spearman_correlation -0.7001
+epoch is 1589
+train_score is 0.7071, denas_score is -3926981616.7812
+spearman_correlation -0.7007
+epoch is 1590
+train_score is 0.7174, denas_score is -3549001050.0469
+spearman_correlation -0.7015
+epoch is 1592
+train_score is 0.6786, denas_score is -420970866.4062
+spearman_correlation -0.7015
+epoch is 1595
+train_score is 0.6146, denas_score is -23402297.3584
+spearman_correlation -0.7022
+epoch is 1598
+train_score is 0.6825, denas_score is -4321901189894449397760.0000
+spearman_correlation -0.7028
+epoch is 1600
+train_score is 0.6659, denas_score is -35847135.3881
+spearman_correlation -0.7024
+epoch is 1602
+train_score is 0.5617, denas_score is -22747971.2344
+spearman_correlation -0.7034
+epoch is 1605
+train_score is 0.6844, denas_score is -391474473.1846
+spearman_correlation -0.7032
+epoch is 1606
+train_score is 0.6618, denas_score is -325500157.0078
+spearman_correlation -0.7034
+epoch is 1607
+train_score is 0.6578, denas_score is -30777590.8516
+spearman_correlation -0.7031
+epoch is 1608
+train_score is 0.6568, denas_score is -22925946.3926
+spearman_correlation -0.7018
+epoch is 1609
+train_score is 0.6777, denas_score is -3935433615.1875
+spearman_correlation -0.7022
+epoch is 1610
+train_score is 0.7079, denas_score is -1665406384310.4844
+spearman_correlation -0.7031
+epoch is 1613
+train_score is 0.6567, denas_score is -36747544.8406
+spearman_correlation -0.7032
+epoch is 1614
+train_score is 0.6395, denas_score is -30618570.7363
+spearman_correlation -0.7035
+epoch is 1619
+train_score is 0.6263, denas_score is -30235830.4238
+spearman_correlation -0.7039
+epoch is 1621
+train_score is 0.6669, denas_score is -36198550.1254
+spearman_correlation -0.7037
+epoch is 1623
+train_score is 0.6947, denas_score is -1448443172.3713
+spearman_correlation -0.7039
+epoch is 1624
+train_score is 0.7096, denas_score is -421115164730746543146008576.0000
+spearman_correlation -0.7050
+epoch is 1626
+train_score is 0.7050, denas_score is -333619784289152794624.0000
+spearman_correlation -0.7060
+epoch is 1627
+train_score is 0.6709, denas_score is -896505027.2841
+spearman_correlation -0.7062
+epoch is 1628
+train_score is 0.6501, denas_score is -361629708.0625
+spearman_correlation -0.7060
+epoch is 1634
+train_score is 0.5945, denas_score is -22900071.7510
+spearman_correlation -0.7069
+epoch is 1641
+train_score is 0.6897, denas_score is -209066393963.1172
+spearman_correlation -0.7075
+epoch is 1642
+train_score is 0.6659, denas_score is -30418437.6787
+spearman_correlation -0.7067
+epoch is 1645
+train_score is 0.6738, denas_score is -470343694.2812
+spearman_correlation -0.7070
+epoch is 1647
+train_score is 0.6196, denas_score is -29780924.3627
+spearman_correlation -0.7075
+epoch is 1649
+train_score is 0.6245, denas_score is -22891574.0873
+spearman_correlation -0.7080
+epoch is 1658
+train_score is 0.6586, denas_score is -23588208.3271
+spearman_correlation -0.7074
+epoch is 1660
+train_score is 0.6406, denas_score is -30209000.9102
+spearman_correlation -0.7076
+epoch is 1662
+train_score is 0.7206, denas_score is -4575710617270693134336.0000
+spearman_correlation -0.7089
+epoch is 1672
+train_score is 0.4917, denas_score is -36855124.8769
+spearman_correlation -0.7076
+epoch is 1673
+train_score is 0.6217, denas_score is -30496189.7754
+spearman_correlation -0.7079
+epoch is 1674
+train_score is 0.6758, denas_score is -86234119.8672
+spearman_correlation -0.7078
+epoch is 1676
+train_score is 0.6774, denas_score is -8276348323.2361
+spearman_correlation -0.7082
+epoch is 1677
+train_score is 0.6714, denas_score is -1665005679.7500
+spearman_correlation -0.7085
+epoch is 1681
+train_score is 0.7071, denas_score is -3411468843.3750
+spearman_correlation -0.7091
+epoch is 1683
+train_score is 0.6667, denas_score is -356895411.3750
+spearman_correlation -0.7093
+epoch is 1684
+train_score is 0.6699, denas_score is -6355115381427.0859
+spearman_correlation -0.7093
+epoch is 1685
+train_score is 0.7031, denas_score is -146124380018715331133440.0000
+spearman_correlation -0.7102
+epoch is 1686
+train_score is 0.6825, denas_score is -318777713798667185422336.0000
+spearman_correlation -0.7107
+epoch is 1688
+train_score is 0.6721, denas_score is -35310457.2310
+spearman_correlation -0.7100
+epoch is 1693
+train_score is 0.6512, denas_score is -35681133.8320
+spearman_correlation -0.7099
+epoch is 1694
+train_score is 0.6210, denas_score is -36446260.5099
+spearman_correlation -0.7096
+epoch is 1695
+train_score is 0.6373, denas_score is -1165678274.7500
+spearman_correlation -0.7084
+epoch is 1697
+train_score is 0.7053, denas_score is -61332581195689455797758066688.0000
+spearman_correlation -0.7093
+epoch is 1700
+train_score is 0.4537, denas_score is -23122489.9703
+spearman_correlation -0.7103
+epoch is 1701
+train_score is 0.4143, denas_score is -23303983.8272
+spearman_correlation -0.7111
+epoch is 1703
+train_score is 0.6752, denas_score is -2202734735.1250
+spearman_correlation -0.7114
+epoch is 1706
+train_score is 0.6131, denas_score is -29856004.0726
+spearman_correlation -0.7119
+epoch is 1707
+train_score is 0.6616, denas_score is -1689379404.2152
+spearman_correlation -0.7118
+epoch is 1708
+train_score is 0.7069, denas_score is -52812868633138.2344
+spearman_correlation -0.7127
+epoch is 1709
+train_score is 0.6323, denas_score is -22869410.9325
+spearman_correlation -0.7130
+epoch is 1715
+train_score is 0.6614, denas_score is -31303022.3594
+spearman_correlation -0.7127
+epoch is 1719
+train_score is 0.6709, denas_score is -36304881.8331
+spearman_correlation -0.7124
+epoch is 1721
+train_score is 0.4901, denas_score is -36256269.0366
+spearman_correlation -0.7117
+epoch is 1726
+train_score is 0.5636, denas_score is -36693333.2069
+spearman_correlation -0.7108
+epoch is 1727
+train_score is 0.6342, denas_score is -30716878.2031
+spearman_correlation -0.7111
+epoch is 1732
+train_score is 0.7033, denas_score is -101963127346075.5000
+spearman_correlation -0.7119
+epoch is 1733
+train_score is 0.5963, denas_score is -22895076.8965
+spearman_correlation -0.7126
+epoch is 1734
+train_score is 0.6812, denas_score is -37663280.5781
+spearman_correlation -0.7123
+epoch is 1736
+train_score is 0.6745, denas_score is -37198299.6904
+spearman_correlation -0.7123
+epoch is 1738
+train_score is 0.6219, denas_score is -23833446.8847
+spearman_correlation -0.7128
+epoch is 1739
+train_score is 0.6772, denas_score is -1012845132.1875
+spearman_correlation -0.7130
+epoch is 1742
+train_score is 0.6161, denas_score is -22822800.0049
+spearman_correlation -0.7135
+epoch is 1746
+train_score is 0.6875, denas_score is -3762202492403386941440.0000
+spearman_correlation -0.7142
+epoch is 1747
+train_score is 0.6527, denas_score is -29892006.4838
+spearman_correlation -0.7138
+epoch is 1748
+train_score is 0.7076, denas_score is -9336906133.0003
+spearman_correlation -0.7145
+epoch is 1751
+train_score is 0.6491, denas_score is -3300045.3117
+spearman_correlation -0.7135
+epoch is 1755
+train_score is 0.6316, denas_score is -36990559.5547
+spearman_correlation -0.7132
+epoch is 1758
+train_score is 0.6605, denas_score is -1019542562.5000
+spearman_correlation -0.7131
+epoch is 1760
+train_score is 0.6192, denas_score is -22684861.9219
+spearman_correlation -0.7137
+epoch is 1763
+train_score is 0.6554, denas_score is -36035254.7500
+spearman_correlation -0.7136
+epoch is 1766
+train_score is 0.6430, denas_score is -2106869524.0000
+spearman_correlation -0.7123
+epoch is 1767
+train_score is 0.6293, denas_score is -982470250.6250
+spearman_correlation -0.7109
+epoch is 1771
+train_score is 0.6693, denas_score is -30647625.9731
+spearman_correlation -0.7101
+epoch is 1773
+train_score is 0.6970, denas_score is -808002084.8008
+spearman_correlation -0.7100
+epoch is 1774
+train_score is 0.7061, denas_score is -13491481845601.5176
+spearman_correlation -0.7108
+epoch is 1777
+train_score is 0.6574, denas_score is -36760507.7994
+spearman_correlation -0.7109
+epoch is 1778
+train_score is 0.6326, denas_score is -30390687.6372
+spearman_correlation -0.7112
+epoch is 1779
+train_score is 0.6418, denas_score is -1255256207.0000
+spearman_correlation -0.7103
+epoch is 1782
+train_score is 0.7078, denas_score is -3285609234.4062
+spearman_correlation -0.7108
+epoch is 1784
+train_score is 0.6611, denas_score is -304868851.1328
+spearman_correlation -0.7109
+epoch is 1787
+train_score is 0.7086, denas_score is -550002931.5000
+spearman_correlation -0.7105
+epoch is 1792
+train_score is 0.6784, denas_score is -466000142.5712
+spearman_correlation -0.7106
+epoch is 1793
+train_score is 0.6382, denas_score is -30794090.2344
+spearman_correlation -0.7108
+epoch is 1798
+train_score is 0.6717, denas_score is -1661361796.0625
+spearman_correlation -0.7110
+epoch is 1806
+train_score is 0.6240, denas_score is -29976108.8801
+spearman_correlation -0.7114
+epoch is 1808
+train_score is 0.6743, denas_score is -6960810.1639
+spearman_correlation -0.7082
+epoch is 1809
+train_score is 0.6703, denas_score is -1650221294.6691
+spearman_correlation -0.7085
+epoch is 1810
+train_score is 0.6376, denas_score is -30720176.0654
+spearman_correlation -0.7087
+epoch is 1811
+train_score is 0.5699, denas_score is -30204108.6342
+spearman_correlation -0.7091
+epoch is 1812
+train_score is 0.6761, denas_score is -36656083.8740
+spearman_correlation -0.7087
+epoch is 1813
+train_score is 0.5472, denas_score is -36883513.9650
+spearman_correlation -0.7077
+epoch is 1816
+train_score is 0.6285, denas_score is -22738117.5679
+spearman_correlation -0.7080
+epoch is 1817
+train_score is 0.6577, denas_score is -1290662595.0000
+spearman_correlation -0.7078
+epoch is 1819
+train_score is 0.6375, denas_score is -30132246.0215
+spearman_correlation -0.7081
+epoch is 1823
+train_score is 0.5994, denas_score is -36992347.9569
+spearman_correlation -0.7073
+epoch is 1824
+train_score is 0.7029, denas_score is -2051555137.9688
+spearman_correlation -0.7077
+epoch is 1825
+train_score is 0.5422, denas_score is -30326607.0212
+spearman_correlation -0.7080
+epoch is 1828
+train_score is 0.6728, denas_score is -36838384.0596
+spearman_correlation -0.7079
+epoch is 1831
+train_score is 0.7117, denas_score is -3260739776.4511
+spearman_correlation -0.7085
+epoch is 1833
+train_score is 0.4849, denas_score is -29695794.2497
+spearman_correlation -0.7091
+epoch is 1834
+train_score is 0.6430, denas_score is -36730401.5370
+spearman_correlation -0.7091
+epoch is 1835
+train_score is 0.6985, denas_score is -1495744648.7500
+spearman_correlation -0.7093
+epoch is 1839
+train_score is 0.6507, denas_score is -22913342.9211
+spearman_correlation -0.7084
+epoch is 1841
+train_score is 0.5701, denas_score is -8368155.4685
+spearman_correlation -0.7093
+epoch is 1846
+train_score is 0.6740, denas_score is -5303221817.5298
+spearman_correlation -0.7095
+epoch is 1850
+train_score is 0.6428, denas_score is -714509175.0625
+spearman_correlation -0.7089
+epoch is 1851
+train_score is 0.6736, denas_score is -2125811911.5000
+spearman_correlation -0.7091
+epoch is 1852
+train_score is 0.6388, denas_score is -36301997.8949
+spearman_correlation -0.7092
+epoch is 1859
+train_score is 0.6429, denas_score is -35888873.9375
+spearman_correlation -0.7092
+epoch is 1860
+train_score is 0.6658, denas_score is -1504090562.3125
+spearman_correlation -0.7093
+epoch is 1861
+train_score is 0.7082, denas_score is -37210102430310088704.0000
+spearman_correlation -0.7102
+epoch is 1862
+train_score is 0.6478, denas_score is -221052315.6250
+spearman_correlation -0.7101
+epoch is 1864
+train_score is 0.6067, denas_score is -36809927.2942
+spearman_correlation -0.7095
+epoch is 1867
+train_score is 0.7225, denas_score is -2726668826.3594
+spearman_correlation -0.7100
+epoch is 1874
+train_score is 0.6204, denas_score is -22766793.0527
+spearman_correlation -0.7104
+epoch is 1875
+train_score is 0.5154, denas_score is -22939008.1632
+spearman_correlation -0.7113
+epoch is 1878
+train_score is 0.6589, denas_score is -30578366.1693
+spearman_correlation -0.7109
+epoch is 1879
+train_score is 0.6661, denas_score is -35942189.9180
+spearman_correlation -0.7107
+epoch is 1884
+train_score is 0.6935, denas_score is -1072677500.4858
+spearman_correlation -0.7107
+epoch is 1886
+train_score is 0.6847, denas_score is -2673467268.6875
+spearman_correlation -0.7111
+epoch is 1889
+train_score is 0.6298, denas_score is -23072592.1064
+spearman_correlation -0.7115
+epoch is 1890
+train_score is 0.4923, denas_score is -35627158.0224
+spearman_correlation -0.7111
+epoch is 1891
+train_score is 0.6799, denas_score is -5827556090189381257163440128.0000
+spearman_correlation -0.7115
+epoch is 1893
+train_score is 0.3348, denas_score is -22514545.3153
+spearman_correlation -0.7125
+epoch is 1894
+train_score is 0.7052, denas_score is -3171009326.1875
+spearman_correlation -0.7131
+epoch is 1895
+train_score is 0.6805, denas_score is -152273232.1853
+spearman_correlation -0.7130
+epoch is 1898
+train_score is 0.6046, denas_score is -23121430.2998
+spearman_correlation -0.7135
+epoch is 1899
+train_score is 0.6742, denas_score is -162244323835.6406
+spearman_correlation -0.7137
+epoch is 1902
+train_score is 0.6300, denas_score is -2342682515.0000
+spearman_correlation -0.7116
+epoch is 1905
+train_score is 0.5769, denas_score is -42126522.0521
+spearman_correlation -0.7106
+epoch is 1907
+train_score is 0.6798, denas_score is -120099287470.5000
+spearman_correlation -0.7110
+epoch is 1913
+train_score is 0.6311, denas_score is -36566816.7910
+spearman_correlation -0.7109
+epoch is 1915
+train_score is 0.6336, denas_score is -30681457.1534
+spearman_correlation -0.7111
+epoch is 1916
+train_score is 0.7118, denas_score is -1946849279.2500
+spearman_correlation -0.7113
+epoch is 1919
+train_score is 0.6527, denas_score is -31937040.2227
+spearman_correlation -0.7112
+epoch is 1920
+train_score is 0.6397, denas_score is -1017572380.4048
+spearman_correlation -0.7103
+epoch is 1925
+train_score is 0.6516, denas_score is -428678815.0000
+spearman_correlation -0.7102
+epoch is 1927
+train_score is 0.7120, denas_score is -7073489989.9571
+spearman_correlation -0.7109
+epoch is 1928
+train_score is 0.6413, denas_score is -1538404763.6250
+spearman_correlation -0.7099
+epoch is 1929
+train_score is 0.6418, denas_score is -36908608.7188
+spearman_correlation -0.7099
+epoch is 1934
+train_score is 0.6501, denas_score is -351104659.5625
+spearman_correlation -0.7097
+epoch is 1935
+train_score is 0.6448, denas_score is -36317675.2031
+spearman_correlation -0.7097
+epoch is 1936
+train_score is 0.6313, denas_score is -22580795.9102
+spearman_correlation -0.7100
+epoch is 1937
+train_score is 0.6626, denas_score is -30365059.5483
+spearman_correlation -0.7094
+epoch is 1943
+train_score is 0.5449, denas_score is -3712218.7464
+spearman_correlation -0.7103
+epoch is 1944
+train_score is 0.5981, denas_score is -30819427.8657
+spearman_correlation -0.7103
+epoch is 1951
+train_score is 0.6422, denas_score is -30866271.6562
+spearman_correlation -0.7103
+epoch is 1952
+train_score is 0.6298, denas_score is -35802020.4202
+spearman_correlation -0.7104
+epoch is 1953
+train_score is 0.6679, denas_score is -1851458021.6396
+spearman_correlation -0.7106
+epoch is 1954
+train_score is 0.6680, denas_score is -36328835.3135
+spearman_correlation -0.7104
+epoch is 1958
+train_score is 0.6538, denas_score is -37439225.8784
+spearman_correlation -0.7105
+epoch is 1959
+train_score is 0.6712, denas_score is -1235860010.5000
+spearman_correlation -0.7107
+epoch is 1960
+train_score is 0.6431, denas_score is -29824221.2866
+spearman_correlation -0.7107
+epoch is 1961
+train_score is 0.6921, denas_score is -3329915714.7904
+spearman_correlation -0.7112
+epoch is 1962
+train_score is 0.6236, denas_score is -22875018.3296
+spearman_correlation -0.7116
+epoch is 1964
+train_score is 0.6372, denas_score is -1605816367.3750
+spearman_correlation -0.7104
+epoch is 1965
+train_score is 0.6862, denas_score is -127083468079838117888.0000
+spearman_correlation -0.7110
+epoch is 1966
+train_score is 0.6524, denas_score is -30308639.7955
+spearman_correlation -0.7107
+epoch is 1967
+train_score is 0.6388, denas_score is -30171187.2217
+spearman_correlation -0.7109
+epoch is 1968
+train_score is 0.6544, denas_score is -589738125.8906
+spearman_correlation -0.7108
+epoch is 1971
+train_score is 0.6798, denas_score is -38897774198.2428
+spearman_correlation -0.7112
+epoch is 1972
+train_score is 0.6907, denas_score is -438058109.5625
+spearman_correlation -0.7111
+epoch is 1973
+train_score is 0.6535, denas_score is -29932122.0153
+spearman_correlation -0.7106
+epoch is 1979
+train_score is 0.5427, denas_score is -22767784.5342
+spearman_correlation -0.7114
+epoch is 1980
+train_score is 0.6014, denas_score is -30238974.1504
+spearman_correlation -0.7117
+epoch is 1981
+train_score is 0.5841, denas_score is -36269675.2666
+spearman_correlation -0.7113
+epoch is 1982
+train_score is 0.6912, denas_score is -2127276883.5312
+spearman_correlation -0.7117
+epoch is 1985
+train_score is 0.6579, denas_score is -102265378.5586
+spearman_correlation -0.7118
+epoch is 1988
+train_score is 0.6732, denas_score is -2281894246.4062
+spearman_correlation -0.7120
+epoch is 1992
+train_score is 0.6693, denas_score is -8264695283.5003
+spearman_correlation -0.7121
+epoch is 1994
+train_score is 0.6336, denas_score is -30411667.7188
+spearman_correlation -0.7124
+epoch is 1995
+train_score is 0.6504, denas_score is -1966065782.8906
+spearman_correlation -0.7117
+epoch is 1997
+train_score is 0.6583, denas_score is -30738301.4866
+spearman_correlation -0.7115
+epoch is 1998
+train_score is 0.6747, denas_score is -6898247.0431
+spearman_correlation -0.7084
+epoch is 1999
+train_score is 0.6570, denas_score is -332764744.7500
+spearman_correlation -0.7085
+epoch is 2002
+train_score is 0.7093, denas_score is -47202320193819516928.0000
+spearman_correlation -0.7094
+epoch is 2003
+train_score is 0.6075, denas_score is -26126361.7221
+spearman_correlation -0.7098
+epoch is 2006
+train_score is 0.6624, denas_score is -36848214.9099
+spearman_correlation -0.7099
+epoch is 2007
+train_score is 0.6376, denas_score is -36254759.2254
+spearman_correlation -0.7099
+epoch is 2012
+train_score is 0.6414, denas_score is -1744223583.2500
+spearman_correlation -0.7089
+epoch is 2018
+train_score is 0.6744, denas_score is -37213215.5488
+spearman_correlation -0.7089
+epoch is 2019
+train_score is 0.5777, denas_score is -29898033.5054
+spearman_correlation -0.7093
+epoch is 2020
+train_score is 0.6248, denas_score is -22561290.5303
+spearman_correlation -0.7097
+epoch is 2022
+train_score is 0.6834, denas_score is -110344158075.8077
+spearman_correlation -0.7102
+epoch is 2027
+train_score is 0.6799, denas_score is -476232262.4512
+spearman_correlation -0.7102
+epoch is 2033
+train_score is 0.6897, denas_score is -3461045327985544192.0000
+spearman_correlation -0.7109
+epoch is 2036
+train_score is 0.6275, denas_score is -1756293116.5000
+spearman_correlation -0.7092
+epoch is 2041
+train_score is 0.7097, denas_score is -453324578.7500
+spearman_correlation -0.7088
+epoch is 2045
+train_score is 0.6936, denas_score is -2411433887.6562
+spearman_correlation -0.7091
+epoch is 2051
+train_score is 0.6419, denas_score is -30274896.8643
+spearman_correlation -0.7092
+epoch is 2052
+train_score is 0.6590, denas_score is -30232029.1191
+spearman_correlation -0.7087
+epoch is 2053
+train_score is 0.5538, denas_score is -22672538.4166
+spearman_correlation -0.7095
+epoch is 2055
+train_score is 0.6415, denas_score is -30558380.0723
+spearman_correlation -0.7095
+epoch is 2057
+train_score is 0.6721, denas_score is -2162561267.7812
+spearman_correlation -0.7097
+epoch is 2058
+train_score is 0.6273, denas_score is -923894949.4578
+spearman_correlation -0.7085
+epoch is 2061
+train_score is 0.6433, denas_score is -2292047421.2500
+spearman_correlation -0.7073
+epoch is 2063
+train_score is 0.5461, denas_score is -23026656.2444
+spearman_correlation -0.7080
+epoch is 2069
+train_score is 0.6676, denas_score is -30197904.6167
+spearman_correlation -0.7071
+epoch is 2071
+train_score is 0.6548, denas_score is -30514271.7394
+spearman_correlation -0.7068
+epoch is 2073
+train_score is 0.5468, denas_score is -23157355.0938
+spearman_correlation -0.7075
+epoch is 2076
+train_score is 0.6858, denas_score is -1857223589.0625
+spearman_correlation -0.7078
+epoch is 2077
+train_score is 0.6270, denas_score is -36315274.2373
+spearman_correlation -0.7077
+epoch is 2079
+train_score is 0.6750, denas_score is -2796399770.1875
+spearman_correlation -0.7081
+epoch is 2080
+train_score is 0.6735, denas_score is -2403356799.8125
+spearman_correlation -0.7083
+epoch is 2082
+train_score is 0.6625, denas_score is -22643942.9326
+spearman_correlation -0.7067
+epoch is 2084
+train_score is 0.5618, denas_score is -22930382.6277
+spearman_correlation -0.7074
+epoch is 2086
+train_score is 0.6556, denas_score is -36355920.3637
+spearman_correlation -0.7073
+epoch is 2087
+train_score is 0.6634, denas_score is -4306086413.6094
+spearman_correlation -0.7071
+epoch is 2090
+train_score is 0.5999, denas_score is -22995925.6858
+spearman_correlation -0.7077
+epoch is 2094
+train_score is 0.6564, denas_score is -1013776079.1953
+spearman_correlation -0.7075
+epoch is 2096
+train_score is 0.6348, denas_score is -30681283.5312
+spearman_correlation -0.7077
+epoch is 2098
+train_score is 0.6705, denas_score is -259730567.9688
+spearman_correlation -0.7079
+epoch is 2099
+train_score is 0.6517, denas_score is -22820565.0693
+spearman_correlation -0.7069
+epoch is 2100
+train_score is 0.6717, denas_score is -3624016514752.0000
+spearman_correlation -0.7070
+epoch is 2106
+train_score is 0.6881, denas_score is -18803775.7316
+spearman_correlation -0.7027
+epoch is 2107
+train_score is 0.6736, denas_score is -36548426.3589
+spearman_correlation -0.7024
+epoch is 2111
+train_score is 0.7042, denas_score is -245161689333014.5000
+spearman_correlation -0.7032
+epoch is 2114
+train_score is 0.6097, denas_score is -23195272.7158
+spearman_correlation -0.7037
+epoch is 2115
+train_score is 0.6716, denas_score is -11514180997740.0000
+spearman_correlation -0.7037
+epoch is 2116
+train_score is 0.6233, denas_score is -23609929.9048
+spearman_correlation -0.7041
+epoch is 2117
+train_score is 0.6658, denas_score is -358581773.6875
+spearman_correlation -0.7043
+epoch is 2118
+train_score is 0.6546, denas_score is -23216618.2915
+spearman_correlation -0.7037
+epoch is 2119
+train_score is 0.6340, denas_score is -22894873.8599
+spearman_correlation -0.7039
+epoch is 2120
+train_score is 0.6840, denas_score is -278176754936795.2500
+spearman_correlation -0.7045
+epoch is 2121
+train_score is 0.5313, denas_score is -35691809.0678
+spearman_correlation -0.7042
+epoch is 2122
+train_score is 0.6866, denas_score is -131007218147.0000
+spearman_correlation -0.7047
+epoch is 2123
+train_score is 0.7133, denas_score is -8183803751.7250
+spearman_correlation -0.7053
+epoch is 2127
+train_score is 0.5678, denas_score is -23204353.4574
+spearman_correlation -0.7059
+epoch is 2130
+train_score is 0.6236, denas_score is -30108077.1562
+spearman_correlation -0.7062
+epoch is 2135
+train_score is 0.6397, denas_score is -23028756.7324
+spearman_correlation -0.7063
+epoch is 2139
+train_score is 0.6758, denas_score is -2308760961.2500
+spearman_correlation -0.7066
+epoch is 2140
+train_score is 0.6304, denas_score is -29937449.5127
+spearman_correlation -0.7069
+epoch is 2141
+train_score is 0.5949, denas_score is -31675966.3850
+spearman_correlation -0.7068
+epoch is 2142
+train_score is 0.5464, denas_score is -29579589.6147
+spearman_correlation -0.7073
+epoch is 2144
+train_score is 0.7210, denas_score is -104568748997810.1094
+spearman_correlation -0.7081
+epoch is 2145
+train_score is 0.7138, denas_score is -500857038.4062
+spearman_correlation -0.7077
+epoch is 2147
+train_score is 0.6509, denas_score is -35675346.5571
+spearman_correlation -0.7076
+epoch is 2149
+train_score is 0.6846, denas_score is -18982560.9642
+spearman_correlation -0.7037
+epoch is 2150
+train_score is 0.6781, denas_score is -35877987.8857
+spearman_correlation -0.7028
+epoch is 2151
+train_score is 0.6667, denas_score is -36882487.1671
+spearman_correlation -0.7030
+epoch is 2153
+train_score is 0.6433, denas_score is -1160416508.7500
+spearman_correlation -0.7023
+epoch is 2154
+train_score is 0.6242, denas_score is -490054318.5000
+spearman_correlation -0.7014
+epoch is 2160
+train_score is 0.6700, denas_score is -26180142886890618880.0000
+spearman_correlation -0.7013
+epoch is 2164
+train_score is 0.6656, denas_score is -762592927.9736
+spearman_correlation -0.7014
+epoch is 2165
+train_score is 0.6759, denas_score is -36672339.0514
+spearman_correlation -0.7011
+epoch is 2167
+train_score is 0.6376, denas_score is -30456853.1592
+spearman_correlation -0.7013
+epoch is 2169
+train_score is 0.6143, denas_score is -1591770615.5000
+spearman_correlation -0.6996
+epoch is 2170
+train_score is 0.6599, denas_score is -36810565.8271
+spearman_correlation -0.6996
+epoch is 2171
+train_score is 0.6503, denas_score is -22775566.0703
+spearman_correlation -0.6989
+epoch is 2174
+train_score is 0.6493, denas_score is -22984166.9918
+spearman_correlation -0.6983
+epoch is 2177
+train_score is 0.6012, denas_score is -23112919.1273
+spearman_correlation -0.6988
+epoch is 2178
+train_score is 0.6197, denas_score is -1035371091.0405
+spearman_correlation -0.6973
+epoch is 2182
+train_score is 0.6127, denas_score is -22837752.2656
+spearman_correlation -0.6978
+epoch is 2183
+train_score is 0.6814, denas_score is -3169541882.5820
+spearman_correlation -0.6983
+epoch is 2185
+train_score is 0.7167, denas_score is -1547672353.5625
+spearman_correlation -0.6983
+epoch is 2189
+train_score is 0.6655, denas_score is -36871799.6758
+spearman_correlation -0.6984
+epoch is 2193
+train_score is 0.6675, denas_score is -36192999.4723
+spearman_correlation -0.6983
+epoch is 2194
+train_score is 0.6122, denas_score is -22898500.0713
+spearman_correlation -0.6987
+epoch is 2195
+train_score is 0.6694, denas_score is -4160650315610262.0000
+spearman_correlation -0.6987
+epoch is 2197
+train_score is 0.6426, denas_score is -30875949.7427
+spearman_correlation -0.6987
+epoch is 2198
+train_score is 0.5145, denas_score is -36063315.6837
+spearman_correlation -0.6983
+epoch is 2200
+train_score is 0.6665, denas_score is -369725376.0000
+spearman_correlation -0.6985
+epoch is 2201
+train_score is 0.6591, denas_score is -23014500.2552
+spearman_correlation -0.6975
+epoch is 2202
+train_score is 0.6836, denas_score is -1280232740.0713
+spearman_correlation -0.6977
+epoch is 2203
+train_score is 0.6637, denas_score is -30376864.4238
+spearman_correlation -0.6972
+epoch is 2204
+train_score is 0.6400, denas_score is -461711533.5000
+spearman_correlation -0.6967
+epoch is 2207
+train_score is 0.6762, denas_score is -23856782902421987328.0000
+spearman_correlation -0.6970
+epoch is 2209
+train_score is 0.6556, denas_score is -36772613.0718
+spearman_correlation -0.6971
+epoch is 2211
+train_score is 0.6900, denas_score is -175624756.9844
+spearman_correlation -0.6968
+epoch is 2213
+train_score is 0.6187, denas_score is -23158080.9922
+spearman_correlation -0.6972
+epoch is 2214
+train_score is 0.6963, denas_score is -8362233946.1468
+spearman_correlation -0.6978
+epoch is 2217
+train_score is 0.6776, denas_score is -1846156009.6562
+spearman_correlation -0.6981
+epoch is 2220
+train_score is 0.6009, denas_score is -22796115.8022
+spearman_correlation -0.6986
+epoch is 2221
+train_score is 0.6812, denas_score is -12191747663751865696256.0000
+spearman_correlation -0.6990
+epoch is 2222
+train_score is 0.6264, denas_score is -11778965889.6992
+spearman_correlation -0.6966
+epoch is 2224
+train_score is 0.6723, denas_score is -49856521.5425
+spearman_correlation -0.6966
+epoch is 2229
+train_score is 0.6661, denas_score is -35910490.9551
+spearman_correlation -0.6964
+epoch is 2234
+train_score is 0.5690, denas_score is -22340635.7969
+spearman_correlation -0.6971
+epoch is 2237
+train_score is 0.7098, denas_score is -10880878.5834
+spearman_correlation -0.6921
+epoch is 2240
+train_score is 0.6433, denas_score is -662924355.5000
+spearman_correlation -0.6916
+epoch is 2243
+train_score is 0.6647, denas_score is -417994799646949504.0000
+spearman_correlation -0.6913
+epoch is 2245
+train_score is 0.6157, denas_score is -23093799.9946
+spearman_correlation -0.6917
+epoch is 2249
+train_score is 0.6754, denas_score is -3061809718.5625
+spearman_correlation -0.6920
+epoch is 2251
+train_score is 0.6672, denas_score is -36316308.7227
+spearman_correlation -0.6919
+epoch is 2252
+train_score is 0.6580, denas_score is -30542935.5698
+spearman_correlation -0.6917
+epoch is 2253
+train_score is 0.6768, denas_score is -1840284107.0000
+spearman_correlation -0.6920
+epoch is 2255
+train_score is 0.6527, denas_score is -31104670.4438
+spearman_correlation -0.6919
+epoch is 2256
+train_score is 0.7085, denas_score is -2964309718.6250
+spearman_correlation -0.6923
+epoch is 2259
+train_score is 0.3297, denas_score is -37175962.9087
+spearman_correlation -0.6913
+epoch is 2262
+train_score is 0.7195, denas_score is -234661237797052.1250
+spearman_correlation -0.6921
+epoch is 2266
+train_score is 0.6504, denas_score is -270668824.1875
+spearman_correlation -0.6920
+epoch is 2272
+train_score is 0.6431, denas_score is -871331764.0312
+spearman_correlation -0.6915
+epoch is 2279
+train_score is 0.6396, denas_score is -36820377.1875
+spearman_correlation -0.6915
+epoch is 2284
+train_score is 0.6418, denas_score is -1199586528.7500
+spearman_correlation -0.6908
+epoch is 2285
+train_score is 0.6752, denas_score is -181074526244.3125
+spearman_correlation -0.6911
+epoch is 2286
+train_score is 0.6601, denas_score is -36548982.3873
+spearman_correlation -0.6911
+epoch is 2288
+train_score is 0.6404, denas_score is -1373573079.2500
+spearman_correlation -0.6903
+epoch is 2291
+train_score is 0.6861, denas_score is -4124333492480838656.0000
+spearman_correlation -0.6909
+epoch is 2293
+train_score is 0.6546, denas_score is -107341482.8242
+spearman_correlation -0.6909
+epoch is 2295
+train_score is 0.6756, denas_score is -989871933.8125
+spearman_correlation -0.6911
+epoch is 2299
+train_score is 0.6671, denas_score is -30843797.0229
+spearman_correlation -0.6907
+epoch is 2301
+train_score is 0.6747, denas_score is -36632332.2806
+spearman_correlation -0.6904
+epoch is 2302
+train_score is 0.6779, denas_score is -6962634.7107
+spearman_correlation -0.6874
+epoch is 2303
+train_score is 0.6513, denas_score is -37740767.4387
+spearman_correlation -0.6874
+epoch is 2307
+train_score is 0.6531, denas_score is -36090896.0890
+spearman_correlation -0.6873
+epoch is 2309
+train_score is 0.6480, denas_score is -30160215.3242
+spearman_correlation -0.6872
+epoch is 2311
+train_score is 0.6337, denas_score is -30095558.3962
+spearman_correlation -0.6874
+epoch is 2312
+train_score is 0.6565, denas_score is -38187491.5107
+spearman_correlation -0.6875
+epoch is 2313
+train_score is 0.6679, denas_score is -22768475134433292288.0000
+spearman_correlation -0.6874
+epoch is 2315
+train_score is 0.5546, denas_score is -23096508.6495
+spearman_correlation -0.6880
+epoch is 2320
+train_score is 0.6314, denas_score is -23185029.8867
+spearman_correlation -0.6883
+epoch is 2321
+train_score is 0.6231, denas_score is -25822490.0974
+spearman_correlation -0.6886
+epoch is 2326
+train_score is 0.6558, denas_score is -267801005.1250
+spearman_correlation -0.6887
+epoch is 2327
+train_score is 0.6786, denas_score is -86882180895789435736362582016.0000
+spearman_correlation -0.6890
+epoch is 2332
+train_score is 0.6400, denas_score is -36863505.1816
+spearman_correlation -0.6889
+epoch is 2334
+train_score is 0.7176, denas_score is -13941856450092365512704.0000
+spearman_correlation -0.6899
+epoch is 2335
+train_score is 0.6394, denas_score is -36747304.4824
+spearman_correlation -0.6899
+epoch is 2336
+train_score is 0.7109, denas_score is -745478348.6250
+spearman_correlation -0.6896
+epoch is 2337
+train_score is 0.6202, denas_score is -22464144.7510
+spearman_correlation -0.6900
+epoch is 2339
+train_score is 0.6779, denas_score is -1815125748.6562
+spearman_correlation -0.6903
+epoch is 2340
+train_score is 0.5656, denas_score is -54528912.1709
+spearman_correlation -0.6895
+epoch is 2343
+train_score is 0.6451, denas_score is -617418469.8281
+spearman_correlation -0.6891
+epoch is 2344
+train_score is 0.7029, denas_score is -1622136825.8750
+spearman_correlation -0.6894
+epoch is 2349
+train_score is 0.6254, denas_score is -105521650.0891
+spearman_correlation -0.6889
+epoch is 2350
+train_score is 0.6455, denas_score is -30862382.2018
+spearman_correlation -0.6889
+epoch is 2351
+train_score is 0.7057, denas_score is -618680636629090944.0000
+spearman_correlation -0.6896
+epoch is 2353
+train_score is 0.6852, denas_score is -11798753419679.0547
+spearman_correlation -0.6901
+epoch is 2357
+train_score is 0.5768, denas_score is -36520862.8222
+spearman_correlation -0.6896
+epoch is 2359
+train_score is 0.5589, denas_score is -22512790.7483
+spearman_correlation -0.6903
+epoch is 2361
+train_score is 0.6809, denas_score is -26132176628084746412359680.0000
+spearman_correlation -0.6907
+epoch is 2362
+train_score is 0.6293, denas_score is -24427099.8750
+spearman_correlation -0.6911
+epoch is 2365
+train_score is 0.6314, denas_score is -1211947341.0000
+spearman_correlation -0.6900
+epoch is 2367
+train_score is 0.6532, denas_score is -36237528.8281
+spearman_correlation -0.6900
+epoch is 2368
+train_score is 0.6871, denas_score is -13611860234124.3125
+spearman_correlation -0.6905
+epoch is 2369
+train_score is 0.6529, denas_score is -30380787.2722
+spearman_correlation -0.6903
+epoch is 2370
+train_score is 0.6801, denas_score is -3853113016352841216.0000
+spearman_correlation -0.6907
+epoch is 2373
+train_score is 0.6163, denas_score is -22684604.1143
+spearman_correlation -0.6911
+epoch is 2375
+train_score is 0.6500, denas_score is -35950713.3108
+spearman_correlation -0.6911
+epoch is 2376
+train_score is 0.5842, denas_score is -23093853.4150
+spearman_correlation -0.6916
+epoch is 2377
+train_score is 0.5363, denas_score is -22504482.7390
+spearman_correlation -0.6923
+epoch is 2379
+train_score is 0.6693, denas_score is -36374120.9422
+spearman_correlation -0.6922
+epoch is 2380
+train_score is 0.6494, denas_score is -22963731.6680
+spearman_correlation -0.6916
+epoch is 2382
+train_score is 0.6465, denas_score is -35849004.8091
+spearman_correlation -0.6916
+epoch is 2387
+train_score is 0.6745, denas_score is -2958519323.6875
+spearman_correlation -0.6919
+epoch is 2389
+train_score is 0.6485, denas_score is -22703719.2654
+spearman_correlation -0.6912
+epoch is 2390
+train_score is 0.6722, denas_score is -521708057.5625
+spearman_correlation -0.6914
+epoch is 2391
+train_score is 0.6252, denas_score is -30005540.9219
+spearman_correlation -0.6917
+epoch is 2392
+train_score is 0.6473, denas_score is -30657520.7031
+spearman_correlation -0.6916
+epoch is 2395
+train_score is 0.7117, denas_score is -39616965.6229
+spearman_correlation -0.6908
+epoch is 2396
+train_score is 0.7121, denas_score is -1083512645.9062
+spearman_correlation -0.6908
+epoch is 2398
+train_score is 0.7148, denas_score is -47617013843758.3906
+spearman_correlation -0.6915
+epoch is 2400
+train_score is 0.6523, denas_score is -124513010.4375
+spearman_correlation -0.6915
+epoch is 2405
+train_score is 0.6664, denas_score is -7372578356967754.0000
+spearman_correlation -0.6914
+epoch is 2406
+train_score is 0.7099, denas_score is -22069148662.7755
+spearman_correlation -0.6920
+epoch is 2407
+train_score is 0.5777, denas_score is -30561959.6630
+spearman_correlation -0.6921
+epoch is 2411
+train_score is 0.6749, denas_score is -175712406938086866944.0000
+spearman_correlation -0.6923
+epoch is 2412
+train_score is 0.7107, denas_score is -936426252.4375
+spearman_correlation -0.6921
+epoch is 2414
+train_score is 0.6763, denas_score is -584298663.8750
+spearman_correlation -0.6922
+epoch is 2417
+train_score is 0.6663, denas_score is -305609523.1250
+spearman_correlation -0.6924
+epoch is 2418
+train_score is 0.6677, denas_score is -36580220.3027
+spearman_correlation -0.6924
+epoch is 2419
+train_score is 0.6671, denas_score is -27964674028845104.0000
+spearman_correlation -0.6923
+epoch is 2422
+train_score is 0.6561, denas_score is -30380343.2363
+spearman_correlation -0.6920
+epoch is 2425
+train_score is 0.6892, denas_score is -563501140667.1602
+spearman_correlation -0.6925
+epoch is 2426
+train_score is 0.7127, denas_score is -2123431448.1250
+spearman_correlation -0.6928
+epoch is 2432
+train_score is 0.6733, denas_score is -29671586.2124
+spearman_correlation -0.6916
+epoch is 2438
+train_score is 0.6748, denas_score is -120426769014262.0000
+spearman_correlation -0.6918
+epoch is 2439
+train_score is 0.6388, denas_score is -994481441.7500
+spearman_correlation -0.6911
+epoch is 2445
+train_score is 0.6566, denas_score is -30910248.2932
+spearman_correlation -0.6910
+epoch is 2446
+train_score is 0.6527, denas_score is -36363371.6018
+spearman_correlation -0.6910
+epoch is 2449
+train_score is 0.6666, denas_score is -395820173.7500
+spearman_correlation -0.6911
+epoch is 2450
+train_score is 0.6774, denas_score is -699254890.3320
+spearman_correlation -0.6912
+epoch is 2451
+train_score is 0.7121, denas_score is -59526848275.0560
+spearman_correlation -0.6918
+epoch is 2457
+train_score is 0.6812, denas_score is -6194279244.4642
+spearman_correlation -0.6922
+epoch is 2463
+train_score is 0.6729, denas_score is -1048262729.3672
+spearman_correlation -0.6924
+epoch is 2464
+train_score is 0.6657, denas_score is -484748913.5000
+spearman_correlation -0.6926
+epoch is 2465
+train_score is 0.6746, denas_score is -159712559337.0000
+spearman_correlation -0.6928
+epoch is 2467
+train_score is 0.6611, denas_score is -93751678702092.5000
+spearman_correlation -0.6923
+epoch is 2469
+train_score is 0.6442, denas_score is -30332329.8438
+spearman_correlation -0.6923
+epoch is 2470
+train_score is 0.6514, denas_score is -969320892.5000
+spearman_correlation -0.6920
+epoch is 2471
+train_score is 0.6419, denas_score is -37358372.5938
+spearman_correlation -0.6919
+epoch is 2472
+train_score is 0.6760, denas_score is -165881852817620.0000
+spearman_correlation -0.6921
+epoch is 2475
+train_score is 0.6766, denas_score is -814112544.2500
+spearman_correlation -0.6923
+epoch is 2476
+train_score is 0.6782, denas_score is -37004136.7293
+spearman_correlation -0.6921
+epoch is 2477
+train_score is 0.6711, denas_score is -17430198162.1250
+spearman_correlation -0.6922
+epoch is 2478
+train_score is 0.6749, denas_score is -0.0000
+spearman_correlation -0.6897
+epoch is 2480
+train_score is 0.5461, denas_score is -22914528.9397
+spearman_correlation -0.6903
+epoch is 2481
+train_score is 0.6684, denas_score is -1248583157.0000
+spearman_correlation -0.6905
+epoch is 2483
+train_score is 0.6555, denas_score is -31159527.1875
+spearman_correlation -0.6904
+epoch is 2487
+train_score is 0.6203, denas_score is -30317009.4204
+spearman_correlation -0.6906
+epoch is 2489
+train_score is 0.7055, denas_score is -2862865227.4375
+spearman_correlation -0.6910
+epoch is 2491
+train_score is 0.6635, denas_score is -30247254.5801
+spearman_correlation -0.6906
+epoch is 2492
+train_score is 0.5821, denas_score is -23022272.3828
+spearman_correlation -0.6910
+epoch is 2495
+train_score is 0.6801, denas_score is -633380668.8750
+spearman_correlation -0.6911
+epoch is 2497
+train_score is 0.6386, denas_score is -22917232.3110
+spearman_correlation -0.6912
+epoch is 2502
+train_score is 0.6572, denas_score is -811031825.7788
+spearman_correlation -0.6911
+epoch is 2504
+train_score is 0.6997, denas_score is -120989089078924835397453217792.0000
+spearman_correlation -0.6917
+epoch is 2512
+train_score is 0.6459, denas_score is -36333894.7500
+spearman_correlation -0.6917
+epoch is 2513
+train_score is 0.6618, denas_score is -30378781.4572
+spearman_correlation -0.6913
+epoch is 2515
+train_score is 0.7100, denas_score is -3978481494.7656
+spearman_correlation -0.6918
+epoch is 2516
+train_score is 0.6491, denas_score is -30724698.0886
+spearman_correlation -0.6917
+epoch is 2517
+train_score is 0.6115, denas_score is -22819134.7119
+spearman_correlation -0.6922
+epoch is 2519
+train_score is 0.7168, denas_score is -4526725710450786304.0000
+spearman_correlation -0.6930
+epoch is 2524
+train_score is 0.6464, denas_score is -36105275.5195
+spearman_correlation -0.6929
+epoch is 2525
+train_score is 0.6736, denas_score is -2826717083.1875
+spearman_correlation -0.6932
+epoch is 2526
+train_score is 0.6301, denas_score is -30998887.8243
+spearman_correlation -0.6933
+epoch is 2528
+train_score is 0.6795, denas_score is -8095208085398966239232.0000
+spearman_correlation -0.6936
+epoch is 2529
+train_score is 0.6571, denas_score is -23117821.7090
+spearman_correlation -0.6930
+epoch is 2530
+train_score is 0.0763, denas_score is -22813547.0361
+spearman_correlation -0.6937
+epoch is 2532
+train_score is 0.6302, denas_score is -22685458.7969
+spearman_correlation -0.6939
+epoch is 2536
+train_score is 0.6747, denas_score is -528282235.8750
+spearman_correlation -0.6940
+epoch is 2537
+train_score is 0.6257, denas_score is -30818654.2500
+spearman_correlation -0.6942
+epoch is 2538
+train_score is 0.6795, denas_score is -1745126118.3125
+spearman_correlation -0.6944
+epoch is 2541
+train_score is 0.5118, denas_score is -22958485.7540
+spearman_correlation -0.6950
+epoch is 2542
+train_score is 0.7079, denas_score is -32135638300612763648.0000
+spearman_correlation -0.6957
+epoch is 2547
+train_score is 0.6479, denas_score is -35950336.8477
+spearman_correlation -0.6956
+epoch is 2548
+train_score is 0.6408, denas_score is -30447464.7085
+spearman_correlation -0.6958
+epoch is 2550
+train_score is 0.6400, denas_score is -36503357.6367
+spearman_correlation -0.6957
+epoch is 2551
+train_score is 0.6727, denas_score is -74745383.2266
+spearman_correlation -0.6958
+epoch is 2552
+train_score is 0.6396, denas_score is -1405038164.3105
+spearman_correlation -0.6950
+epoch is 2553
+train_score is 0.6835, denas_score is -814422939.5488
+spearman_correlation -0.6951
+epoch is 2556
+train_score is 0.5633, denas_score is -23357877.1455
+spearman_correlation -0.6955
+epoch is 2557
+train_score is 0.6227, denas_score is -23036512.3320
+spearman_correlation -0.6958
+epoch is 2558
+train_score is 0.6814, denas_score is -1624863797.5479
+spearman_correlation -0.6961
+epoch is 2559
+train_score is 0.7145, denas_score is -3988143264.3246
+spearman_correlation -0.6966
+epoch is 2560
+train_score is 0.6706, denas_score is -30887352.7461
+spearman_correlation -0.6961
+epoch is 2561
+train_score is 0.7150, denas_score is -313911797.8125
+spearman_correlation -0.6956
+epoch is 2562
+train_score is 0.7139, denas_score is -197657522.5354
+spearman_correlation -0.6950
+epoch is 2563
+train_score is 0.6392, denas_score is -36774122.7129
+spearman_correlation -0.6950
+epoch is 2571
+train_score is 0.6262, denas_score is -36265197.4863
+spearman_correlation -0.6949
+epoch is 2572
+train_score is 0.6888, denas_score is -934086711.8218
+spearman_correlation -0.6949
+epoch is 2574
+train_score is 0.6232, denas_score is -36919503.9375
+spearman_correlation -0.6947
+epoch is 2576
+train_score is 0.6227, denas_score is -22642744.3516
+spearman_correlation -0.6950
+epoch is 2577
+train_score is 0.7018, denas_score is -4365598620.7101
+spearman_correlation -0.6955
+epoch is 2578
+train_score is 0.6557, denas_score is -967967035.8828
+spearman_correlation -0.6953
+epoch is 2581
+train_score is 0.5630, denas_score is -23511752.0961
+spearman_correlation -0.6957
+epoch is 2582
+train_score is 0.6618, denas_score is -36256481.6205
+spearman_correlation -0.6957
+epoch is 2583
+train_score is 0.6213, denas_score is -82202166.9120
+spearman_correlation -0.6952
+epoch is 2585
+train_score is 0.6434, denas_score is -30832462.5279
+spearman_correlation -0.6952
+epoch is 2587
+train_score is 0.6601, denas_score is -31146160.3401
+spearman_correlation -0.6950
+epoch is 2588
+train_score is 0.6700, denas_score is -37304517.5547
+spearman_correlation -0.6951
+epoch is 2590
+train_score is 0.6623, denas_score is -31059900.3848
+spearman_correlation -0.6949
+epoch is 2593
+train_score is 0.7066, denas_score is -2495809609096.6875
+spearman_correlation -0.6954
+epoch is 2596
+train_score is 0.6670, denas_score is -107911555.2500
+spearman_correlation -0.6956
+epoch is 2597
+train_score is 0.6673, denas_score is -30633422.7646
+spearman_correlation -0.6951
+epoch is 2600
+train_score is 0.6756, denas_score is -612907276.7422
+spearman_correlation -0.6952
+epoch is 2601
+train_score is 0.5966, denas_score is -30788294.5980
+spearman_correlation -0.6953
+epoch is 2603
+train_score is 0.6358, denas_score is -2271976571.0625
+spearman_correlation -0.6940
+epoch is 2604
+train_score is 0.6149, denas_score is -31163256.5885
+spearman_correlation -0.6940
+epoch is 2605
+train_score is 0.6394, denas_score is -30936339.4512
+spearman_correlation -0.6941
+epoch is 2614
+train_score is 0.5957, denas_score is -3050987700.7750
+spearman_correlation -0.6918
+epoch is 2619
+train_score is 0.6426, denas_score is -36922640.8125
+spearman_correlation -0.6917
+epoch is 2622
+train_score is 0.6546, denas_score is -36457692.6411
+spearman_correlation -0.6917
+epoch is 2625
+train_score is 0.6372, denas_score is -35857770.0313
+spearman_correlation -0.6918
+epoch is 2626
+train_score is 0.5709, denas_score is -22770428.8540
+spearman_correlation -0.6923
+epoch is 2627
+train_score is 0.6789, denas_score is -649664113.6258
+spearman_correlation -0.6924
+epoch is 2628
+train_score is 0.6275, denas_score is -30119683.6426
+spearman_correlation -0.6927
+epoch is 2632
+train_score is 0.6291, denas_score is -23066406.5986
+spearman_correlation -0.6929
+epoch is 2635
+train_score is 0.6738, denas_score is -4643785739119519.0000
+spearman_correlation -0.6930
+epoch is 2636
+train_score is 0.6342, denas_score is -30389311.1719
+spearman_correlation -0.6933
+epoch is 2638
+train_score is 0.6030, denas_score is -30361867.3439
+spearman_correlation -0.6935
+epoch is 2641
+train_score is 0.6423, denas_score is -3346512250.6758
+spearman_correlation -0.6924
+epoch is 2642
+train_score is 0.6722, denas_score is -346752809.8750
+spearman_correlation -0.6925
+epoch is 2644
+train_score is 0.7174, denas_score is -27339212994648608.0000
+spearman_correlation -0.6933
+epoch is 2646
+train_score is 0.6073, denas_score is -36819634.2930
+spearman_correlation -0.6929
+epoch is 2650
+train_score is 0.6731, denas_score is -2299297657.0000
+spearman_correlation -0.6931
+epoch is 2656
+train_score is 0.6712, denas_score is -3909824837.1379
+spearman_correlation -0.6932
+epoch is 2658
+train_score is 0.7108, denas_score is -3417651162.1875
+spearman_correlation -0.6936
+epoch is 2661
+train_score is 0.6809, denas_score is -426820088.1960
+spearman_correlation -0.6936
+epoch is 2667
+train_score is 0.6836, denas_score is -118065620253000000.0000
+spearman_correlation -0.6940
+epoch is 2668
+train_score is 0.6641, denas_score is -35579249.3096
+spearman_correlation -0.6938
+epoch is 2669
+train_score is 0.7156, denas_score is -7649940428.2752
+spearman_correlation -0.6944
+epoch is 2675
+train_score is 0.6702, denas_score is -151525024741.3750
+spearman_correlation -0.6944
+epoch is 2677
+train_score is 0.5891, denas_score is -23303201.1924
+spearman_correlation -0.6948
+epoch is 2678
+train_score is 0.6257, denas_score is -22979101.2911
+spearman_correlation -0.6951
+epoch is 2680
+train_score is 0.6260, denas_score is -1309009353.1689
+spearman_correlation -0.6940
+epoch is 2682
+train_score is 0.6674, denas_score is -22963531374937882624.0000
+spearman_correlation -0.6938
+epoch is 2684
+train_score is 0.6139, denas_score is -5371031.2970
+spearman_correlation -0.6943
+epoch is 2686
+train_score is 0.6200, denas_score is -22823778.7344
+spearman_correlation -0.6946
+epoch is 2687
+train_score is 0.6766, denas_score is -717919998.3047
+spearman_correlation -0.6947
+epoch is 2689
+train_score is 0.6688, denas_score is -36536924.6277
+spearman_correlation -0.6947
+epoch is 2690
+train_score is 0.6868, denas_score is -4055633109297.0664
+spearman_correlation -0.6951
+epoch is 2696
+train_score is 0.6220, denas_score is -30442084.2245
+spearman_correlation -0.6953
+epoch is 2700
+train_score is 0.6706, denas_score is -7476173743.3915
+spearman_correlation -0.6954
+epoch is 2701
+train_score is 0.6620, denas_score is -638025872868687.0000
+spearman_correlation -0.6950
+epoch is 2702
+train_score is 0.6222, denas_score is -23265070.5137
+spearman_correlation -0.6953
+epoch is 2704
+train_score is 0.6706, denas_score is -181480813837152694566912.0000
+spearman_correlation -0.6952
+epoch is 2708
+train_score is 0.6417, denas_score is -1304205311.0000
+spearman_correlation -0.6946
+epoch is 2711
+train_score is 0.6467, denas_score is -31321373.6357
+spearman_correlation -0.6945
+epoch is 2713
+train_score is 0.6763, denas_score is -1070591575.9109
+spearman_correlation -0.6946
+epoch is 2714
+train_score is 0.6417, denas_score is -35760987.9062
+spearman_correlation -0.6947
+epoch is 2715
+train_score is 0.6446, denas_score is -36510596.9375
+spearman_correlation -0.6946
+epoch is 2716
+train_score is 0.6705, denas_score is -24132328523134349312.0000
+spearman_correlation -0.6945
+epoch is 2717
+train_score is 0.6740, denas_score is -14113949011.2218
+spearman_correlation -0.6947
+epoch is 2719
+train_score is 0.6008, denas_score is -23124122.0737
+spearman_correlation -0.6951
+epoch is 2720
+train_score is 0.5824, denas_score is -22632253.9775
+spearman_correlation -0.6956
+epoch is 2722
+train_score is 0.6484, denas_score is -205741603.5625
+spearman_correlation -0.6955
+epoch is 2727
+train_score is 0.6614, denas_score is -4011864781.5000
+spearman_correlation -0.6953
+epoch is 2729
+train_score is 0.7039, denas_score is -1972287332.1914
+spearman_correlation -0.6956
+epoch is 2732
+train_score is 0.5612, denas_score is -22923319.1824
+spearman_correlation -0.6961
+epoch is 2733
+train_score is 0.5432, denas_score is -23014134.6102
+spearman_correlation -0.6966
+epoch is 2735
+train_score is 0.6027, denas_score is -23156772.5476
+spearman_correlation -0.6970
+epoch is 2737
+train_score is 0.6845, denas_score is -416298143.2344
+spearman_correlation -0.6969
+epoch is 2739
+train_score is 0.6356, denas_score is -35937457.5918
+spearman_correlation -0.6970
+epoch is 2740
+train_score is 0.6378, denas_score is -1382547810.7500
+spearman_correlation -0.6962
+epoch is 2744
+train_score is 0.6666, denas_score is -636995056.6577
+spearman_correlation -0.6963
+epoch is 2745
+train_score is 0.6622, denas_score is -293577993.8594
+spearman_correlation -0.6965
+epoch is 2747
+train_score is 0.6368, denas_score is -35400536.5938
+spearman_correlation -0.6965
+epoch is 2749
+train_score is 0.6173, denas_score is -23290398.6484
+spearman_correlation -0.6969
+epoch is 2751
+train_score is 0.6816, denas_score is -2651584826802052706118664192.0000
+spearman_correlation -0.6973
+epoch is 2758
+train_score is 0.6686, denas_score is -28300229217192505344.0000
+spearman_correlation -0.6971
+epoch is 2760
+train_score is 0.6952, denas_score is -446849986.6250
+spearman_correlation -0.6970
+epoch is 2762
+train_score is 0.6639, denas_score is -30105756.6973
+spearman_correlation -0.6965
+epoch is 2763
+train_score is 0.6321, denas_score is -36512327.3703
+spearman_correlation -0.6964
+epoch is 2764
+train_score is 0.7060, denas_score is -2185620595.0000
+spearman_correlation -0.6966
+epoch is 2767
+train_score is 0.7136, denas_score is -4719295648.2969
+spearman_correlation -0.6971
+epoch is 2771
+train_score is 0.6197, denas_score is -23156432.7578
+spearman_correlation -0.6975
+epoch is 2774
+train_score is 0.6628, denas_score is -379308462.3438
+spearman_correlation -0.6976
+epoch is 2775
+train_score is 0.6412, denas_score is -30256318.8906
+spearman_correlation -0.6977
+epoch is 2776
+train_score is 0.6386, denas_score is -23195613.4673
+spearman_correlation -0.6978
+epoch is 2777
+train_score is 0.7079, denas_score is -860721325678.0078
+spearman_correlation -0.6983
+epoch is 2781
+train_score is 0.6804, denas_score is -15207336902409934344290304.0000
+spearman_correlation -0.6986
+epoch is 2783
+train_score is 0.6579, denas_score is -35768329.3878
+spearman_correlation -0.6985
+epoch is 2788
+train_score is 0.5216, denas_score is -22946638.9677
+spearman_correlation -0.6991
+epoch is 2790
+train_score is 0.6736, denas_score is -1210166893.8750
+spearman_correlation -0.6992
+epoch is 2791
+train_score is 0.6275, denas_score is -23668014.2656
+spearman_correlation -0.6995
+epoch is 2792
+train_score is 0.6062, denas_score is -30938296.2334
+spearman_correlation -0.6995
+epoch is 2796
+train_score is 0.6499, denas_score is -35563974.1250
+spearman_correlation -0.6995
+epoch is 2801
+train_score is 0.6993, denas_score is -14605311995814965355004697772032.0000
+spearman_correlation -0.7000
+epoch is 2804
+train_score is 0.6352, denas_score is -29772509.6270
+spearman_correlation -0.7002
+epoch is 2806
+train_score is 0.6646, denas_score is -30408664.4629
+spearman_correlation -0.6999
+epoch is 2808
+train_score is 0.6786, denas_score is -14104375039.5000
+spearman_correlation -0.7001
+epoch is 2809
+train_score is 0.6788, denas_score is -160600246588747644928.0000
+spearman_correlation -0.7004
+epoch is 2810
+train_score is 0.5394, denas_score is -30967511.3350
+spearman_correlation -0.7003
+epoch is 2813
+train_score is 0.6280, denas_score is -30966829.7793
+spearman_correlation -0.7004
+epoch is 2815
+train_score is 0.6386, denas_score is -22718013.4688
+spearman_correlation -0.7004
+epoch is 2816
+train_score is 0.7053, denas_score is -2237959723.5000
+spearman_correlation -0.7007
+epoch is 2820
+train_score is 0.6180, denas_score is -23244857.0437
+spearman_correlation -0.7010
+epoch is 2821
+train_score is 0.6261, denas_score is -36289011.7803
+spearman_correlation -0.7009
+epoch is 2822
+train_score is 0.7066, denas_score is -271484189873985.0000
+spearman_correlation -0.7015
+epoch is 2823
+train_score is 0.7064, denas_score is -4090865517.9062
+spearman_correlation -0.7018
+epoch is 2830
+train_score is 0.7054, denas_score is -605158255.4375
+spearman_correlation -0.7017
+epoch is 2838
+train_score is 0.6471, denas_score is -30756221.2812
+spearman_correlation -0.7016
+epoch is 2839
+train_score is 0.6652, denas_score is -30774873.8276
+spearman_correlation -0.7013
+epoch is 2844
+train_score is 0.5575, denas_score is -23037293.3584
+spearman_correlation -0.7018
+epoch is 2850
+train_score is 0.5992, denas_score is -23093380.4187
+spearman_correlation -0.7022
+epoch is 2852
+train_score is 0.7068, denas_score is -1108968335253.4531
+spearman_correlation -0.7026
+epoch is 2853
+train_score is 0.6755, denas_score is -767638117.3047
+spearman_correlation -0.7027
+epoch is 2855
+train_score is 0.6802, denas_score is -8311893353.8102
+spearman_correlation -0.7030
+epoch is 2860
+train_score is 0.6405, denas_score is -2016265837.7783
+spearman_correlation -0.7022
+epoch is 2863
+train_score is 0.6471, denas_score is -36869826.2441
+spearman_correlation -0.7022
+epoch is 2867
+train_score is 0.6262, denas_score is -36455795.3741
+spearman_correlation -0.7021
+epoch is 2868
+train_score is 0.6686, denas_score is -1479783794.0000
+spearman_correlation -0.7022
+epoch is 2869
+train_score is 0.6654, denas_score is -26976763638353727488.0000
+spearman_correlation -0.7019
+epoch is 2872
+train_score is 0.6559, denas_score is -30299557.9427
+spearman_correlation -0.7017
+epoch is 2873
+train_score is 0.6708, denas_score is -36580350.2148
+spearman_correlation -0.7016
+epoch is 2874
+train_score is 0.6455, denas_score is -36445575.1113
+spearman_correlation -0.7015
+epoch is 2879
+train_score is 0.6287, denas_score is -35652008.4902
+spearman_correlation -0.7016
+epoch is 2881
+train_score is 0.7103, denas_score is -130858087.1406
+spearman_correlation -0.7011
+epoch is 2882
+train_score is 0.6894, denas_score is -2443951092.9609
+spearman_correlation -0.7014
+epoch is 2883
+train_score is 0.3774, denas_score is -36411875.8200
+spearman_correlation -0.7008
+epoch is 2885
+train_score is 0.6834, denas_score is -256074863.9854
+spearman_correlation -0.7007
+epoch is 2888
+train_score is 0.7241, denas_score is -3065312560.3438
+spearman_correlation -0.7011
+epoch is 2891
+train_score is 0.7129, denas_score is -2219215084.2302
+spearman_correlation -0.7013
+epoch is 2892
+train_score is 0.6523, denas_score is -31051884.9935
+spearman_correlation -0.7012
+epoch is 2893
+train_score is 0.6278, denas_score is -22890287.9121
+spearman_correlation -0.7014
+epoch is 2894
+train_score is 0.6473, denas_score is -30348034.8740
+spearman_correlation -0.7013
+epoch is 2896
+train_score is 0.6428, denas_score is -30669186.8428
+spearman_correlation -0.7013
+epoch is 2900
+train_score is 0.6623, denas_score is -30188431.0605
+spearman_correlation -0.7009
+epoch is 2901
+train_score is 0.6530, denas_score is -2354762983.0000
+spearman_correlation -0.7005
+epoch is 2903
+train_score is 0.6021, denas_score is -22833720.4844
+spearman_correlation -0.7009
+epoch is 2905
+train_score is 0.6408, denas_score is -37265038.3965
+spearman_correlation -0.7009
+epoch is 2907
+train_score is 0.6153, denas_score is -22526307.2158
+spearman_correlation -0.7013
+epoch is 2910
+train_score is 0.6551, denas_score is -30157640.5573
+spearman_correlation -0.7010
+epoch is 2912
+train_score is 0.6535, denas_score is -30918669.4934
+spearman_correlation -0.7009
+epoch is 2914
+train_score is 0.6897, denas_score is -4899780312.4375
+spearman_correlation -0.7013
+epoch is 2918
+train_score is 0.6573, denas_score is -334612680.1250
+spearman_correlation -0.7013
+epoch is 2919
+train_score is 0.6764, denas_score is -2458328876.0771
+spearman_correlation -0.7015
+epoch is 2920
+train_score is 0.6039, denas_score is -36299453.9312
+spearman_correlation -0.7014
+epoch is 2924
+train_score is 0.5925, denas_score is -30260633.0392
+spearman_correlation -0.7016
+epoch is 2926
+train_score is 0.7059, denas_score is -120405206357941485568.0000
+spearman_correlation -0.7021
+epoch is 2929
+train_score is 0.6816, denas_score is -1116653455.8477
+spearman_correlation -0.7022
+epoch is 2932
+train_score is 0.6772, denas_score is -36828827.3862
+spearman_correlation -0.7020
+epoch is 2935
+train_score is 0.7183, denas_score is -2219886225267888750592.0000
+spearman_correlation -0.7027
+epoch is 2938
+train_score is 0.5291, denas_score is -30406143.6045
+spearman_correlation -0.7029
+epoch is 2940
+train_score is 0.6421, denas_score is -36436305.9219
+spearman_correlation -0.7028
+epoch is 2941
+train_score is 0.6753, denas_score is -36162480.9204
+spearman_correlation -0.7024
+epoch is 2943
+train_score is 0.6666, denas_score is -178122630.5602
+spearman_correlation -0.7026
+epoch is 2944
+train_score is 0.6923, denas_score is -372995945101.9375
+spearman_correlation -0.7030
+epoch is 2945
+train_score is 0.5185, denas_score is -36778509.0770
+spearman_correlation -0.7023
+epoch is 2946
+train_score is 0.6188, denas_score is -22671604.6406
+spearman_correlation -0.7027
+epoch is 2949
+train_score is 0.6679, denas_score is -1698592429.3750
+spearman_correlation -0.7028
+epoch is 2950
+train_score is 0.5746, denas_score is -23025351.0713
+spearman_correlation -0.7032
+epoch is 2951
+train_score is 0.6623, denas_score is -703110393.1875
+spearman_correlation -0.7033
+epoch is 2952
+train_score is 0.6326, denas_score is -29784247.5859
+spearman_correlation -0.7035
+epoch is 2955
+train_score is 0.6675, denas_score is -37275948.8047
+spearman_correlation -0.7036
+epoch is 2956
+train_score is 0.6378, denas_score is -36492572.7012
+spearman_correlation -0.7036
+epoch is 2958
+train_score is 0.6678, denas_score is -37149627.0148
+spearman_correlation -0.7037
+epoch is 2960
+train_score is 0.5604, denas_score is -23010311.5554
+spearman_correlation -0.7042
+epoch is 2962
+train_score is 0.6230, denas_score is -5776316.4800
+spearman_correlation -0.7045
+epoch is 2963
+train_score is 0.6400, denas_score is -30666092.6460
+spearman_correlation -0.7046
+epoch is 2964
+train_score is 0.5620, denas_score is -36259073.6998
+spearman_correlation -0.7043
+epoch is 2966
+train_score is 0.6604, denas_score is -199715739.6719
+spearman_correlation -0.7043
+epoch is 2967
+train_score is 0.6632, denas_score is -30798535.5234
+spearman_correlation -0.7041
+epoch is 2970
+train_score is 0.6332, denas_score is -36123469.4844
+spearman_correlation -0.7041
+epoch is 2971
+train_score is 0.5493, denas_score is -36393049.1273
+spearman_correlation -0.7037
+epoch is 2979
+train_score is 0.5636, denas_score is -28248971.7263
+spearman_correlation -0.7040
+epoch is 2980
+train_score is 0.7109, denas_score is -14665826645044942848.0000
+spearman_correlation -0.7046
+epoch is 2983
+train_score is 0.6296, denas_score is -249707145.2500
+spearman_correlation -0.7042
+epoch is 2984
+train_score is 0.5399, denas_score is -30798725.1824
+spearman_correlation -0.7042
+epoch is 2986
+train_score is 0.6738, denas_score is -746145604.5938
+spearman_correlation -0.7043
+epoch is 2989
+train_score is 0.6318, denas_score is -23267749.0625
+spearman_correlation -0.7045
+epoch is 2991
+train_score is 0.6745, denas_score is -500578384.6875
+spearman_correlation -0.7046
+epoch is 2992
+train_score is 0.6319, denas_score is -30235231.1406
+spearman_correlation -0.7048
+epoch is 2994
+train_score is 0.6879, denas_score is -950242306.0014
+spearman_correlation -0.7048
+epoch is 2995
+train_score is 0.7062, denas_score is -526661320130893376.0000
+spearman_correlation -0.7053
+epoch is 2996
+train_score is 0.7078, denas_score is -428105882.0625
+spearman_correlation -0.7050
+epoch is 2997
+train_score is 0.6701, denas_score is -292118334.8281
+spearman_correlation -0.7051
+epoch is 2998
+train_score is 0.6865, denas_score is -4280529190376662016.0000
+spearman_correlation -0.7055
+epoch is 2999
+train_score is 0.6447, denas_score is -36410628.3896
+spearman_correlation -0.7055
+epoch is 3002
+train_score is 0.5583, denas_score is -36217970.3482
+spearman_correlation -0.7052
+epoch is 3003
+train_score is 0.5622, denas_score is -23048388.0968
+spearman_correlation -0.7056
+epoch is 3005
+train_score is 0.6276, denas_score is -30573884.8514
+spearman_correlation -0.7057
+epoch is 3006
+train_score is 0.6810, denas_score is -5681613463.3828
+spearman_correlation -0.7060
+epoch is 3007
+train_score is 0.6362, denas_score is -1357760610.6250
+spearman_correlation -0.7053
+epoch is 3013
+train_score is 0.5946, denas_score is -22770213.1885
+spearman_correlation -0.7057
+epoch is 3015
+train_score is 0.6466, denas_score is -584476236.6328
+spearman_correlation -0.7055
+epoch is 3016
+train_score is 0.6849, denas_score is -64376935429.2966
+spearman_correlation -0.7058
+epoch is 3018
+train_score is 0.5328, denas_score is -22914824.7489
+spearman_correlation -0.7063
+epoch is 3019
+train_score is 0.6811, denas_score is -3245079691.5312
+spearman_correlation -0.7066
+epoch is 3020
+train_score is 0.6494, denas_score is -468007630.5000
+spearman_correlation -0.7064
+epoch is 3023
+train_score is 0.6418, denas_score is -30953366.0000
+spearman_correlation -0.7065
+epoch is 3025
+train_score is 0.6231, denas_score is -22910742.5215
+spearman_correlation -0.7067
+epoch is 3027
+train_score is 0.6616, denas_score is -30840295.8516
+spearman_correlation -0.7065
+epoch is 3031
+train_score is 0.6223, denas_score is -23937348.6836
+spearman_correlation -0.7068
+epoch is 3033
+train_score is 0.6442, denas_score is -36298236.1133
+spearman_correlation -0.7068
+epoch is 3034
+train_score is 0.6551, denas_score is -6345990638.7500
+spearman_correlation -0.7063
+epoch is 3036
+train_score is 0.6317, denas_score is -30325903.7467
+spearman_correlation -0.7065
+epoch is 3037
+train_score is 0.6739, denas_score is -3016689906.6562
+spearman_correlation -0.7067
+epoch is 3038
+train_score is 0.7172, denas_score is -23435727315610456.0000
+spearman_correlation -0.7072
+epoch is 3039
+train_score is 0.6158, denas_score is -30300072.3716
+spearman_correlation -0.7075
+epoch is 3041
+train_score is 0.6674, denas_score is -29986369.8352
+spearman_correlation -0.7068
+epoch is 3042
+train_score is 0.6739, denas_score is -71048408.9241
+spearman_correlation -0.7069
+epoch is 3045
+train_score is 0.6505, denas_score is -31100919.8226
+spearman_correlation -0.7068
+epoch is 3046
+train_score is 0.6864, denas_score is -19379864.3974
+spearman_correlation -0.7040
+epoch is 3047
+train_score is 0.6649, denas_score is -30765346.4238
+spearman_correlation -0.7037
+epoch is 3053
+train_score is 0.6535, denas_score is -37129425.2609
+spearman_correlation -0.7037
+epoch is 3054
+train_score is 0.6268, denas_score is -31080684.4375
+spearman_correlation -0.7038
+epoch is 3055
+train_score is 0.6318, denas_score is -30093042.1094
+spearman_correlation -0.7040
+epoch is 3058
+train_score is 0.6273, denas_score is -7234363010.0000
+spearman_correlation -0.7024
+epoch is 3059
+train_score is 0.6261, denas_score is -23258560.5469
+spearman_correlation -0.7026
+epoch is 3069
+train_score is 0.6229, denas_score is -23171808.6963
+spearman_correlation -0.7029
+epoch is 3070
+train_score is 0.6391, denas_score is -22719908.8340
+spearman_correlation -0.7029
+epoch is 3074
+train_score is 0.6369, denas_score is -23313690.6647
+spearman_correlation -0.7030
+epoch is 3075
+train_score is 0.6530, denas_score is -22907594.3003
+spearman_correlation -0.7024
+epoch is 3077
+train_score is 0.6511, denas_score is -160972387.1694
+spearman_correlation -0.7024
+epoch is 3078
+train_score is 0.6770, denas_score is -2015813667.3125
+spearman_correlation -0.7027
+epoch is 3082
+train_score is 0.7170, denas_score is -108894475021915.5469
+spearman_correlation -0.7032
+epoch is 3083
+train_score is 0.6472, denas_score is -30427311.6719
+spearman_correlation -0.7032
+epoch is 3084
+train_score is 0.6793, denas_score is -3876332674.0957
+spearman_correlation -0.7034
+epoch is 3085
+train_score is 0.7046, denas_score is -2434376568.6250
+spearman_correlation -0.7037
+epoch is 3086
+train_score is 0.6756, denas_score is -868698688.8750
+spearman_correlation -0.7038
+epoch is 3089
+train_score is 0.6336, denas_score is -30605041.8047
+spearman_correlation -0.7039
+epoch is 3090
+train_score is 0.7023, denas_score is -112385702871384989754632175616.0000
+spearman_correlation -0.7044
+epoch is 3093
+train_score is 0.6338, denas_score is -31117195.2031
+spearman_correlation -0.7045
+epoch is 3094
+train_score is 0.6697, denas_score is -30135978.5078
+spearman_correlation -0.7038
+epoch is 3096
+train_score is 0.6105, denas_score is -30469094.2902
+spearman_correlation -0.7040
+epoch is 3097
+train_score is 0.6422, denas_score is -30221784.4141
+spearman_correlation -0.7040
+epoch is 3098
+train_score is 0.6627, denas_score is -30291129.1055
+spearman_correlation -0.7036
+epoch is 3099
+train_score is 0.6554, denas_score is -36532580.7031
+spearman_correlation -0.7036
+epoch is 3100
+train_score is 0.6683, denas_score is -35316595.1392
+spearman_correlation -0.7034
+epoch is 3103
+train_score is 0.5921, denas_score is -30370036.0925
+spearman_correlation -0.7035
+epoch is 3106
+train_score is 0.6360, denas_score is -1341732454.2500
+spearman_correlation -0.7028
+epoch is 3107
+train_score is 0.6331, denas_score is -830473947.2500
+spearman_correlation -0.7022
+epoch is 3110
+train_score is 0.5530, denas_score is -29969297.7071
+spearman_correlation -0.7025
+epoch is 3113
+train_score is 0.6201, denas_score is -30497071.0625
+spearman_correlation -0.7026
+epoch is 3114
+train_score is 0.6914, denas_score is -1798141919.0000
+spearman_correlation -0.7029
+epoch is 3115
+train_score is 0.7071, denas_score is -1756915837.7500
+spearman_correlation -0.7030
+epoch is 3116
+train_score is 0.6300, denas_score is -921828115.8125
+spearman_correlation -0.7023
+epoch is 3117
+train_score is 0.6390, denas_score is -30930218.6875
+spearman_correlation -0.7024
+epoch is 3118
+train_score is 0.6905, denas_score is -665235074.3438
+spearman_correlation -0.7023
+epoch is 3121
+train_score is 0.6304, denas_score is -23287897.7812
+spearman_correlation -0.7025
+epoch is 3124
+train_score is 0.6655, denas_score is -30994644.6269
+spearman_correlation -0.7023
+epoch is 3126
+train_score is 0.7111, denas_score is -105827054.3750
+spearman_correlation -0.7018
+epoch is 3132
+train_score is 0.6636, denas_score is -1503655479.5000
+spearman_correlation -0.7019
+epoch is 3133
+train_score is 0.7117, denas_score is -4233021146.6953
+spearman_correlation -0.7022
+epoch is 3136
+train_score is 0.6335, denas_score is -30166811.4062
+spearman_correlation -0.7024
+epoch is 3138
+train_score is 0.6321, denas_score is -23634734.9297
+spearman_correlation -0.7026
+epoch is 3140
+train_score is 0.7017, denas_score is -1532184365.2812
+spearman_correlation -0.7028
+epoch is 3141
+train_score is 0.6374, denas_score is -36397170.5000
+spearman_correlation -0.7027
+epoch is 3144
+train_score is 0.6304, denas_score is -30960637.0088
+spearman_correlation -0.7028
+epoch is 3145
+train_score is 0.6343, denas_score is -35961501.7500
+spearman_correlation -0.7028
+epoch is 3146
+train_score is 0.6463, denas_score is -56243379.5031
+spearman_correlation -0.7028
+epoch is 3147
+train_score is 0.6187, denas_score is -23214999.8999
+spearman_correlation -0.7031
+epoch is 3149
+train_score is 0.6739, denas_score is -1651786293.3125
+spearman_correlation -0.7033
+epoch is 3151
+train_score is 0.6783, denas_score is -36310848.1006
+spearman_correlation -0.7029
+epoch is 3153
+train_score is 0.6564, denas_score is -31018293.6660
+spearman_correlation -0.7027
+epoch is 3154
+train_score is 0.6277, denas_score is -535791409.9375
+spearman_correlation -0.7022
+epoch is 3159
+train_score is 0.4876, denas_score is -58971741.1643
+spearman_correlation -0.7013
+epoch is 3160
+train_score is 0.6141, denas_score is -23140653.2136
+spearman_correlation -0.7017
+epoch is 3162
+train_score is 0.6673, denas_score is -35604037.5617
+spearman_correlation -0.7014
+epoch is 3163
+train_score is 0.6513, denas_score is -36464133.1733
+spearman_correlation -0.7014
+epoch is 3165
+train_score is 0.6760, denas_score is -3365826526.9071
+spearman_correlation -0.7017
+epoch is 3166
+train_score is 0.6408, denas_score is -36098701.2812
+spearman_correlation -0.7017
+epoch is 3170
+train_score is 0.6350, denas_score is -30187918.8789
+spearman_correlation -0.7018
+epoch is 3171
+train_score is 0.6023, denas_score is -22895585.5215
+spearman_correlation -0.7022
+epoch is 3173
+train_score is 0.7140, denas_score is -61127425404258575341060096.0000
+spearman_correlation -0.7028
+epoch is 3174
+train_score is 0.6447, denas_score is -646949777.4297
+spearman_correlation -0.7025
+epoch is 3176
+train_score is 0.6846, denas_score is -1145074888.2500
+spearman_correlation -0.7026
+epoch is 3177
+train_score is 0.6517, denas_score is -36620930.8281
+spearman_correlation -0.7026
+epoch is 3178
+train_score is 0.5173, denas_score is -22937757.6454
+spearman_correlation -0.7031
+epoch is 3179
+train_score is 0.6166, denas_score is -22939082.2891
+spearman_correlation -0.7034
+epoch is 3181
+train_score is 0.5815, denas_score is -23536986.4381
+spearman_correlation -0.7037
+epoch is 3182
+train_score is 0.6463, denas_score is -36275939.8750
+spearman_correlation -0.7037
+epoch is 3183
+train_score is 0.6770, denas_score is -603434676.2234
+spearman_correlation -0.7037
+epoch is 3184
+train_score is 0.6846, denas_score is -4404259255780792320.0000
+spearman_correlation -0.7041
+epoch is 3185
+train_score is 0.6462, denas_score is -29686214.4547
+spearman_correlation -0.7040
+epoch is 3186
+train_score is 0.6622, denas_score is -36637238.2949
+spearman_correlation -0.7040
+epoch is 3187
+train_score is 0.6381, denas_score is -36139604.4717
+spearman_correlation -0.7040
+epoch is 3189
+train_score is 0.5916, denas_score is -22875507.8125
+spearman_correlation -0.7044
+epoch is 3194
+train_score is 0.4409, denas_score is -30123211.7103
+spearman_correlation -0.7046
+epoch is 3196
+train_score is 0.6374, denas_score is -30108374.8594
+spearman_correlation -0.7048
+epoch is 3198
+train_score is 0.7130, denas_score is -21197915.6281
+spearman_correlation -0.7012
+epoch is 3200
+train_score is 0.6650, denas_score is -2321634801.3750
+spearman_correlation -0.7013
+epoch is 3201
+train_score is 0.6735, denas_score is -3878629829.0000
+spearman_correlation -0.7014
+epoch is 3210
+train_score is 0.7139, denas_score is -19964871.3914
+spearman_correlation -0.6979
+epoch is 3213
+train_score is 0.6145, denas_score is -31184487.1483
+spearman_correlation -0.6979
+epoch is 3216
+train_score is 0.6506, denas_score is -35620525.7660
+spearman_correlation -0.6978
+epoch is 3217
+train_score is 0.6127, denas_score is -35235821.9232
+spearman_correlation -0.6978
+epoch is 3218
+train_score is 0.6517, denas_score is -36022060.6400
+spearman_correlation -0.6977
+epoch is 3219
+train_score is 0.6773, denas_score is -2268563929.9375
+spearman_correlation -0.6979
+epoch is 3223
+train_score is 0.6864, denas_score is -188064182634015686656.0000
+spearman_correlation -0.6983
+epoch is 3224
+train_score is 0.6375, denas_score is -36434105.1458
+spearman_correlation -0.6983
+epoch is 3226
+train_score is 0.6870, denas_score is -3247367919463307264.0000
+spearman_correlation -0.6987
+epoch is 3227
+train_score is 0.6941, denas_score is -2658017638.0977
+spearman_correlation -0.6990
+epoch is 3228
+train_score is 0.6843, denas_score is -143764642201.3351
+spearman_correlation -0.6993
+epoch is 3229
+train_score is 0.6215, denas_score is -856188613.0000
+spearman_correlation -0.6984
+epoch is 3231
+train_score is 0.6053, denas_score is -30629558.7188
+spearman_correlation -0.6985
+epoch is 3232
+train_score is 0.6879, denas_score is -2947334944.7593
+spearman_correlation -0.6988
+epoch is 3233
+train_score is 0.6855, denas_score is -21406812921908196502667264.0000
+spearman_correlation -0.6991
+epoch is 3234
+train_score is 0.6242, denas_score is -35721635.7510
+spearman_correlation -0.6992
+epoch is 3236
+train_score is 0.5947, denas_score is -36102524.6515
+spearman_correlation -0.6990
+epoch is 3237
+train_score is 0.6707, denas_score is -53084053.2029
+spearman_correlation -0.6990
+epoch is 3238
+train_score is 0.6489, denas_score is -265942085.1250
+spearman_correlation -0.6990
+epoch is 3240
+train_score is 0.6654, denas_score is -570043766.1250
+spearman_correlation -0.6991
+epoch is 3242
+train_score is 0.7022, denas_score is -640329313.7734
+spearman_correlation -0.6990
+epoch is 3244
+train_score is 0.6481, denas_score is -29943820.5625
+spearman_correlation -0.6989
+epoch is 3246
+train_score is 0.6287, denas_score is -30319112.3530
+spearman_correlation -0.6990
+epoch is 3247
+train_score is 0.6847, denas_score is -10869617520.2594
+spearman_correlation -0.6993
+epoch is 3252
+train_score is 0.6338, denas_score is -30437391.5781
+spearman_correlation -0.6995
+epoch is 3253
+train_score is 0.6641, denas_score is -30242131.7185
+spearman_correlation -0.6991
+epoch is 3260
+train_score is 0.6815, denas_score is -380754500.8125
+spearman_correlation -0.6991
+epoch is 3264
+train_score is 0.6607, denas_score is -36343671.8296
+spearman_correlation -0.6990
+epoch is 3266
+train_score is 0.6650, denas_score is -36229532.2773
+spearman_correlation -0.6990
+epoch is 3268
+train_score is 0.6637, denas_score is -698148893.7031
+spearman_correlation -0.6990
+epoch is 3270
+train_score is 0.6803, denas_score is -3040632685.7344
+spearman_correlation -0.6993
+epoch is 3271
+train_score is 0.6298, denas_score is -35735183.5132
+spearman_correlation -0.6993
+epoch is 3272
+train_score is 0.6605, denas_score is -776596263.0342
+spearman_correlation -0.6993
+epoch is 3274
+train_score is 0.6669, denas_score is -36049975.6092
+spearman_correlation -0.6992
+epoch is 3275
+train_score is 0.6468, denas_score is -2628377203.1836
+spearman_correlation -0.6986
+epoch is 3281
+train_score is 0.6774, denas_score is -1515040811.1250
+spearman_correlation -0.6988
+epoch is 3284
+train_score is 0.7099, denas_score is -655850584539.6797
+spearman_correlation -0.6992
+epoch is 3285
+train_score is 0.6770, denas_score is -2682091640.9229
+spearman_correlation -0.6995
+epoch is 3287
+train_score is 0.7076, denas_score is -3874390558.8446
+spearman_correlation -0.6998
+epoch is 3288
+train_score is 0.7168, denas_score is -1524726464.8750
+spearman_correlation -0.6999
+epoch is 3291
+train_score is 0.7093, denas_score is -43460462143651831808.0000
+spearman_correlation -0.7004
+epoch is 3293
+train_score is 0.6548, denas_score is -36269110.4109
+spearman_correlation -0.7004
+epoch is 3294
+train_score is 0.6914, denas_score is -552889573.3125
+spearman_correlation -0.7003
+epoch is 3295
+train_score is 0.6389, denas_score is -30795183.8896
+spearman_correlation -0.7004
+epoch is 3297
+train_score is 0.6277, denas_score is -22937780.7676
+spearman_correlation -0.7005
+epoch is 3302
+train_score is 0.6408, denas_score is -957179286.3125
+spearman_correlation -0.7001
+epoch is 3306
+train_score is 0.5713, denas_score is -30400062.8585
+spearman_correlation -0.7002
+epoch is 3307
+train_score is 0.6411, denas_score is -29749398.5065
+spearman_correlation -0.7003
+epoch is 3309
+train_score is 0.6459, denas_score is -23227842.8612
+spearman_correlation -0.7001
+epoch is 3314
+train_score is 0.6040, denas_score is -22802181.7422
+spearman_correlation -0.7004
+epoch is 3322
+train_score is 0.6833, denas_score is -36718372.1929
+spearman_correlation -0.7001
+epoch is 3325
+train_score is 0.6300, denas_score is -30582884.7539
+spearman_correlation -0.7002
+epoch is 3326
+train_score is 0.6884, denas_score is -4690321606866209.0000
+spearman_correlation -0.7006
+epoch is 3331
+train_score is 0.3066, denas_score is -23127612.2496
+spearman_correlation -0.7010
+epoch is 3332
+train_score is 0.6363, denas_score is -36101701.6055
+spearman_correlation -0.7010
+epoch is 3333
+train_score is 0.6429, denas_score is -30607827.7783
+spearman_correlation -0.7010
+epoch is 3334
+train_score is 0.6464, denas_score is -36350918.1573
+spearman_correlation -0.7010
+epoch is 3338
+train_score is 0.6540, denas_score is -30566510.6743
+spearman_correlation -0.7008
+epoch is 3339
+train_score is 0.6709, denas_score is -20173134203136.0000
+spearman_correlation -0.7009
+epoch is 3341
+train_score is 0.6383, denas_score is -36302336.0625
+spearman_correlation -0.7009
+epoch is 3343
+train_score is 0.7009, denas_score is -1885549062.3125
+spearman_correlation -0.7011
+epoch is 3344
+train_score is 0.6058, denas_score is -22964606.9375
+spearman_correlation -0.7014
+epoch is 3345
+train_score is 0.6342, denas_score is -165556648.5870
+spearman_correlation -0.7012
+epoch is 3347
+train_score is 0.6373, denas_score is -36113404.5029
+spearman_correlation -0.7012
+epoch is 3348
+train_score is 0.6425, denas_score is -30867224.6465
+spearman_correlation -0.7012
+epoch is 3349
+train_score is 0.6745, denas_score is -244698387.7031
+spearman_correlation -0.7013
+epoch is 3352
+train_score is 0.5911, denas_score is -211530216.9688
+spearman_correlation -0.7006
+epoch is 3353
+train_score is 0.6226, denas_score is -36583364.8445
+spearman_correlation -0.7004
+epoch is 3356
+train_score is 0.6495, denas_score is -31059425.1965
+spearman_correlation -0.7003
+epoch is 3358
+train_score is 0.6643, denas_score is -1697502318.2500
+spearman_correlation -0.7004
+epoch is 3361
+train_score is 0.7184, denas_score is -7073739544672.7881
+spearman_correlation -0.7008
+epoch is 3362
+train_score is 0.6478, denas_score is -3495234600.7425
+spearman_correlation -0.7002
+epoch is 3364
+train_score is 0.6349, denas_score is -31292512.8066
+spearman_correlation -0.7003
+epoch is 3366
+train_score is 0.6241, denas_score is -22813179.1406
+spearman_correlation -0.7005
+epoch is 3368
+train_score is 0.6523, denas_score is -36650191.9023
+spearman_correlation -0.7005
+epoch is 3370
+train_score is 0.7014, denas_score is -97423243.1172
+spearman_correlation -0.7002
+epoch is 3371
+train_score is 0.6616, denas_score is -36551411.0312
+spearman_correlation -0.7003
+epoch is 3375
+train_score is 0.6218, denas_score is -22902549.9141
+spearman_correlation -0.7005
+epoch is 3377
+train_score is 0.6661, denas_score is -889227437.7500
+spearman_correlation -0.7006
+epoch is 3379
+train_score is 0.6104, denas_score is -23087288.5000
+spearman_correlation -0.7009
+epoch is 3381
+train_score is 0.6498, denas_score is -22908694.5828
+spearman_correlation -0.7005
+epoch is 3382
+train_score is 0.6514, denas_score is -29846672.7419
+spearman_correlation -0.7003
+epoch is 3383
+train_score is 0.6811, denas_score is -53318052763.8787
+spearman_correlation -0.7005
+epoch is 3386
+train_score is 0.6389, denas_score is -30442543.5312
+spearman_correlation -0.7006
+epoch is 3391
+train_score is 0.6814, denas_score is -12520636900527099904.0000
+spearman_correlation -0.7009
+epoch is 3395
+train_score is 0.7185, denas_score is -36944528244.0751
+spearman_correlation -0.7013
+epoch is 3397
+train_score is 0.6394, denas_score is -30312140.1084
+spearman_correlation -0.7014
+epoch is 3401
+train_score is 0.6715, denas_score is -30418269.6524
+spearman_correlation -0.7009
+epoch is 3403
+train_score is 0.6770, denas_score is -566214198.2540
+spearman_correlation -0.7009
+epoch is 3405
+train_score is 0.6181, denas_score is -37075357.8448
+spearman_correlation -0.7006
+epoch is 3406
+train_score is 0.6223, denas_score is -22952805.5508
+spearman_correlation -0.7009
+epoch is 3410
+train_score is 0.6275, denas_score is -37034872.2285
+spearman_correlation -0.7006
+epoch is 3411
+train_score is 0.6447, denas_score is -30697544.2002
+spearman_correlation -0.7006
+epoch is 3413
+train_score is 0.6275, denas_score is -36986140.1226
+spearman_correlation -0.7004
+epoch is 3418
+train_score is 0.6318, denas_score is -3308905620.0625
+spearman_correlation -0.6992
+epoch is 3419
+train_score is 0.6516, denas_score is -31451950.9355
+spearman_correlation -0.6992
+epoch is 3422
+train_score is 0.6612, denas_score is -35693494.4785
+spearman_correlation -0.6990
+epoch is 3423
+train_score is 0.6145, denas_score is -23665688.5156
+spearman_correlation -0.6993
+epoch is 3426
+train_score is 0.6642, denas_score is -30007692.8478
+spearman_correlation -0.6989
+epoch is 3427
+train_score is 0.5153, denas_score is -4867752.4094
+spearman_correlation -0.6994
+epoch is 3429
+train_score is 0.6031, denas_score is -30675639.3281
+spearman_correlation -0.6995
+epoch is 3430
+train_score is 0.6746, denas_score is -4292165558.5312
+spearman_correlation -0.6997
+epoch is 3433
+train_score is 0.6213, denas_score is -29575992.0001
+spearman_correlation -0.6999
+epoch is 3434
+train_score is 0.6393, denas_score is -36495130.1875
+spearman_correlation -0.6999
+epoch is 3440
+train_score is 0.6641, denas_score is -36878006.1816
+spearman_correlation -0.7000
+epoch is 3442
+train_score is 0.6425, denas_score is -4181827005.0632
+spearman_correlation -0.6991
+epoch is 3443
+train_score is 0.6717, denas_score is -1993932006.4768
+spearman_correlation -0.6993
+epoch is 3446
+train_score is 0.6586, denas_score is -502622116.4697
+spearman_correlation -0.6993
+epoch is 3450
+train_score is 0.4009, denas_score is -36764118.4791
+spearman_correlation -0.6987
+epoch is 3451
+train_score is 0.6491, denas_score is -23165468.4961
+spearman_correlation -0.6984
+epoch is 3452
+train_score is 0.6833, denas_score is -3387614345.8071
+spearman_correlation -0.6987
+epoch is 3453
+train_score is 0.6643, denas_score is -35713501.5615
+spearman_correlation -0.6986
+epoch is 3455
+train_score is 0.5400, denas_score is -36149441.9475
+spearman_correlation -0.6983
+epoch is 3458
+train_score is 0.6939, denas_score is -99137603850.9688
+spearman_correlation -0.6986
+epoch is 3460
+train_score is 0.6233, denas_score is -23224450.6562
+spearman_correlation -0.6988
+epoch is 3461
+train_score is 0.6751, denas_score is -2310861711.8750
+spearman_correlation -0.6990
+epoch is 3463
+train_score is 0.6813, denas_score is -4683527502665877553152.0000
+spearman_correlation -0.6993
+epoch is 3465
+train_score is 0.6811, denas_score is -36545670.1050
+spearman_correlation -0.6990
+epoch is 3466
+train_score is 0.6312, denas_score is -30613906.1562
+spearman_correlation -0.6991
+epoch is 3470
+train_score is 0.6386, denas_score is -30991268.4619
+spearman_correlation -0.6992
+epoch is 3472
+train_score is 0.6397, denas_score is -30472456.9658
+spearman_correlation -0.6992
+epoch is 3477
+train_score is 0.6642, denas_score is -30158238.7700
+spearman_correlation -0.6988
+epoch is 3479
+train_score is 0.6519, denas_score is -26706598.2998
+spearman_correlation -0.6985
+epoch is 3482
+train_score is 0.6622, denas_score is -36743595.1875
+spearman_correlation -0.6986
+epoch is 3483
+train_score is 0.6547, denas_score is -36286558.9629
+spearman_correlation -0.6986
+epoch is 3488
+train_score is 0.5322, denas_score is -30649232.5824
+spearman_correlation -0.6986
+epoch is 3492
+train_score is 0.6295, denas_score is -36114285.8290
+spearman_correlation -0.6985
+epoch is 3493
+train_score is 0.7106, denas_score is -4100166884.0000
+spearman_correlation -0.6989
+epoch is 3494
+train_score is 0.7044, denas_score is -1874585718.0000
+spearman_correlation -0.6991
+epoch is 3496
+train_score is 0.6605, denas_score is -22843042.6495
+spearman_correlation -0.6983
+epoch is 3504
+train_score is 0.6578, denas_score is -36332418.7500
+spearman_correlation -0.6983
+epoch is 3507
+train_score is 0.3985, denas_score is -23428886.3067
+spearman_correlation -0.6986
+epoch is 3511
+train_score is 0.6488, denas_score is -1417369157.8237
+spearman_correlation -0.6983
+epoch is 3512
+train_score is 0.6197, denas_score is -22847930.7266
+spearman_correlation -0.6986
+epoch is 3513
+train_score is 0.6981, denas_score is -453935791.7188
+spearman_correlation -0.6985
+epoch is 3515
+train_score is 0.7009, denas_score is -819351556.1875
+spearman_correlation -0.6985
+epoch is 3517
+train_score is 0.6444, denas_score is -22909159.8281
+spearman_correlation -0.6982
+epoch is 3518
+train_score is 0.6294, denas_score is -30594991.9816
+spearman_correlation -0.6983
+epoch is 3519
+train_score is 0.6731, denas_score is -11248340871.5000
+spearman_correlation -0.6985
+epoch is 3520
+train_score is 0.6157, denas_score is -30267208.1746
+spearman_correlation -0.6986
+epoch is 3526
+train_score is 0.6628, denas_score is -532501319.6250
+spearman_correlation -0.6987
+epoch is 3527
+train_score is 0.6352, denas_score is -30678278.0273
+spearman_correlation -0.6988
+epoch is 3528
+train_score is 0.6439, denas_score is -23174717.8472
+spearman_correlation -0.6986
+epoch is 3530
+train_score is 0.5858, denas_score is -36982610.8160
+spearman_correlation -0.6982
+epoch is 3532
+train_score is 0.5949, denas_score is -22761093.5616
+spearman_correlation -0.6985
+epoch is 3534
+train_score is 0.6502, denas_score is -472974208.7500
+spearman_correlation -0.6984
+epoch is 3537
+train_score is 0.6139, denas_score is -37150757.7899
+spearman_correlation -0.6980
+epoch is 3538
+train_score is 0.6453, denas_score is -30983946.2495
+spearman_correlation -0.6980
+epoch is 3541
+train_score is 0.7078, denas_score is -1889567362507.5781
+spearman_correlation -0.6984
+epoch is 3542
+train_score is 0.6456, denas_score is -109134749.2363
+spearman_correlation -0.6983
+epoch is 3549
+train_score is 0.6742, denas_score is -1794150134.0000
+spearman_correlation -0.6985
+epoch is 3550
+train_score is 0.6385, denas_score is -22856496.6983
+spearman_correlation -0.6985
+epoch is 3551
+train_score is 0.6131, denas_score is -36916104.8260
+spearman_correlation -0.6981
+epoch is 3552
+train_score is 0.6127, denas_score is -23240762.0781
+spearman_correlation -0.6984
+epoch is 3553
+train_score is 0.6618, denas_score is -279623122400603793042440192.0000
+spearman_correlation -0.6980
+epoch is 3555
+train_score is 0.5589, denas_score is -28474155.4260
+spearman_correlation -0.6982
+epoch is 3559
+train_score is 0.6318, denas_score is -36215304.4492
+spearman_correlation -0.6982
+epoch is 3560
+train_score is 0.3751, denas_score is -22940994.1812
+spearman_correlation -0.6986
+epoch is 3561
+train_score is 0.6202, denas_score is -31174777.8611
+spearman_correlation -0.6986
+epoch is 3567
+train_score is 0.6595, denas_score is -1935640728.2500
+spearman_correlation -0.6986
+epoch is 3568
+train_score is 0.6810, denas_score is -15652825400583.6758
+spearman_correlation -0.6988
+epoch is 3571
+train_score is 0.5936, denas_score is -22532935.9180
+spearman_correlation -0.6992
+epoch is 3572
+train_score is 0.6461, denas_score is -30660355.7532
+spearman_correlation -0.6991
+epoch is 3573
+train_score is 0.6049, denas_score is -22943816.7585
+spearman_correlation -0.6994
+epoch is 3574
+train_score is 0.6314, denas_score is -30945040.5000
+spearman_correlation -0.6995
+epoch is 3576
+train_score is 0.6484, denas_score is -1053575271.4297
+spearman_correlation -0.6992
+epoch is 3578
+train_score is 0.6427, denas_score is -30386645.0293
+spearman_correlation -0.6992
+epoch is 3581
+train_score is 0.6941, denas_score is -220091432.7500
+spearman_correlation -0.6991
+epoch is 3582
+train_score is 0.6679, denas_score is -1360228916.6250
+spearman_correlation -0.6992
+epoch is 3583
+train_score is 0.6589, denas_score is -31371442.5625
+spearman_correlation -0.6991
+epoch is 3584
+train_score is 0.7200, denas_score is -3552850895.5312
+spearman_correlation -0.6995
+epoch is 3587
+train_score is 0.6999, denas_score is -555064200.6250
+spearman_correlation -0.6994
+epoch is 3589
+train_score is 0.6721, denas_score is -1467131238.6875
+spearman_correlation -0.6996
+epoch is 3590
+train_score is 0.6627, denas_score is -30158230.6605
+spearman_correlation -0.6992
+epoch is 3591
+train_score is 0.6654, denas_score is -376900254.5957
+spearman_correlation -0.6993
+epoch is 3592
+train_score is 0.7031, denas_score is -4090345991432.1875
+spearman_correlation -0.6997
+epoch is 3594
+train_score is 0.6659, denas_score is -371801121.5625
+spearman_correlation -0.6998
+epoch is 3596
+train_score is 0.7093, denas_score is -1238788429967132.5000
+spearman_correlation -0.7002
+epoch is 3599
+train_score is 0.6554, denas_score is -29401024.6084
+spearman_correlation -0.7000
+epoch is 3600
+train_score is 0.6708, denas_score is -14058795316690.7363
+spearman_correlation -0.7000
+epoch is 3601
+train_score is 0.6421, denas_score is -30272126.7188
+spearman_correlation -0.7000
+epoch is 3603
+train_score is 0.6489, denas_score is -22914175.7559
+spearman_correlation -0.6996
+epoch is 3607
+train_score is 0.6406, denas_score is -30053371.2299
+spearman_correlation -0.6996
+epoch is 3608
+train_score is 0.6392, denas_score is -79028364.7324
+spearman_correlation -0.6995
+epoch is 3614
+train_score is 0.6071, denas_score is -34720181.3627
+spearman_correlation -0.6995
+epoch is 3615
+train_score is 0.5786, denas_score is -22652603.2456
+spearman_correlation -0.6999
+epoch is 3621
+train_score is 0.6396, denas_score is -1329887573.9375
+spearman_correlation -0.6994
+epoch is 3623
+train_score is 0.6681, denas_score is -36820975.8677
+spearman_correlation -0.6994
+epoch is 3624
+train_score is 0.5571, denas_score is -23110948.0163
+spearman_correlation -0.6998
+epoch is 3627
+train_score is 0.6716, denas_score is -2946935055.9219
+spearman_correlation -0.6999
+epoch is 3628
+train_score is 0.6633, denas_score is -1836569815.5000
+spearman_correlation -0.7000
+epoch is 3629
+train_score is 0.6495, denas_score is -36311491.5156
+spearman_correlation -0.6999
+epoch is 3631
+train_score is 0.6423, denas_score is -23066879.8857
+spearman_correlation -0.6998
+epoch is 3636
+train_score is 0.6126, denas_score is -35675666.6623
+spearman_correlation -0.6997
+epoch is 3637
+train_score is 0.6291, denas_score is -1330464350.1875
+spearman_correlation -0.6990
+epoch is 3642
+train_score is 0.5813, denas_score is -23005772.0220
+spearman_correlation -0.6993
+epoch is 3643
+train_score is 0.6827, denas_score is -628544456.8594
+spearman_correlation -0.6993
+epoch is 3645
+train_score is 0.6035, denas_score is -31399679.0223
+spearman_correlation -0.6993
+epoch is 3646
+train_score is 0.7176, denas_score is -2169081880.3874
+spearman_correlation -0.6995
+epoch is 3647
+train_score is 0.6191, denas_score is -22927547.0005
+spearman_correlation -0.6997
+epoch is 3648
+train_score is 0.6026, denas_score is -29904397.1539
+spearman_correlation -0.6999
+epoch is 3650
+train_score is 0.7084, denas_score is -604388359.5000
+spearman_correlation -0.6998
+epoch is 3652
+train_score is 0.6588, denas_score is -901043365191939260416.0000
+spearman_correlation -0.6993
+epoch is 3655
+train_score is 0.6762, denas_score is -122178169939725828096.0000
+spearman_correlation -0.6995
+epoch is 3658
+train_score is 0.7059, denas_score is -2992541477.7500
+spearman_correlation -0.6998
+epoch is 3659
+train_score is 0.6580, denas_score is -30539416.5352
+spearman_correlation -0.6996
+epoch is 3661
+train_score is 0.6201, denas_score is -30504714.3516
+spearman_correlation -0.6997
+epoch is 3665
+train_score is 0.6588, denas_score is -36532662.8525
+spearman_correlation -0.6997
+epoch is 3666
+train_score is 0.5312, denas_score is -35864628.7953
+spearman_correlation -0.6995
+epoch is 3668
+train_score is 0.7134, denas_score is -6810476749.2674
+spearman_correlation -0.6999
+epoch is 3669
+train_score is 0.6371, denas_score is -22841083.9893
+spearman_correlation -0.6999
+epoch is 3671
+train_score is 0.6381, denas_score is -1029213415.7500
+spearman_correlation -0.6994
+epoch is 3677
+train_score is 0.7137, denas_score is -3742162850.6562
+spearman_correlation -0.6997
+epoch is 3678
+train_score is 0.7063, denas_score is -2654075746245.8438
+spearman_correlation -0.7001
+epoch is 3682
+train_score is 0.6205, denas_score is -22918650.8320
+spearman_correlation -0.7003
+epoch is 3685
+train_score is 0.6829, denas_score is -218947949065.5312
+spearman_correlation -0.7006
+epoch is 3690
+train_score is 0.6843, denas_score is -653674254.8281
+spearman_correlation -0.7006
+epoch is 3692
+train_score is 0.6836, denas_score is -3162630258885.4453
+spearman_correlation -0.7009
+epoch is 3693
+train_score is 0.6422, denas_score is -1688756557.1250
+spearman_correlation -0.7004
+epoch is 3696
+train_score is 0.6877, denas_score is -4823845093.2500
+spearman_correlation -0.7007
+epoch is 3700
+train_score is 0.6399, denas_score is -30497028.6436
+spearman_correlation -0.7007
+epoch is 3701
+train_score is 0.6308, denas_score is -29952681.0098
+spearman_correlation -0.7009
+epoch is 3702
+train_score is 0.6526, denas_score is -800146682.3203
+spearman_correlation -0.7008
+epoch is 3705
+train_score is 0.6736, denas_score is -496315238.6250
+spearman_correlation -0.7009
+epoch is 3709
+train_score is 0.6621, denas_score is -874894550.5000
+spearman_correlation -0.7009
+epoch is 3710
+train_score is 0.6543, denas_score is -36223196.1444
+spearman_correlation -0.7009
+epoch is 3712
+train_score is 0.6377, denas_score is -3060347926.0000
+spearman_correlation -0.7001
+epoch is 3714
+train_score is 0.6267, denas_score is -54932022.9900
+spearman_correlation -0.6998
+epoch is 3716
+train_score is 0.7125, denas_score is -9446463279.9468
+spearman_correlation -0.7002
+epoch is 3717
+train_score is 0.7008, denas_score is -2179357833.5000
+spearman_correlation -0.7004
+epoch is 3721
+train_score is 0.5702, denas_score is -23203414.7745
+spearman_correlation -0.7007
+epoch is 3724
+train_score is 0.6837, denas_score is -37360968.8232
+spearman_correlation -0.7005
+epoch is 3727
+train_score is 0.6550, denas_score is -36269021.8715
+spearman_correlation -0.7005
+epoch is 3729
+train_score is 0.6445, denas_score is -30491356.4062
+spearman_correlation -0.7005
+epoch is 3730
+train_score is 0.6805, denas_score is -81282662495872588546310144.0000
+spearman_correlation -0.7007
+epoch is 3732
+train_score is 0.6419, denas_score is -2168160626.1250
+spearman_correlation -0.7001
+epoch is 3739
+train_score is 0.7188, denas_score is -57578679795277.5234
+spearman_correlation -0.7006
+epoch is 3742
+train_score is 0.6314, denas_score is -4300847326.6875
+spearman_correlation -0.6995
+epoch is 3744
+train_score is 0.6928, denas_score is -3181013185.1250
+spearman_correlation -0.6997
+epoch is 3745
+train_score is 0.6425, denas_score is -4298237338.0979
+spearman_correlation -0.6990
+epoch is 3746
+train_score is 0.6119, denas_score is -904261027.5000
+spearman_correlation -0.6981
+epoch is 3749
+train_score is 0.6394, denas_score is -30853839.1744
+spearman_correlation -0.6981
+epoch is 3752
+train_score is 0.7085, denas_score is -441866884475010351104.0000
+spearman_correlation -0.6986
+epoch is 3756
+train_score is 0.6388, denas_score is -30072078.3705
+spearman_correlation -0.6986
+epoch is 3757
+train_score is 0.7032, denas_score is -3542286129608473.5000
+spearman_correlation -0.6990
+epoch is 3759
+train_score is 0.6369, denas_score is -22854746.5593
+spearman_correlation -0.6990
+epoch is 3763
+train_score is 0.6553, denas_score is -323536794.0000
+spearman_correlation -0.6991
+epoch is 3766
+train_score is 0.6493, denas_score is -36475094.6426
+spearman_correlation -0.6990
+epoch is 3767
+train_score is 0.6470, denas_score is -36002121.2344
+spearman_correlation -0.6990
+epoch is 3768
+train_score is 0.6673, denas_score is -37231548.4453
+spearman_correlation -0.6991
+epoch is 3769
+train_score is 0.6704, denas_score is -30170185.8536
+spearman_correlation -0.6985
+epoch is 3771
+train_score is 0.6689, denas_score is -266297639.7363
+spearman_correlation -0.6986
+epoch is 3773
+train_score is 0.6496, denas_score is -260388451.4062
+spearman_correlation -0.6986
+epoch is 3774
+train_score is 0.5337, denas_score is -3301155.9137
+spearman_correlation -0.6991
+epoch is 3775
+train_score is 0.6519, denas_score is -30626629.5537
+spearman_correlation -0.6990
+epoch is 3776
+train_score is 0.6364, denas_score is -3160553953.8158
+spearman_correlation -0.6981
+epoch is 3778
+train_score is 0.7112, denas_score is -1385669641.2535
+spearman_correlation -0.6982
+epoch is 3779
+train_score is 0.6871, denas_score is -4608843405158609920.0000
+spearman_correlation -0.6985
+epoch is 3780
+train_score is 0.6659, denas_score is -30586383.9074
+spearman_correlation -0.6982
+epoch is 3783
+train_score is 0.6468, denas_score is -36788084.3750
+spearman_correlation -0.6981
+epoch is 3785
+train_score is 0.5591, denas_score is -22758066.0112
+spearman_correlation -0.6985
+epoch is 3787
+train_score is 0.6144, denas_score is -23269920.6482
+spearman_correlation -0.6988
+epoch is 3789
+train_score is 0.6446, denas_score is -30883462.8531
+spearman_correlation -0.6987
+epoch is 3791
+train_score is 0.6109, denas_score is -23300169.5879
+spearman_correlation -0.6990
+epoch is 3794
+train_score is 0.7131, denas_score is -8281776909.9879
+spearman_correlation -0.6993
+epoch is 3802
+train_score is 0.6735, denas_score is -37024677.0315
+spearman_correlation -0.6993
+epoch is 3803
+train_score is 0.6573, denas_score is -22707189.1202
+spearman_correlation -0.6987
+epoch is 3804
+train_score is 0.6764, denas_score is -1384868700.7500
+spearman_correlation -0.6988
+epoch is 3806
+train_score is 0.6684, denas_score is -36450502.8478
+spearman_correlation -0.6988
+epoch is 3807
+train_score is 0.6513, denas_score is -277510621.8125
+spearman_correlation -0.6988
+epoch is 3808
+train_score is 0.5282, denas_score is -29933038.3762
+spearman_correlation -0.6990
+epoch is 3810
+train_score is 0.6007, denas_score is -36518467.0083
+spearman_correlation -0.6987
+epoch is 3811
+train_score is 0.2706, denas_score is -30330487.8786
+spearman_correlation -0.6989
+epoch is 3814
+train_score is 0.6815, denas_score is -6075559314417507328.0000
+spearman_correlation -0.6991
+epoch is 3817
+train_score is 0.6037, denas_score is -36967939.6688
+spearman_correlation -0.6987
+epoch is 3820
+train_score is 0.6375, denas_score is -30953904.4854
+spearman_correlation -0.6988
+epoch is 3822
+train_score is 0.6375, denas_score is -30584241.1538
+spearman_correlation -0.6988
+epoch is 3824
+train_score is 0.6402, denas_score is -36103122.6714
+spearman_correlation -0.6988
+epoch is 3827
+train_score is 0.6746, denas_score is -1328965979.9941
+spearman_correlation -0.6990
+epoch is 3829
+train_score is 0.6545, denas_score is -656137767.2521
+spearman_correlation -0.6989
+epoch is 3837
+train_score is 0.6058, denas_score is -31261305.0938
+spearman_correlation -0.6989
+epoch is 3843
+train_score is 0.6400, denas_score is -30941078.3164
+spearman_correlation -0.6989
+epoch is 3844
+train_score is 0.6826, denas_score is -1949129788.4375
+spearman_correlation -0.6991
+epoch is 3851
+train_score is 0.6774, denas_score is -2160007663.1020
+spearman_correlation -0.6993
+epoch is 3852
+train_score is 0.6788, denas_score is -189795038901.1250
+spearman_correlation -0.6995
+epoch is 3853
+train_score is 0.6547, denas_score is -30667942.7188
+spearman_correlation -0.6994
+epoch is 3854
+train_score is 0.6739, denas_score is -36732676.8736
+spearman_correlation -0.6993
+epoch is 3856
+train_score is 0.6388, denas_score is -23084186.4707
+spearman_correlation -0.6993
+epoch is 3858
+train_score is 0.6088, denas_score is -22594334.4232
+spearman_correlation -0.6996
+epoch is 3861
+train_score is 0.6640, denas_score is -37220647.4678
+spearman_correlation -0.6997
+epoch is 3863
+train_score is 0.6962, denas_score is -262770660628.0000
+spearman_correlation -0.7000
+epoch is 3866
+train_score is 0.6753, denas_score is -178958547223194.0000
+spearman_correlation -0.7002
+epoch is 3868
+train_score is 0.6616, denas_score is -31200432.3574
+spearman_correlation -0.7001
+epoch is 3870
+train_score is 0.6529, denas_score is -30306746.6230
+spearman_correlation -0.6999
+epoch is 3874
+train_score is 0.6398, denas_score is -1251879870.2656
+spearman_correlation -0.6994
+epoch is 3885
+train_score is 0.6125, denas_score is -23418436.4688
+spearman_correlation -0.6997
+epoch is 3886
+train_score is 0.6719, denas_score is -36631136.5781
+spearman_correlation -0.6996
+epoch is 3889
+train_score is 0.6691, denas_score is -30681563.3086
+spearman_correlation -0.6993
+epoch is 3890
+train_score is 0.6590, denas_score is -36906371.6840
+spearman_correlation -0.6993
+epoch is 3891
+train_score is 0.5623, denas_score is -36338901.0675
+spearman_correlation -0.6990
+epoch is 3892
+train_score is 0.6520, denas_score is -5703908579.9149
+spearman_correlation -0.6986
+number of model with nan denas score 0
